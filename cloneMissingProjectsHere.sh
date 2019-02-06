@@ -3,7 +3,7 @@ BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
 # Clone all private projects from pi4060
-for projectName in doktorarbeit featureTools kidsMatch matrixflow notizen onoff reportkm3net2.0asterics SGClassify sgcu swissKnifeJulia lebenslauf convertKm3RootToHdf5 webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bibliothek checklist singularityProjects bewerbungen resourceAwareMachineLearning rechnungen presentations data droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED
+for projectName in doktorarbeit featureTools kidsMatch matrixflow notizen onoff reportkm3net2.0asterics SGClassify sgcu swissKnifeJulia lebenslauf convertKm3RootToHdf5 webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bibliothek checklist singularityProjects bewerbungen resourceAwareMachineLearning rechnungen presentations data droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung
 do
 	if [ ! -d "$projectName" ]; then
 		git clone sgeisselsoeder@pi4060.physik.uni-erlangen.de:/home/sgeisselsoeder/repos/${projectName}.git ${projectName} 
