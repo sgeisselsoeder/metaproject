@@ -1,7 +1,7 @@
 #!/bin/bash
 BASEPATH=`pwd`
 # update everything that didn't flee fast enough
-for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" ` ;
+for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" ` ;
 do
 cd $i
 echo "### Updating next: " $i
