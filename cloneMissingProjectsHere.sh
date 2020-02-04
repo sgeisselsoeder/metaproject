@@ -18,6 +18,25 @@ do
 	fi
 done
 
+# Clone restricted projects, needs more credentials
+for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend 
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${projectName}
+	fi
+done
+for projectName in 4esp 4srp 4pcp 
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@code.siemens.com:pd-de/dataanalytics/ai${projectName}.git ${projectName}
+	fi
+done
+projectName=aitools
+if [ ! -d "$projectName" ]; then
+	git clone git@code.siemens.com:data-crafts/frameworks/${projectName}.git ${projectName}
+fi
+
+
 # Clone public projects from others from github, km3net gitlab
 projectName=github_cbiernoth_noximi42
 if [ ! -d "$projectName" ]; then
