@@ -5,7 +5,7 @@ for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "
 do
 cd $i
 echo "### Updating next: " $i
-git pull | grep -v -e "Already up-to-date" -e "Bereits aktuell"
+git pull | grep -v -e "Already up-to-date" -e "Bereits aktuell" -e "Already up to date"
 cd $BASEPATH
 done
 
