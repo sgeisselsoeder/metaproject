@@ -28,7 +28,7 @@ done
 for projectName in 4esp 4srp 4pcp 
 do
 	if [ ! -d "$projectName" ]; then
-		git clone git@code.siemens.com:pd-de/dataanalytics/ai${projectName}.git ${projectName}
+		git clone git@code.siemens.com:pd-de/datanalytics/ai${projectName}.git ${projectName}
 	fi
 done
 projectName=aitools
