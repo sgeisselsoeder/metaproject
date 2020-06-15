@@ -35,6 +35,12 @@ projectName=aitools
 if [ ! -d "$projectName" ]; then
 	git clone git@code.siemens.com:data-crafts/frameworks/${projectName}.git ${projectName}
 fi
+for projectName in pm-acs 
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@code.siemens.com:pd-de/pm/pm/${projectName}.git ${projectName}
+	fi
+done
 
 
 # Clone public projects from others from github, km3net gitlab
