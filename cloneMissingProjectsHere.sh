@@ -25,7 +25,7 @@ do
 		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${projectName}
 	fi
 done
-for projectName in 4esp 4srp 4pcp 
+for projectName in 4esp 4srp # 4pcp 
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@code.siemens.com:pd-de/datanalytics/ai${projectName}.git ${projectName}
