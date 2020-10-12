@@ -3,7 +3,7 @@ BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
 # Clone all private projects from bytegeist.ddnss.de
-for projectName in doktorarbeit featureTools kidsMatch matrixflow notizen onoff reportkm3net2.0asterics SGClassify sgcu swissKnifeJulia lebenslauf convertKm3RootToHdf5 webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews checklist bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien backend  # inactive:  data metaproject singularityProjects
+for projectName in doktorarbeit featureTools kidsMatch matrixflow notizen onoff reportkm3net2.0asterics SGClassify sgcu swissKnifeJulia lebenslauf convertKm3RootToHdf5 webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews checklist bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien backend pythonPDF  # inactive:  data metaproject singularityProjects
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName} 
