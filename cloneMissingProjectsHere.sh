@@ -3,7 +3,7 @@ BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
 # Clone all private projects from bytegeist.ddnss.de
-for projectName in doktorarbeit featureTools kidsMatch matrixflow notizen onoff reportkm3net2.0asterics SGClassify sgcu swissKnifeJulia lebenslauf convertKm3RootToHdf5 webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews checklist bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien backend pythonPDF local-installation exdra-other  # inactive:  data metaproject singularityProjects
+for projectName in doktorarbeit featureTools kidsMatch matrixflow onoff SGClassify sgcu swissKnifeJulia lebenslauf convertKm3RootToHdf5 webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien backend pythonPDF local-installation exdra-other  # inactive:  data metaproject singularityProjects checklist notizen reportkm3net2.0asterics 
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName} 
@@ -25,12 +25,12 @@ do
 		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${projectName}
 	fi
 done
-for projectName in 4esp 4srp # 4pcp 
-do
-	if [ ! -d "$projectName" ]; then
-		git clone git@code.siemens.com:pd-de/datanalytics/ai${projectName}.git ${projectName}
-	fi
-done
+# for projectName in 4esp 4srp # 4pcp 
+# do
+# 	if [ ! -d "$projectName" ]; then
+# 		git clone git@code.siemens.com:pd-de/datanalytics/ai${projectName}.git ${projectName}
+# 	fi
+# done
 projectName=aitools
 if [ ! -d "$projectName" ]; then
 	git clone git@code.siemens.com:data-crafts/frameworks/${projectName}.git ${projectName}
@@ -44,27 +44,27 @@ done
 
 
 # Clone public projects from others from github, km3net gitlab
-projectName=github_cbiernoth_noximi42
-if [ ! -d "$projectName" ]; then
-	git clone https://github.com/Noximi42/km3net.git $projectName
-fi
-projectName=github_stefreck
-if [ ! -d "$projectName" ]; then
-	git clone https://github.com/stefreck/Km3-Autoencoder.git $projectName
-fi
-projectName=github_mmoser_viaferrata
-if [ ! -d "$projectName" ]; then
-	git clone https://github.com/ViaFerrata/DL_pipeline_TauAppearance.git $projectName
-fi
+# projectName=github_cbiernoth_noximi42
+# if [ ! -d "$projectName" ]; then
+# 	git clone https://github.com/Noximi42/km3net.git $projectName
+# fi
+# projectName=github_stefreck
+# if [ ! -d "$projectName" ]; then
+# 	git clone https://github.com/stefreck/Km3-Autoencoder.git $projectName
+# fi
+# projectName=github_mmoser_viaferrata
+# if [ ! -d "$projectName" ]; then
+# 	git clone https://github.com/ViaFerrata/DL_pipeline_TauAppearance.git $projectName
+# fi
 
-projectName=beluga
-if [ ! -d "$projectName" ]; then
-	git clone http://git.km3net.de/moritz/beluga.git $projectName
-fi
-projectName=aachenairshower
-if [ ! -d "$projectName" ]; then
-	git clone https://git.rwth-aachen.de/DavidWalz/airshower.git $projectName
-fi
+# projectName=beluga
+# if [ ! -d "$projectName" ]; then
+# 	git clone http://git.km3net.de/moritz/beluga.git $projectName
+# fi
+# projectName=aachenairshower
+# if [ ! -d "$projectName" ]; then
+# 	git clone https://git.rwth-aachen.de/DavidWalz/airshower.git $projectName
+# fi
 
 # Clone fully public projects
 #projectName=deep-visualization-toolbox 
