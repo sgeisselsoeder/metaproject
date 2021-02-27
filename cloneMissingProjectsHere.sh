@@ -3,11 +3,12 @@ BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
 # Clone all private projects from bytegeist.ddnss.de
-for projectName in doktorarbeit featureTools kidsMatch matrixflow onoff SGClassify sgcu swissKnifeJulia lebenslauf webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien exdra-backend-python pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis
+for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia lebenslauf webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien exdra-backend-python pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis backup-scripts ubuntu-default-software doktorarbeit
+# matrixflow 
 # inactive:  data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 
 do
 	if [ ! -d "$projectName" ]; then
-		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName} 
+		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
 	fi
 done
 
@@ -15,7 +16,7 @@ done
 for projectName in dockerProjects multiscale spielDerNeuronen metaproject # km3netHdf5ToHistograms  
 do
 	if [ ! -d "$projectName" ]; then
-		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName} 
+		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
 	fi
 done
 
