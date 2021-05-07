@@ -13,7 +13,7 @@ do
 done
 
 # Clone all own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject expectation_maximization # km3netHdf5ToHistograms  
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject expectation_maximization cnn_visualization # km3netHdf5ToHistograms  
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
