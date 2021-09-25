@@ -3,7 +3,7 @@ BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
 # Clone all private projects from bytegeist.ddnss.de
-for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia lebenslauf webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien exdra-backend-python pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis backup-scripts ubuntu-default-software doktorarbeit sprech vorlesungsuebersicht vorlesung_programmieren1 
+for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia lebenslauf webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien exdra-backend-python pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis backup-scripts ubuntu-default-software doktorarbeit sprech vorlesungsuebersicht vorlesung_programmieren1 vorlesung_ki1 
 # matrixflow 
 # inactive:  data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 
 do
