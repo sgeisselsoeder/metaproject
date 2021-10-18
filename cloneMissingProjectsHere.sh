@@ -3,9 +3,12 @@ BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
 # Clone all private projects from bytegeist.ddnss.de
-for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia lebenslauf webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien exdra-backend-python pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis backup-scripts ubuntu-default-software doktorarbeit sprech vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen
-# matrixflow 
-# inactive:  data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 
+# for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia lebenslauf webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien exdra-backend-python pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis backup-scripts ubuntu-default-software doktorarbeit sprech vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen
+for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python pythonPDF \
+	exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis ubuntu-default-software \
+	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen # doktorarbeit
+# matrixflow
+# inactive:  data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
@@ -13,7 +16,7 @@ do
 done
 
 # Clone all own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject expectation_maximization cnn_visualization # km3netHdf5ToHistograms  
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject expectation_maximization cnn_visualization # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
@@ -21,13 +24,13 @@ do
 done
 
 # Clone restricted projects, needs more credentials
-for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend 
+for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${projectName}
 	fi
 done
-# for projectName in 4esp 4srp # 4pcp 
+# for projectName in 4esp 4srp # 4pcp
 # do
 # 	if [ ! -d "$projectName" ]; then
 # 		git clone git@code.siemens.com:pd-de/datanalytics/ai${projectName}.git ${projectName}
@@ -37,12 +40,12 @@ projectName=aitools
 if [ ! -d "$projectName" ]; then
 	git clone git@code.siemens.com:data-crafts/frameworks/${projectName}.git ${projectName}
 fi
-for projectName in pm-acs 
-do
-	if [ ! -d "$projectName" ]; then
-		git clone git@code.siemens.com:pd-de/pm/pm/${projectName}.git ${projectName}
-	fi
-done
+# for projectName in pm-acs
+# do
+# 	if [ ! -d "$projectName" ]; then
+# 		git clone git@code.siemens.com:pd-de/pm/pm/${projectName}.git ${projectName}
+# 	fi
+# done
 
 
 # Clone public projects from others from github, km3net gitlab
@@ -69,11 +72,11 @@ done
 # fi
 
 # Clone fully public projects
-#projectName=deep-visualization-toolbox 
+#projectName=deep-visualization-toolbox
 #if [ ! -d "$projectName" ]; then
 #	git clone https://github.com/yosinski/$projectName
 #fi
-#projectName=caffe 
+#projectName=caffe
 #if [ ! -d "$projectName" ]; then
 #	git clone https://github.com/BVLC/${projectName}.git
 #fi
