@@ -3,12 +3,14 @@ BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
 # Clone all private projects from bytegeist.ddnss.de
-# for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia lebenslauf webseiteGsGrosshadern softwareEngineering universe openclTest qtTest reviews bewerbungen resourceAwareMachineLearning rechnungen presentations droneSuite ekg ledTests relais sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rlweitsprung rfid_player finanzierung aktien exdra-backend-python pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis backup-scripts ubuntu-default-software doktorarbeit sprech vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen
+# for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia webseiteGsGrosshadern softwareEngineering \
+# 	universe openclTest qtTest reviews resourceAwareMachineLearning rechnungen droneSuite ekg ledTests relais \
+#	sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rfid_player finanzierung aktien \
+#	backup-scripts doktorarbeit sprech
+# 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
 for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python pythonPDF \
 	exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis ubuntu-default-software \
-	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen # doktorarbeit
-# matrixflow
-# inactive:  data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5
+	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen doktorarbeit
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
