@@ -25,6 +25,10 @@ do
 	fi
 done
 
+# clone teaching projects
+git clone git@geis.ddnss.de:sgeisselsoeder/ki-aufgabe-3-loesung.git wise21_ki_a3_loesung
+
+
 # Clone restricted projects, needs more credentials
 for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend
 do
