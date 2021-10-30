@@ -31,6 +31,13 @@ git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-2.git wise21_ki1_a2
 git clone git@geis.ddnss.de:sgeisselsoeder/ki-aufgabe-3-loesung.git wise21_ki1_a3_loesung
 git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-3.git wise21_ki1_a3
 git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe1.git wise21_p1_a1
+git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe2.git wise21_p1_a2
+git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_a3
+git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
+git clone git@geis.ddnss.de:sgeisselsoeder/programmieren-A5.git wise21_p1_a5_loesung
+
+
+
 
 
 
