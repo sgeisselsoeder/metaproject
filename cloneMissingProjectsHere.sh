@@ -39,7 +39,7 @@ git clone git@geis.ddnss.de:sgeisselsoeder/programmieren-A5.git wise21_p1_a5_loe
 for projectName in blender3d packman wise21_p1_a2.5_loesung.git
 do
 	if [ ! -d "$projectName" ]; then
-		git clone git@geis.ddnss.de.sgeisselsoeder/${projectName}.git ${projectName}
+		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
 	fi
 done
 
