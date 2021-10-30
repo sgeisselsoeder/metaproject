@@ -26,8 +26,13 @@ do
 done
 
 # clone teaching projects
+git clone git@geis.ddnss.de:wise21_ki1/aufgabe1.git wise21_ki1_a1
+git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-2.git wise21_ki1_a2
 git clone git@geis.ddnss.de:sgeisselsoeder/ki-aufgabe-3-loesung.git wise21_ki1_a3_loesung
 git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-3.git wise21_ki1_a3
+git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe1.git wise21_p1_a1
+
+
 
 # Clone restricted projects, needs more credentials
 for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend
