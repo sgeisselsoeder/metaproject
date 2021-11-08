@@ -43,8 +43,19 @@ do
 	fi
 done
 
+for projectName in wise21_p1_a5_loesung
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${projectName}
+	fi
+done
 
-
+for projectName in wise21_p1_a5
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@git-kik.hs-ansbach.de:wise21_programmieren1/${projectName}.git ${projectName}
+	fi
+done
 
 
 # Clone restricted projects, needs more credentials
