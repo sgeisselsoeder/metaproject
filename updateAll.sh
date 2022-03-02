@@ -13,7 +13,7 @@ echo "Updating the cloneMissing, updateAll and statusAll scripts in the main pro
 cp metaproject/*.sh .
 
 echo "Checking for missing projects"
-./cloneMissingProjectsHere.sh
+source ./cloneMissingProjectsHere.sh
 
 echo "Updating bash aliases"
 cp metaproject/dotbash_aliases ~/.bash_aliases

@@ -1,4 +1,4 @@
-#!/bin/bash
+#  !/bin/bash
 BASEPATH=`pwd`
 # clone every repo I want. Muhaha!
 
