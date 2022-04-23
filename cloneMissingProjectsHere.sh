@@ -43,12 +43,22 @@ do
 	fi
 done
 
-for projectName in wise21_p1_a5_loesung wise21_p1_a6_loesung wise21_p1_a7_loesung wise21_p1_a8_loesung wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loesung wise21_ki1_a7_loesung wise21_p1_a5 wise21_p1_a6 wise21_p1_a7 wise21_p1_a8 wise21_ki1_a4 wise21_ki1_a5 wise21_ki1_a6 wise21_ki1_a7 wise21_p1_klausur wise21_ki1_klausur wise21_ki1_probeklausur wise21_p1_probeklausur wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung wise21_p1_klausuraufgaben wise21_p1_klausurloesung wise21_p1_klausur gitlab_management 2022_sose_ki2_vorlesung 2022_sose_biolern_vorlesung gitlab_korrektur 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung 2022_sose_ki2_a3_loesung
+for projectName in wise21_p1_a5_loesung wise21_p1_a6_loesung wise21_p1_a7_loesung wise21_p1_a8_loesung wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loesung wise21_ki1_a7_loesung wise21_p1_a5 wise21_p1_a6 wise21_p1_a7 wise21_p1_a8 wise21_ki1_a4 wise21_ki1_a5 wise21_ki1_a6 wise21_ki1_a7 wise21_p1_klausur wise21_ki1_klausur wise21_ki1_probeklausur wise21_p1_probeklausur wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung wise21_p1_klausuraufgaben wise21_p1_klausurloesung wise21_p1_klausur gitlab_management 2022_sose_ki2_vorlesung 2022_sose_biolern_vorlesung gitlab_korrektur 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${projectName}
 	fi
 done
+
+# for projectName in 2022_sose_ki2_vorlesung 2022_sose_biolern_vorlesung gitlab_korrektur 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung 2022_sose_ki2_a3_loesung
+for projectName in 2022_sose_ki2_a3_loesung
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@git-kik.hs-ansbach.de:2022_sose_ki2_material/${projectName}.git ${projectName}
+	fi
+done
+
+
 
 projectName=2022_sose_ki2_data
 if [ ! -d "$projectName" ]; then
