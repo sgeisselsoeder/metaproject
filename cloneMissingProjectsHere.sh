@@ -1,6 +1,6 @@
 #  !/bin/bash
 BASEPATH=`pwd`
-# clone every repo I want. Muhaha!
+# clone every repo I want. 
 
 # Clone all private projects from bytegeist.ddnss.de
 # for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia webseiteGsGrosshadern softwareEngineering \
@@ -92,6 +92,10 @@ fi
 
 
 # Clone public projects from others from github, km3net gitlab
+projectName=github_STT
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/coqui-ai/STT.git $projectName
+fi
 # projectName=github_cbiernoth_noximi42
 # if [ ! -d "$projectName" ]; then
 # 	git clone https://github.com/Noximi42/km3net.git $projectName
