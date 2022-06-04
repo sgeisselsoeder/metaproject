@@ -9,7 +9,7 @@ BASEPATH=`pwd`
 #	backup-scripts doktorarbeit sprech
 # 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
 for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python pythonPDF \
-	exdra-local-installation exdra-other autoencoderensemble hausmodel erkenntnis ubuntu-default-software onintelcoop \
+	exdra-local-installation exdra-other autoencoderensemble hausmodel ubuntu-default-software onintelcoop \
 	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen doktorarbeit
 do
 	if [ ! -d "$projectName" ]; then
@@ -18,7 +18,7 @@ do
 done
 
 # Clone own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject expectation_maximization cnn_visualization demo_computer_vision demo_speech_recognition demo_feature_selection  # km3netHdf5ToHistograms
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis expectation_maximization cnn_visualization demo_computer_vision demo_speech_recognition demo_feature_selection  # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
