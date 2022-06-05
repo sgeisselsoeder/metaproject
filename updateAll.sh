@@ -17,4 +17,5 @@ source ./cloneMissingProjectsHere.sh
 
 echo "Updating bash aliases"
 cp metaproject/dotbash_aliases ~/.bash_aliases
+cp metaproject/dotbash_aliases ~/.alias
 
