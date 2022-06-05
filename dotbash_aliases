@@ -1,3 +1,13 @@
 alias sudo='sudo '
-alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && cd ~/projects && ./updateAll.sh && cd - '
+
+RELEASEINFO=`cat /etc/os-release`
+if [[ $RELEASEINFO = *ubuntu* ]]; then
+	echo "Found ubuntu"
+	alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && cd ~/projects && ./updateAll.sh && cd - '
+elif [[ $RELEASEINFO = *opensuse* ]]; then
+	echo "Found opensuse"
+	alias update='sudo zypper up -y && flatpak upgrade -y && cd ~/projects && ./updateAll.sh && cd - '
+else
+	echo "Unkown OS. Not implementing update strategy"
+fi
 
