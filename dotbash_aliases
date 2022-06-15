@@ -6,7 +6,7 @@ if [[ $RELEASEINFO = *ubuntu* ]]; then
 	alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y ; cd ~/projects && ./updateAll.sh && cd - '
 elif [[ $RELEASEINFO = *opensuse* ]]; then
 	# echo "Found opensuse"
-	alias update='sudo zypper up -y ; sudo flatpak upgrade -y ; cd ~/projects && ./updateAll.sh && cd - '
+	alias update='sudo zypper up -y --auto-agree-with-licenses ; sudo flatpak upgrade -y --auto-agree-with-licenses ; cd ~/projects && ./updateAll.sh && cd - '
 	# sudo zypper dup -y
 else
 	echo "Unkown OS. Not implementing update strategy"
