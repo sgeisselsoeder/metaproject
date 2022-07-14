@@ -96,6 +96,11 @@ projectName=github_STT
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/coqui-ai/STT.git $projectName
 fi
+projectName=github_qntq_mairio
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/QntQ/Mairio.git $projectName
+fi
+
 # projectName=github_cbiernoth_noximi42
 # if [ ! -d "$projectName" ]; then
 # 	git clone https://github.com/Noximi42/km3net.git $projectName
