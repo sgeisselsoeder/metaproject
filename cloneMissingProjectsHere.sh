@@ -58,6 +58,13 @@ do
 	fi
 done
 
+for projectName in 2021_wise_p1_vorlesung
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@git-kik.hs-ansbach.de:2021_wise_p1_material/${projectName}.git ${projectName}
+	fi
+done
+
 
 
 projectName=2022_sose_ki2_data
