@@ -36,7 +36,7 @@ git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_
 git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
 # git clone git@geis.ddnss.de:sgeisselsoeder/programmieren-A5.git wise21_p1_a5_loesung
 
-for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech
+for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech kooperation
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
