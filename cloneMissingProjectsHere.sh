@@ -114,6 +114,11 @@ projectName=github_qntq_mairio
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/QntQ/Mairio.git $projectName
 fi
+projectName=makeyourownneuralnetwork
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/${projectName}/${projectName}.git $projectName
+fi
+
 
 # projectName=github_cbiernoth_noximi42
 # if [ ! -d "$projectName" ]; then
