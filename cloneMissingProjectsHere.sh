@@ -18,7 +18,7 @@ do
 done
 
 # Clone own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis expectation_maximization cnn_visualization demo_computer_vision demo_speech_recognition demo_feature_selection demo_input_output_sensitivity makeyourownneuralnetwork # km3netHdf5ToHistograms
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis expectation_maximization cnn_visualization demo_computer_vision demo_speech_recognition demo_feature_selection demo_input_output_sensitivity makeyourownneuralnetwork demo_plotting  # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
