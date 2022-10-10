@@ -73,7 +73,7 @@ do
 	fi
 done
 
-for projectName in 2022_wise_ki3_vorlesung 2022_wise_ki3_a1
+for projectName in 2022_wise_ki3_vorlesung 2022_wise_ki3_a1 2022_wise_ki3_a1_loesung
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@git-kik.hs-ansbach.de:2022_wise_ki3_material/${projectName}.git ${projectName}
