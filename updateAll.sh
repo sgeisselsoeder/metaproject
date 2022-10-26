@@ -1,11 +1,13 @@
 #!/bin/bash
 BASEPATH=`pwd`
+MY_TIMEOUT_IN_S = 10
+
 # update everything that didn't flee fast enough
 for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" ` ;
 do
 cd $i
 echo "### Updating next: " $i
-git pull | grep -v -e "Already up-to-date" -e "Bereits aktuell" -e "Already up to date"
+timeout $MY_TIMEOUT_IN_S git pull | grep -v -e "Already up-to-date" -e "Bereits aktuell" -e "Already up to date"
 cd $BASEPATH
 done
 
