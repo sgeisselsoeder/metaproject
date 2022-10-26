@@ -1,6 +1,6 @@
 #!/bin/bash
 BASEPATH=`pwd`
-MY_TIMEOUT_IN_S = 10
+MY_TIMEOUT_IN_S=10
 
 # update everything that didn't flee fast enough
 for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" ` ;
