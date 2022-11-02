@@ -46,7 +46,7 @@ done
 for projectName in 2022_ki1_vorlesung 2022_ki1_a3_loesung 2022_ki1_a3 2022_ki1_uebung_bewerten
 do
 	if [ ! -d "$projectName" ]; then
-		git clone git@geis.ddnss.de:2022_ki1/${projectName}.git ${projectName}
+		git clone git@geis.ddnss.de:2022_ki1_material/${projectName}.git ${projectName}
 	fi
 done
 
