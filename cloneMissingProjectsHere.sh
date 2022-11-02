@@ -1,6 +1,6 @@
 #  !/bin/bash
 BASEPATH=`pwd`
-# clone every repo I want. 
+# clone every repo I want.
 
 # Clone all private projects from bytegeist.ddnss.de
 # for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia webseiteGsGrosshadern softwareEngineering \
@@ -26,20 +26,27 @@ do
 done
 
 # clone teaching projects
-git clone git@geis.ddnss.de:wise21_ki1/aufgabe1.git wise21_ki1_a1
-git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-2.git wise21_ki1_a2
-git clone git@geis.ddnss.de:sgeisselsoeder/ki-aufgabe-3-loesung.git wise21_ki1_a3_loesung
-git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-3.git wise21_ki1_a3
-git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe1.git wise21_p1_a1
-git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe2.git wise21_p1_a2
-git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_a3
-git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
-# git clone git@geis.ddnss.de:sgeisselsoeder/programmieren-A5.git wise21_p1_a5_loesung
+# git clone git@geis.ddnss.de:wise21_ki1/aufgabe1.git wise21_ki1_a1
+# git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-2.git wise21_ki1_a2
+# git clone git@geis.ddnss.de:sgeisselsoeder/ki-aufgabe-3-loesung.git wise21_ki1_a3_loesung
+# git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-3.git wise21_ki1_a3
+# git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe1.git wise21_p1_a1
+# git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe2.git wise21_p1_a2
+# git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_a3
+# git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
 
 for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech kooperation berufung arbeitszeugnisse eigenki
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
+	fi
+done
+
+# 2022_ki1 @ geis.ddnss.de
+for projectName in 2022_ki1_vorlesung 2022_ki1_a3_loesung 2022_ki1_a3 2022_ki1_uebung_bewerten
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@geis.ddnss.de:2022_ki1/${projectName}.git ${projectName}
 	fi
 done
 
