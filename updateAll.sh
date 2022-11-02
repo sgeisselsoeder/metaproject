@@ -7,7 +7,8 @@ for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "
 do
 cd $i
 echo "### Updating next: " $i
-timeout $MY_TIMEOUT_IN_S git pull | grep -v -e "Already up-to-date" -e "Bereits aktuell" -e "Already up to date"
+# git pull | grep -v -e "Already up-to-date" -e "Bereits aktuell" -e "Already up to date"
+timeout $MY_TIMEOUT_IN_S git pull
 cd $BASEPATH
 done
 
