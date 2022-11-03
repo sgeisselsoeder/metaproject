@@ -10,7 +10,8 @@ BASEPATH=`pwd`
 # 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
 for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python pythonPDF \
 	exdra-local-installation exdra-other autoencoderensemble hausmodel ubuntu-default-software onintelcoop \
-	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen doktorarbeit
+	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen doktorarbeit \
+	backup-scripts
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
