@@ -36,7 +36,7 @@ done
 # git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_a3
 # git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
 
-for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph kipipe heimauto heimsprech kooperation berufung arbeitszeugnisse eigenki ownnn
+for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph kipipe heimauto heimsprech kooperation berufung arbeitszeugnisse eigenki ownnn buch_sigurd_carsten
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
@@ -60,7 +60,7 @@ do
 done
 
 # website_static
-for projectName in wise21_p1_a5_loesung wise21_p1_a6_loesung wise21_p1_a7_loesung wise21_p1_a8_loesung wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loesung wise21_ki1_a7_loesung wise21_p1_a5 wise21_p1_a6 wise21_p1_a7 wise21_p1_a8 wise21_ki1_a4 wise21_ki1_a5 wise21_ki1_a6 wise21_ki1_a7 wise21_p1_klausur wise21_ki1_klausur wise21_ki1_probeklausur wise21_p1_probeklausur wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung wise21_p1_klausuraufgaben wise21_p1_klausurloesung wise21_p1_klausur gitlab_management 2022_sose_ki2_vorlesung 2022_sose_biolern_vorlesung gitlab_korrektur 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung demo_nn 2022_sose_p1_klausur 2022_sose_ki1_klausur 2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung buch_sigurd_carsten
+for projectName in wise21_p1_a5_loesung wise21_p1_a6_loesung wise21_p1_a7_loesung wise21_p1_a8_loesung wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loesung wise21_ki1_a7_loesung wise21_p1_a5 wise21_p1_a6 wise21_p1_a7 wise21_p1_a8 wise21_ki1_a4 wise21_ki1_a5 wise21_ki1_a6 wise21_ki1_a7 wise21_p1_klausur wise21_ki1_klausur wise21_ki1_probeklausur wise21_p1_probeklausur wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung wise21_p1_klausuraufgaben wise21_p1_klausurloesung wise21_p1_klausur gitlab_management 2022_sose_ki2_vorlesung 2022_sose_biolern_vorlesung gitlab_korrektur 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung demo_nn 2022_sose_p1_klausur 2022_sose_ki1_klausur 2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung 
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${projectName}
