@@ -36,6 +36,7 @@ done
 # git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_a3
 # git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
 
+# eigenki @ geis.ddnss
 for projectName in kigraph eigenki-frontend eigenki-backend
 do
 	if [ ! -d "$projectName" ]; then
@@ -43,7 +44,7 @@ do
 	fi
 done
 
-
+# old stuff @ geis.ddnss
 for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
@@ -60,7 +61,7 @@ do
 done
 
 # 2022_ki3 @ geis.ddnss.de
-for projectName in 2022_ki3_vorlesung 2022_ki3_a1_loesung 2022_ki3_a1 2022_ki3_a2_loesung 2022_ki3_a2
+for projectName in 2022_ki3_vorlesung 2022_ki3_a1_loesung 2022_ki3_a1 2022_ki3_a2_loesung 2022_ki3_a2 2022_ki3_a3_loesung
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:2022_ki3_material/${projectName}.git ${projectName}
