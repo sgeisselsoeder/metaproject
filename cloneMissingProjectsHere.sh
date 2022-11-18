@@ -44,7 +44,7 @@ do
 done
 
 
-for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph kipipe heimauto heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten gitlab_korrektur
+for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
