@@ -8,9 +8,11 @@ BASEPATH=`pwd`
 #	sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rfid_player finanzierung aktien \
 #	backup-scripts doktorarbeit sprech
 # 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
+
+# studentenprojektausschreibungen
 for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python pythonPDF \
 	exdra-local-installation exdra-other autoencoderensemble hausmodel ubuntu-default-software onintelcoop \
-	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten studentenprojektausschreibungen doktorarbeit \
+	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten doktorarbeit \
 	backup-scripts
 do
 	if [ ! -d "$projectName" ]; then
@@ -45,7 +47,7 @@ do
 done
 
 # other stuff @ geis.ddnss
-for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten gitlab_korrektur checklist_industrial_ai
+for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten gitlab_korrektur checklist_industrial_ai studentenprojektausschreibungen
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
