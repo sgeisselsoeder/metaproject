@@ -55,7 +55,7 @@ do
 done
 
 # 2022_ki1 @ geis.ddnss.de
-for projectName in 2022_ki1_vorlesung 2022_ki1_a3_loesung 2022_ki1_a3 2022_ki1_uebung_bewerten 2022_ki1_a1 2022_ki1_a2_loesung 2022_ki1_a2 2022_ki1_a2.5 2022_ki1_a4_loesung 2022_ki1_a5_loesung 2022_ki1_a6_loesung 2022_ki1_a7_loesung 2022_ki1_a4 2022_ki1_a5 2022_ki1_a3
+for projectName in 2022_ki1_vorlesung 2022_ki1_a3_loesung 2022_ki1_a3 2022_ki1_uebung_bewerten 2022_ki1_a1 2022_ki1_a2_loesung 2022_ki1_a2 2022_ki1_a2.5 2022_ki1_a4_loesung 2022_ki1_a5_loesung 2022_ki1_a6_loesung 2022_ki1_a7_loesung 2022_ki1_a4 2022_ki1_a5 2022_ki1_a3 2022_ki1_probeklausur 2022_ki1_klausur
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:2022_ki1_material/${projectName}.git ${projectName}
