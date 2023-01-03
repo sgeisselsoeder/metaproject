@@ -3,7 +3,7 @@ BASEPATH=`pwd`
 MY_TIMEOUT_IN_S=10
 
 # update everything that didn't flee fast enough
-for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" ` ;
+for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" -e "_gitgroup" ` ;
 do
 cd $i
 echo "### Updating next: " $i
@@ -12,6 +12,23 @@ git pull | grep -v -e "Already" -e "Bereits"
 # timeout $MY_TIMEOUT_IN_S git pull
 cd $BASEPATH
 done
+
+# special treatment for project groups with no internal git-based linkage
+for j in *_gitgroup;
+do
+cd $j
+BASEPATH2=`pwd`
+echo "### Updating Group " $j
+	for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" ` ;
+	do
+	cd $i
+	echo "### Updating next: " $i
+	git pull | grep -v -e "Already" -e "Bereits"
+	cd $BASEPATH2
+	done
+cd $BASEPATH
+done
+
 
 echo "Updating the cloneMissing, updateAll and statusAll scripts in the main projects folder with the content of metaproject."
 cp metaproject/*.sh .
