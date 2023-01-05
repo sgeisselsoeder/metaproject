@@ -108,12 +108,11 @@ do
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
-
 # for projectName in 2022_sose_ki2_vorlesung 2022_sose_biolern_vorlesung gitlab_korrektur 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung 2022_sose_ki2_a3_loesung
 for projectName in 2022_sose_ki2_a3_loesung 2022_sose_ki2_a3 2022_sose_ki2_a4_loesung 2022_sose_ki2_a4 2022_sose_ki2_a5_loesung 2022_sose_ki2_a5 2022_sose_ki2_klausuraufgaben 2022_sose_ki2_klausur 2022_sose_ki2_korrektur_klausur
 do
-	if [ ! -d "$projectName" ]; then
-		git clone git@git-kik.hs-ansbach.de:2022_sose_ki2_material/${projectName}.git ${projectName}
+	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
+		git clone git@git-kik.hs-ansbach.de:2022_sose_ki2_material/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
