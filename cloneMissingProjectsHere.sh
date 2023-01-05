@@ -9,10 +9,13 @@ BASEPATH=`pwd`
 #	backup-scripts doktorarbeit sprech
 # 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
 
-# studentenprojektausschreibungen
+
+# TODO: sort this to correct groups vorlesung_programmieren1 vorlesung_ki1
+
+# studentenprojektausschreibungen vorlesung_uebersicht
 for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python pythonPDF \
 	exdra-local-installation exdra-other autoencoderensemble hausmodel ubuntu-default-software onintelcoop \
-	vorlesung_uebersicht vorlesung_programmieren1 vorlesung_ki1 glab_verwalten doktorarbeit \
+	glab_verwalten doktorarbeit \
 	backup-scripts
 do
 	if [ ! -d "$projectName" ]; then
@@ -93,7 +96,7 @@ done
 
 GROUPNAME="2021_ki1_gitgroup"
 mkdir -p $GROUPNAME
-for projectName in wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loesung wise21_ki1_a7_loesung wise21_ki1_a4 wise21_ki1_a5 wise21_ki1_a6 wise21_ki1_a7 wise21_ki1_klausur wise21_ki1_probeklausur wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung 2022_sose_ki2_vorlesung 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung 2022_sose_p1_klausur 2022_sose_ki1_klausur
+for projectName in wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loesung wise21_ki1_a7_loesung wise21_ki1_a4 wise21_ki1_a5 wise21_ki1_a6 wise21_ki1_a7 wise21_ki1_klausur wise21_ki1_probeklausur wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung 2022_sose_p1_klausur 2022_sose_ki1_klausur
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${GROUPNAME}/${projectName}
