@@ -20,6 +20,8 @@ do
 	fi
 done
 
+# new stuff since branch
+git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/2022_ki1_klausuraufgaben.git
 git clone git@git-kik.hs-ansbach.de:2022_sose_ki2_material/2022_ki2_nachklausur.git
 
 # Clone own public projects from github
