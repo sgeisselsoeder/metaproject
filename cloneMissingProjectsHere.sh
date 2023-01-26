@@ -20,6 +20,8 @@ do
 	fi
 done
 
+git clone git@git-kik.hs-ansbach.de:2022_sose_ki2_material/2022_ki2_nachklausur.git
+
 # Clone own public projects from github
 for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis expectation_maximization cnn_visualization demo_computer_vision demo_speech_recognition demo_feature_selection demo_input_output_sensitivity makeyourownneuralnetwork demo_plotting  # km3netHdf5ToHistograms
 do
