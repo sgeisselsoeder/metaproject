@@ -13,10 +13,9 @@ BASEPATH=`pwd`
 # TODO: sort this to correct groups vorlesung_programmieren1 vorlesung_ki1
 
 # studentenprojektausschreibungen vorlesung_uebersicht
-for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python pythonPDF \
-	exdra-local-installation exdra-other autoencoderensemble hausmodel ubuntu-default-software onintelcoop \
-	glab_verwalten doktorarbeit \
-	backup-scripts
+for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python \
+	pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel \
+	ubuntu-default-software onintelcoop glab_verwalten doktorarbeit backup-scripts
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
@@ -24,12 +23,16 @@ do
 done
 
 # Clone own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis expectation_maximization cnn_visualization demo_computer_vision demo_speech_recognition demo_feature_selection demo_input_output_sensitivity makeyourownneuralnetwork demo_plotting  # km3netHdf5ToHistograms
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis \
+	expectation_maximization cnn_visualization demo_computer_vision \
+	demo_speech_recognition demo_feature_selection demo_input_output_sensitivity \
+	makeyourownneuralnetwork demo_plotting  # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
 	fi
 done
+
 
 # clone teaching projects
 # git clone git@geis.ddnss.de:wise21_ki1/aufgabe1.git wise21_ki1_a1
@@ -50,22 +53,36 @@ do
 done
 
 # other stuff @ geis.ddnss
-for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten gitlab_korrektur checklist_industrial_ai studentenprojektausschreibungen 2023_01_16_stammtisch_ankit_cvision
+for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto \
+	heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten \
+	gitlab_korrektur checklist_industrial_ai studentenprojektausschreibungen \
+	2023_01_16_stammtisch_ankit_cvision
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
 	fi
 done
 
+
 # 2022_ki1 @ geis.ddnss.de
 GROUPNAME="2022_ki1_gitgroup"
 mkdir -p $GROUPNAME
-for projectName in 2022_ki1_vorlesung 2022_ki1_a3_loesung 2022_ki1_a3 2022_ki1_uebung_bewerten 2022_ki1_a1 2022_ki1_a2_loesung 2022_ki1_a2 2022_ki1_a2.5 2022_ki1_a4_loesung 2022_ki1_a5_loesung 2022_ki1_a6_loesung 2022_ki1_a7_loesung 2022_ki1_a4 2022_ki1_a5 2022_ki1_a3 2022_ki1_probeklausur 2022_ki1_klausur
+for projectName in 2022_ki1_vorlesung 2022_ki1_a3_loesung 2022_ki1_a3 2022_ki1_uebung_bewerten \
+	2022_ki1_a1 2022_ki1_a2_loesung 2022_ki1_a2 2022_ki1_a2.5 2022_ki1_a4_loesung \
+	2022_ki1_a5_loesung 2022_ki1_a6_loesung 2022_ki1_a7_loesung 2022_ki1_a4 \
+	2022_ki1_a5 2022_ki1_a3 2022_ki1_probeklausur 2022_ki1_klausur
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
 		git clone git@geis.ddnss.de:2022_ki1_material/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
+for projectName in 2022_ki1_klausuraufgaben
+do
+	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
+		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${GROUPNAME}/${projectName}
+	fi
+done
+
 
 # 2022_ki3 @ geis.ddnss.de
 GROUPNAME="2022_ki3_gitgroup"
@@ -85,6 +102,7 @@ do
 	fi
 done
 
+
 GROUPNAME="2021_p1_gitgroup"
 mkdir -p $GROUPNAME
 for projectName in wise21_p1_a5_loesung wise21_p1_a6_loesung wise21_p1_a7_loesung wise21_p1_a8_loesung wise21_p1_a5 wise21_p1_a6 wise21_p1_a7 wise21_p1_a8 wise21_p1_klausur wise21_p1_probeklausur wise21_p1_klausuraufgaben wise21_p1_klausurloesung wise21_p1_klausur 2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung
@@ -102,6 +120,7 @@ do
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
+
 
 GROUPNAME="2022_ki2_gitgroup"
 mkdir -p $GROUPNAME
@@ -125,6 +144,7 @@ done
 # 		git clone git@git-kik.hs-ansbach.de:2022_wise_ki1_material/${projectName}.git ${projectName}
 # 	fi
 # done
+git clone git@git-kik.hs-ansbach.de:2022_sose_ki2_material/2022_ki2_nachklausur.git
 
 
 for projectName in 2021_wise_p1_vorlesung
