@@ -68,7 +68,7 @@ do
 done
 
 
-for projectName in 2022_sose_biolern_vorlesung demo_nn website_static
+for projectName in demo_nn website_static
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${projectName}
