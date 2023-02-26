@@ -14,9 +14,6 @@ BASEPATH=`pwd`
 sh cloneMissingTeaching.sh
 
 
-# TODO: sort this to correct groups vorlesung_programmieren1 vorlesung_ki1
-
-# studentenprojektausschreibungen vorlesung_uebersicht
 for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python \
 	pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel \
 	ubuntu-default-software onintelcoop glab_verwalten doktorarbeit backup-scripts
@@ -30,23 +27,12 @@ done
 for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis \
 	expectation_maximization cnn_visualization demo_computer_vision \
 	demo_speech_recognition demo_feature_selection demo_input_output_sensitivity \
-	makeyourownneuralnetwork demo_plotting  # km3netHdf5ToHistograms
+	makeyourownneuralnetwork demo_plotting demo_yolo  # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
 	fi
 done
-
-
-# clone teaching projects
-# git clone git@geis.ddnss.de:wise21_ki1/aufgabe1.git wise21_ki1_a1
-# git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-2.git wise21_ki1_a2
-# git clone git@geis.ddnss.de:sgeisselsoeder/ki-aufgabe-3-loesung.git wise21_ki1_a3_loesung
-# git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-3.git wise21_ki1_a3
-# git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe1.git wise21_p1_a1
-# git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe2.git wise21_p1_a2
-# git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_a3
-# git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
 
 # eigenki @ geis.ddnss
 for projectName in kigraph eigenki-frontend eigenki-backend
@@ -55,6 +41,8 @@ do
 		git clone git@geis.ddnss.de:eigenki/${projectName}.git ${projectName}
 	fi
 done
+
+
 
 # other stuff @ geis.ddnss
 for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto \
@@ -67,13 +55,14 @@ do
 	fi
 done
 
-
+# TODO: Move these from git-kik to geis.ddnss
 for projectName in demo_nn website_static
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${projectName}
 	fi
 done
+
 
 # Clone restricted projects, needs more credentials
 for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend
@@ -82,16 +71,17 @@ do
 		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${projectName}
 	fi
 done
-# for projectName in 4esp 4srp # 4pcp
-# do
-# 	if [ ! -d "$projectName" ]; then
-# 		git clone git@code.siemens.com:pd-de/datanalytics/ai${projectName}.git ${projectName}
-# 	fi
-# done
 projectName=aitools
 if [ ! -d "$projectName" ]; then
 	git clone git@code.siemens.com:data-crafts/frameworks/${projectName}.git ${projectName}
 fi
+
+for projectName in 4esp 4srp 4pcp
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@code.siemens.com:pd-de/datanalytics/ai${projectName}.git ${projectName}
+	fi
+done
 # for projectName in pm-acs
 # do
 # 	if [ ! -d "$projectName" ]; then
@@ -181,8 +171,3 @@ fi
 #if [ ! -d "${projectName}" ]; then
 #        git clone https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition.git ${projectName}
 #fi
-
-
-
-
-
