@@ -2,8 +2,8 @@
 BASEPATH=`pwd`
 # clone teaching projects
 
-# GITLAB_URL="geis.ddnss.de"
-GITLAB_URL="git-kik.hs-ansbach.de"
+# GITLAB_URL_HS="geis.ddnss.de"
+GITLAB_URL_HS="git-kik.hs-ansbach.de"
 
 # git clone git@geis.ddnss.de:wise21_ki1/aufgabe1.git wise21_ki1_a1
 # git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-2.git wise21_ki1_a2
@@ -20,7 +20,7 @@ mkdir -p $GROUPNAME
 for projectName in 2023_ki2_vorlesung
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -30,7 +30,7 @@ mkdir -p $GROUPNAME
 for projectName in 2023_ki4_vorlesung
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -45,7 +45,7 @@ for projectName in 2022_ki1_vorlesung 2022_ki1_a3_loesung 2022_ki1_a3 2022_ki1_u
 	2022_wise_ki1_vorlesung 2022_wise_ki1_a1 2022_wise_ki1_a2 2022_wise_ki1_a2_loesung
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -58,7 +58,7 @@ for projectName in 2022_ki3_vorlesung 2022_ki3_a1_loesung 2022_ki3_a1 2022_ki3_a
 	2022_ki3_a5_loesung 2022_ki3_a5 2022_ki3_klausuraufgaben 2022_wise_ki3_vorlesung 2022_wise_ki3_a1 2022_wise_ki3_a1_loesung
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -71,7 +71,7 @@ for projectName in 2022_sose_ki2_vorlesung 2022_sose_ki2_a1_loesung 2022_sose_ki
 	2022_ki2_nachklausur 2022_sose_ki2_data
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -84,7 +84,7 @@ for projectName in wise21_p1_a5_loesung wise21_p1_a6_loesung wise21_p1_a7_loesun
 	2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung 2021_wise_p1_vorlesung
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -96,15 +96,15 @@ for projectName in wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loe
 	wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung 2022_sose_p1_klausur 2022_sose_ki1_klausur
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
 
 # projects without own group
-for projectName in 2022_sose_biolern_vorlesung
+for projectName in 2022_sose_biolern_vorlesung studentenprojektausschreibungen
 do
 	if [ ! -d "${projectName}" ]; then
-		git clone git@${GITLAB_URL}:sgeisselsoeder/${projectName}.git ${projectName}
+		git clone git@${GITLAB_URL_HS}:sgeisselsoeder/${projectName}.git ${projectName}
 	fi
 done
