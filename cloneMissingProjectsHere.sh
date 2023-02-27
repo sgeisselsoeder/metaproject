@@ -157,7 +157,7 @@ done
 
 GROUPNAME="eigenki"
 mkdir -p $GROUPNAME
-for projectName in kigraph eigenki-frontend eigenki-frontend-js
+for projectName in kigraph eigenki-frontend eigenki-frontend-js eigenki-backend eigenki-installation eigenki-kicontainer
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
