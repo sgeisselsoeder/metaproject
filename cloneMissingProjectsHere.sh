@@ -22,7 +22,8 @@ mkdir -p $GROUPNAME
 for projectName in 2023_ki2_vorlesung
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		echo "23 ki2 inactive"
+		# git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -32,7 +33,8 @@ mkdir -p $GROUPNAME
 for projectName in 2023_ki4_vorlesung
 do
 	if [ ! -d "${GROUPNAME}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+		echo "23 ki4 inactive"
+		# git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -123,7 +125,7 @@ done
 # clone non-teaching repos
 for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python \
 	pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel \
-	ubuntu-default-software onintelcoop glab_verwalten doktorarbeit backup-scripts
+	ubuntu-default-software onintelcoop glab_verwalten backup-scripts # doktorarbeit
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
@@ -142,6 +144,8 @@ do
 done
 
 # eigenki @ geis.ddnss
+GROUPNAME="eigenki"
+mkdir -p $GROUPNAME
 for projectName in kigraph eigenki-frontend eigenki-backend
 do
 	if [ ! -d "$projectName" ]; then
@@ -149,7 +153,16 @@ do
 	fi
 done
 
+GROUPNAME="fleximaus"
+mkdir -p $GROUPNAME
 
+
+GROUPNAME="eeg"
+mkdir -p $GROUPNAME
+
+
+GROUPNAME="wall-a"
+mkdir -p $GROUPNAME
 
 # other stuff @ geis.ddnss
 for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto \
