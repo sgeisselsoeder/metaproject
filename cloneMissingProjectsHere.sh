@@ -141,7 +141,7 @@ for projectName in expectation_maximization cnn_visualization demo_computer_visi
 	makeyourownneuralnetwork demo_plotting demo_yolov8
 do
 	if [ ! -d "$projectName" ]; then
-		git clone git@github.com:sgeisselsoeder/${projectName} {$GROUPNAME}/${projectName}
+		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}/${projectName}
 	fi
 done
 
@@ -226,10 +226,12 @@ done
 
 
 # Clone restricted projects, needs more credentials
+GROUPNAME="exdra"
+mkdir -p $GROUPNAME
 for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend
 do
-	if [ ! -d "$projectName" ]; then
-		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${projectName}
+	if [ ! -d "${GROUPNAME}/$projectName" ]; then
+		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 projectName=aitools
