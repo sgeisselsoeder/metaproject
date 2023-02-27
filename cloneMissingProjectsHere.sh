@@ -132,11 +132,22 @@ do
 	fi
 done
 
+
+GROUPNAME="demos"
+mkdir -p $GROUPNAME
 # Clone own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis \
-	expectation_maximization cnn_visualization demo_computer_vision \
+for projectName in expectation_maximization cnn_visualization demo_computer_vision \
 	demo_speech_recognition demo_feature_selection demo_input_output_sensitivity \
-	makeyourownneuralnetwork demo_plotting demo_yolo  # km3netHdf5ToHistograms
+	makeyourownneuralnetwork demo_plotting demo_yolov8
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@github.com:sgeisselsoeder/${projectName} {$GROUPNAME}/${projectName}
+	fi
+done
+
+
+# Clone own public projects from github
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis  # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
@@ -163,6 +174,7 @@ mkdir -p $GROUPNAME
 
 GROUPNAME="wall-a"
 mkdir -p $GROUPNAME
+
 
 # other stuff @ geis.ddnss
 for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto \
