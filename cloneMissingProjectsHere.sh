@@ -154,31 +154,60 @@ do
 	fi
 done
 
-# eigenki @ geis.ddnss
+
 GROUPNAME="eigenki"
 mkdir -p $GROUPNAME
-for projectName in kigraph eigenki-frontend eigenki-backend
+for projectName in kigraph eigenki-frontend eigenki-frontend-js
 do
 	if [ ! -d "$projectName" ]; then
-		git clone git@geis.ddnss.de:eigenki/${projectName}.git ${projectName}
+		git clone git@geis.ddnss.de:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
 	fi
 done
 
+
 GROUPNAME="fleximaus"
 mkdir -p $GROUPNAME
+for projectName in bewirtschaftungserkennung bewirtschaftungsdaten
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+	fi
+done
 
 
 GROUPNAME="eeg"
 mkdir -p $GROUPNAME
+for projectName in keine
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+	fi
+done
 
 
 GROUPNAME="wall-a"
 mkdir -p $GROUPNAME
+for projectName in controller_control localization hardware_assembly TEST
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+	fi
+done
+
+
+GROUPNAME="heimauto"
+mkdir -p $GROUPNAME
+for projectName in heimauto heimsprech website_static
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@geis.ddnss.de:${GROUPNAME}/${projectName}.git ${GROUPNAME}/${projectName}
+	fi
+done
 
 
 # other stuff @ geis.ddnss
-for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph heimauto \
-	heimsprech kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten \
+for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph \
+	kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten \
 	gitlab_korrektur checklist_industrial_ai studentenprojektausschreibungen \
 	2023_01_16_stammtisch_ankit_cvision
 do
@@ -188,7 +217,7 @@ do
 done
 
 # TODO: Move these from git-kik to geis.ddnss
-for projectName in demo_nn website_static
+for projectName in demo_nn
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${projectName}
