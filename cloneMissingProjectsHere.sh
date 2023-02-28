@@ -18,6 +18,16 @@ GITGROUPTAG="_projects"
 # git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
 
 
+GROUPNAME="eigenki"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in kigraph eigenki-frontend eigenki-frontend-js eigenki-backend eigenki-installation eigenki-kicontainer
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@geis.ddnss.de:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
 GROUPNAME="2023_ki2"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2023_ki2_vorlesung
@@ -159,16 +169,6 @@ for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenn
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
-	fi
-done
-
-
-GROUPNAME="eigenki"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in kigraph eigenki-frontend eigenki-frontend-js eigenki-backend eigenki-installation eigenki-kicontainer
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@geis.ddnss.de:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
