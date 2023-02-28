@@ -1,9 +1,10 @@
 #!/bin/bash
 BASEPATH=`pwd`
 MY_TIMEOUT_IN_S=10
+GITGROUPTAG="_projects"
 
 # update everything that didn't flee fast enough
-for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" -e "_gitgroup" ` ;
+for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" -e ${GITGROUPTAG} ` ;
 do
 cd $i
 echo "### Updating next: " $i
@@ -14,7 +15,7 @@ cd $BASEPATH
 done
 
 # special treatment for project groups with no internal git-based linkage
-for j in *_gitgroup;
+for j in *${GITGROUPTAG};
 do
 cd $j
 BASEPATH2=`pwd`
