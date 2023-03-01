@@ -8,9 +8,10 @@ elif [[ $RELEASEINFO = *opensuse* ]]; then
 	# echo "Found opensuse"
 	alias update='sudo zypper up -y --auto-agree-with-licenses ; sudo flatpak upgrade -y ; cd ~/projects && ./updateAll.sh && cd - '
 	# sudo zypper dup -y
-# elif [[ $RELEASEINFO = *ndeavour* ]]; then
-# 	# echo "Found EndeavourOS"
-# 	alias update='yay -Syyu --noconfirm ; cd ~/projects && ./updateAll.sh && cd - '
+elif [[ $RELEASEINFO = *ndeavour* ]]; then
+	echo "Found EndeavourOS"
+	alias update='yay -Syyu --noconfirm ; cd ~/projects && ./updateAll.sh && cd - '
 else
-	echo "Unkown OS. Not implementing update strategy"
+	echo "Unkown OS. Not updating system, just projects"
+	alias update='cd ~/projects && ./updateAll.sh && cd - '
 fi
