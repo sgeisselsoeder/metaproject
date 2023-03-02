@@ -216,7 +216,7 @@ done
 # other stuff @ geis.ddnss
 for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph \
 	kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten \
-	gitlab_korrektur checklist_industrial_ai studentenprojektausschreibungen \
+	gitlab_korrektur checklist_industrial_ai \
 	2023_01_16_stammtisch_ankit_cvision
 do
 	if [ ! -d "$projectName" ]; then
