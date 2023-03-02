@@ -1,3 +1,4 @@
+export PS1="\u@\h:\w $ "
 alias sudo='sudo '
 
 RELEASEINFO=`cat /etc/os-release`
