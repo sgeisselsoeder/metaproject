@@ -10,7 +10,7 @@ elif [[ $RELEASEINFO = *opensuse* ]]; then
 	# sudo zypper dup -y
 elif [[ $RELEASEINFO = *ndeavour* ]]; then
 	echo "Found EndeavourOS"
-	alias update='yay -Syyu --noconfirm ; cd ~/projects && ./updateAll.sh && cd - '
+	alias update='yay -Syyu --noconfirm ; sudo pacman -Syyu ; cd ~/projects && ./updateAll.sh && cd - '
 else
 	echo "Unkown OS. Not updating system, just projects"
 	alias update='cd ~/projects && ./updateAll.sh && cd - '
