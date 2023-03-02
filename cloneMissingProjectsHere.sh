@@ -183,19 +183,19 @@ do
 done
 
 
-GROUPNAME="eeg"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in keine
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="eeg"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in keine
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
 GROUPNAME="wall-a"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in controller_control localization hardware_assembly TEST
+for projectName in controller_control localization hardware_assembly
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -208,7 +208,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in heimauto heimsprech website_static
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@geis.ddnss.de:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -240,7 +240,7 @@ if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 	git clone git@code.siemens.com:data-crafts/frameworks/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 fi
 
-for projectName in ai4esp ai4srp ai4pcp
+for projectName in ai4esp ai4srp # 4pcp
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@code.siemens.com:pd-de/datanalytics/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
