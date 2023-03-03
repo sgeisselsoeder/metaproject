@@ -93,7 +93,7 @@ GROUPNAME="2022_ki2"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2022_sose_ki2_vorlesung 2022_sose_ki2_a1_loesung 2022_sose_ki2_a2_loesung \
 	2022_sose_ki2_a3_loesung 2022_sose_ki2_a3 2022_sose_ki2_a4_loesung 2022_sose_ki2_a4 2022_sose_ki2_a5_loesung \
-	2022_sose_ki2_a5 2022_sose_ki2_klausuraufgaben 2022_sose_ki2_klausur 2022_sose_ki2_korrektur_klausur \
+	2022_sose_ki2_a5 2022_sose_ki2_klausuraufgaben 2022_sose_ki2_klausur \
 	2022_ki2_nachklausur 2022_sose_ki2_a2 2022_sose_ki2_a1 2022_ki2_data
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
