@@ -246,10 +246,10 @@ done
 
 
 # other stuff @ geis.ddnss
-for projectName in blender3d pacman wise21_p1_a2.5_loesung kigraph \
-	kooperation berufung arbeitszeugnisse ownnn buch_sigurd_carsten \
+for projectName in blender3d pacman wise21_p1_a2.5_loesung \
+	kooperation berufung arbeitszeugnisse buch_sigurd_carsten \
 	gitlab_korrektur checklist_industrial_ai \
-	2023_01_16_stammtisch_ankit_cvision
+	2023_01_16_stammtisch_ankit_cvision  # ownnn
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
@@ -302,10 +302,10 @@ projectName=github_qntq_mairio
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/QntQ/Mairio.git $projectName
 fi
-projectName=makeyourownneuralnetwork
-if [ ! -d "$projectName" ]; then
-	git clone https://github.com/${projectName}/${projectName}.git $projectName
-fi
+# projectName=makeyourownneuralnetwork
+# if [ ! -d "$projectName" ]; then
+# 	git clone https://github.com/${projectName}/${projectName}.git $projectName
+# fi
 projectName=streamlit-agraph
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/ChrisDelClea/${projectName}.git $projectName
