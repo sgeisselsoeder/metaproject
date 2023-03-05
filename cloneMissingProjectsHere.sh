@@ -130,8 +130,8 @@ for projectName in 2021_wise_p1_vorlesung wise21_p1_codebeispiele \
 	wise21_p1_a7 2021_wise_p1_a7_loesung \
 	wise21_p1_a8 2021_wise_p1_a8_loesung \
 	wise21_p1_klausur wise21_p1_probeklausur \
-	wise21_p1_klausurloesung wise21_p1_klausuraufgaben
-	2021_wise_p1_klausuraufgabensammlung 2021_wise21_p1_klausur \
+	wise21_p1_klausurloesung wise21_p1_klausuraufgaben \
+	2021_wise_p1_klausuraufgabensammlung \
 	2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
