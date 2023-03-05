@@ -176,8 +176,8 @@ done
 
 
 # clone non-teaching repos
-for projectName in lebenslauf bewerbungen presentations rlweitsprung exdra-backend-python \
-	pythonPDF exdra-local-installation exdra-other autoencoderensemble hausmodel \
+for projectName in lebenslauf bewerbungen presentations rlweitsprung \
+	pythonPDF autoencoderensemble hausmodel \
 	ubuntu-default-software onintelcoop glab_verwalten backup-scripts # doktorarbeit
 do
 	if [ ! -d "$projectName" ]; then
@@ -265,6 +265,13 @@ for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-f
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+# clone non-siemens exdra repos
+for projectName in exdra-backend-python exdra-local-installation exdra-other
+do
+	if [ ! -d "$projectName" ]; then
+		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 projectName=aitools
