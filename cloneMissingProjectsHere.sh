@@ -98,7 +98,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2022_sose_ki2_vorlesung \
 	2022_sose_ki2_a1 2022_sose_ki2_a1_loesung \
 	2022_sose_ki2_a2 2022_sose_ki2_a2_loesung \
-	2022_sose_ki2_a3 2022_sose_ki2_a3_loesung \ 
+	2022_sose_ki2_a3 2022_sose_ki2_a3_loesung \
 	2022_sose_ki2_a4 2022_sose_ki2_a4_loesung \
 	2022_sose_ki2_a5 2022_sose_ki2_a5_loesung \
 	2022_sose_ki2_klausuraufgaben 2022_sose_ki2_klausur \
@@ -131,7 +131,8 @@ for projectName in 2021_wise_p1_vorlesung \
 	wise21_p1_a8 wise21_p1_a8_loesung \
 	wise21_p1_klausur wise21_p1_probeklausur \
 	wise21_p1_klausuraufgaben wise21_p1_klausurloesung \
-	2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung 
+	2021_wise_p1_klausuraufgabensammlung 2021_wise21_p1_klausur \
+	2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_URL_HS}:2021_wise_p1_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
