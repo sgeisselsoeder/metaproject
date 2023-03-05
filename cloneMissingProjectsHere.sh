@@ -115,13 +115,21 @@ done
 
 GROUPNAME="2021_p1"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in wise21_p1_a5_loesung wise21_p1_a6_loesung wise21_p1_a7_loesung wise21_p1_a8_loesung \
-	wise21_p1_a5 wise21_p1_a6 wise21_p1_a7 wise21_p1_a8 wise21_p1_klausur wise21_p1_probeklausur \
-	wise21_p1_klausuraufgaben wise21_p1_klausurloesung wise21_p1_klausur 2022_sose_p1_klausur \
-	2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung 2021_wise_p1_vorlesung
+for projectName in 2021_wise_p1_vorlesung \
+	wise21_p1_a1 wise21_p1_a1_loesung \
+	wise21_p1_a2 wise21_p1_a2_loesung \
+	wise21_p1_a3 wise21_p1_a3_loesung \
+	wise21_p1_a4 wise21_p1_a4_loesung \
+	wise21_p1_a5 wise21_p1_a5_loesung \
+	wise21_p1_a6 wise21_p1_a6_loesung \
+	wise21_p1_a7 wise21_p1_a7_loesung \
+	wise21_p1_a8 wise21_p1_a8_loesung \
+	wise21_p1_klausur wise21_p1_probeklausur \
+	wise21_p1_klausuraufgaben wise21_p1_klausurloesung \
+	2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben 2022_sose_p1_klausur_vorbenotung 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_URL_HS}:2021_wise_p1_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
