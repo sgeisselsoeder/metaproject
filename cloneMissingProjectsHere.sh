@@ -85,7 +85,7 @@ for projectName in 2022_ki3_vorlesung \
 	2022_ki3_a3_loesung 2022_ki3_a3 \
 	2022_ki3_a4_loesung 2022_ki3_a4 \
 	2022_ki3_a5_loesung 2022_ki3_a5 \
-	2022_ki3_klausur 2022_ki3_klausuraufgaben
+	2022_ki3_klausur 2022_ki3_klausuraufgaben 2022_ki3_uebung_bewerten
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
