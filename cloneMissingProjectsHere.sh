@@ -246,7 +246,7 @@ done
 
 
 # other stuff @ geis.ddnss
-for projectName in blender3d pacman wise21_p1_a2.5_loesung \
+for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten \
 	gitlab_korrektur checklist_industrial_ai \
 	2023_01_16_stammtisch_ankit_cvision  # ownnn
