@@ -33,8 +33,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2023_ki4_vorlesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		echo "23 ki4 inactive"
-		# git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
