@@ -8,7 +8,6 @@ if [[ $RELEASEINFO = *ubuntu* ]]; then
 elif [[ $RELEASEINFO = *opensuse* ]]; then
 	# echo "Found opensuse"
 	alias update='sudo zypper up -y --auto-agree-with-licenses ; sudo flatpak upgrade -y ; cd ~/projects && ./updateAll.sh && cd - '
-	# sudo zypper dup -y
 elif [[ $RELEASEINFO = *ndeavour* ]]; then
 	# echo "Found EndeavourOS"
 	alias update='yay -Syyu --noconfirm ; sudo pacman -Syyu ; cd ~/projects && ./updateAll.sh && cd - '
