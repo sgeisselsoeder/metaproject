@@ -159,7 +159,7 @@ done
 
 
 # projects without own group
-for projectName in 2022_sose_biolern_vorlesung studentenprojektausschreibungen
+for projectName in 2022_sose_biolern_vorlesung
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_URL_HS}:sgeisselsoeder/${projectName}.git ${projectName}
@@ -249,7 +249,7 @@ done
 for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten \
 	gitlab_korrektur checklist_industrial_ai \
-	2023_01_16_stammtisch_ankit_cvision  # ownnn
+	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen  # ownnn
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
