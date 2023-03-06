@@ -175,10 +175,6 @@ done
 # 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
 
 
-# new stuff since branch
-git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/2022_ki1_klausuraufgaben.git
-git clone git@git-kik.hs-ansbach.de:2022_sose_ki2_material/2022_ki2_nachklausur.git
-
 # Clone own public projects from github
 for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis  # km3netHdf5ToHistograms
 do
