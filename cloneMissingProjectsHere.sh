@@ -148,9 +148,17 @@ done
 
 GROUPNAME="2021_ki1"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in wise21_ki1_a4_loesung wise21_ki1_a5_loesung wise21_ki1_a6_loesung wise21_ki1_a7_loesung \
-	wise21_ki1_a4 wise21_ki1_a5 wise21_ki1_a6 wise21_ki1_a7 wise21_ki1_klausur wise21_ki1_probeklausur \
-	wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung 2022_sose_p1_klausur 2022_sose_ki1_klausur
+for projectName in vorlesung_ki1 \
+	wise21_ki1_a1 \
+	wise21_ki1_a2 \
+	wise21_ki1_a3 wise21_ki1_a3_loesung \
+	wise21_ki1_a4 wise21_ki1_a4_loesung \
+	wise21_ki1_a5 wise21_ki1_a5_loesung \
+	wise21_ki1_a6 wise21_ki1_a6_loesung \
+	wise21_ki1_a7 wise21_ki1_a7_loesung \
+	wise21_ki1_klausur wise21_ki1_probeklausur \
+	wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung \
+	2022_sose_ki1_klausur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -247,9 +255,8 @@ done
 
 # other stuff @ geis.ddnss
 for projectName in blender3d pacman \
-	kooperation berufung arbeitszeugnisse buch_sigurd_carsten \
-	gitlab_korrektur checklist_industrial_ai \
-	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen  # ownnn
+	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
+	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen  # ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
