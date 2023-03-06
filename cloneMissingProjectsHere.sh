@@ -19,11 +19,15 @@ done
 
 GROUPNAME="2023_ki2"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki2_vorlesung
+for projectName in 2023_ki2_vorlesung 2023_ki2_data \
+	2023_ki2_a1 2023_ki2_a1_loesung \
+	2023_ki2_a2 2023_ki2_a2_loesung \
+	2023_ki2_a3 2023_ki2_a3_loesung \
+	2023_ki2_a4 2023_ki2_a4_loesung \
+	2023_ki2_a5 2023_ki2_a5_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		echo "23 ki2 inactive"
-		# git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
