@@ -2,20 +2,9 @@
 BASEPATH=`pwd`
 # clone every repo I want.
 
-# First clone all teaching related projects.
-
-# GITLAB_URL_HS="geis.ddnss.de"
-GITLAB_URL_HS="git-kik.hs-ansbach.de"
+EIGEN_GITLAB="geis.ddnss.de"
+GITLAB_HS="git-kik.hs-ansbach.de"
 GITGROUPTAG="_projects"
-
-# git clone git@geis.ddnss.de:wise21_ki1/aufgabe1.git wise21_ki1_a1
-# git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-2.git wise21_ki1_a2
-# git clone git@geis.ddnss.de:sgeisselsoeder/ki-aufgabe-3-loesung.git wise21_ki1_a3_loesung
-# git clone git@geis.ddnss.de:wise21_ki1/ki-aufgabe-3.git wise21_ki1_a3
-# git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe1.git wise21_p1_a1
-# git clone git@geis.ddnss.de:wise21_programmieren1/aufgabe2.git wise21_p1_a2
-# git clone git@geis.ddnss.de:wise21_programmieren1/programmierena3.git wise21_p1_a3
-# git clone git@geis.ddnss.de:wise21_programmieren1/programmieren-A4.git wise21_p1_a4
 
 
 GROUPNAME="eigenki"
@@ -23,7 +12,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in kigraph eigenki-frontend eigenki-frontend-js eigenki-backend eigenki-installation eigenki-kicontainer
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@geis.ddnss.de:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${EIGEN_GITLAB}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -34,7 +23,7 @@ for projectName in 2023_ki2_vorlesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		echo "23 ki2 inactive"
-		# git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		# git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -45,7 +34,7 @@ for projectName in 2023_ki4_vorlesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		echo "23 ki4 inactive"
-		# git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		# git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -65,13 +54,13 @@ for projectName in 2022_ki1_vorlesung 2022_ki1_uebung_bewerten \
 	2022_ki1_a0.5 2022_ki1_a2.5 2022_ki1_a6.5
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 for projectName in 2022_ki1_korrektur_klausur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -88,7 +77,7 @@ for projectName in 2022_ki3_vorlesung \
 	2022_ki3_klausur 2022_ki3_klausuraufgaben 2022_ki3_uebung_bewerten
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -105,14 +94,14 @@ for projectName in 2022_ki2_vorlesung \
 	2022_ki2_nachklausur 2022_ki2_data
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 # also the grading projects, but not in the shared repo
 for projectName in 2022_ki2_korrektur_klausur 2022_ki2_korrektur_nachklausur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -135,14 +124,14 @@ for projectName in 2021_wise_p1_vorlesung wise21_p1_codebeispiele \
 	2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:2021_wise_p1_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:2021_wise_p1_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 # also the grading projects, but not in the shared repo
 for projectName in 2022_sose_p1_klausur_vorbenotung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -161,16 +150,16 @@ for projectName in vorlesung_ki1 \
 	2022_sose_ki1_klausur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
 
-# projects without own group
+# teching projects without own group
 for projectName in 2022_sose_biolern_vorlesung
 do
 	if [ ! -d "${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:sgeisselsoeder/${projectName}.git ${projectName}
+		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
 	fi
 done
 
@@ -183,7 +172,15 @@ done
 # 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
 
 
-# clone non-teaching repos
+# Clone own public projects from github
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis  # km3netHdf5ToHistograms
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
+	fi
+done
+
+# clone non-teaching repos without gitlab
 for projectName in lebenslauf bewerbungen presentations rlweitsprung \
 	pythonPDF autoencoderensemble hausmodel \
 	ubuntu-default-software onintelcoop glab_verwalten backup-scripts # doktorarbeit
@@ -193,10 +190,20 @@ do
 	fi
 done
 
+# other stuff @ geis.ddnss
+for projectName in blender3d pacman \
+	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
+	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen  # ownnn gitlab_korrektur
+do
+	if [ ! -d "$projectName" ]; then
+		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${projectName}
+	fi
+done
+
 
 GROUPNAME="demo"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-# Clone own public projects from github
+# Clone own public demo projects from github
 for projectName in expectation_maximization cnn_visualization demo_computer_vision \
 	demo_speech_recognition demo_feature_selection demo_input_output_sensitivity \
 	makeyourownneuralnetwork demo_plotting demo_yolov8
@@ -205,20 +212,11 @@ do
 		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-# TODO: Move from git-kik to geis.ddnss
+# TODO: Move from git-kik to geis.ddnss?
 for projectName in demo_nn
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@git-kik.hs-ansbach.de:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-
-
-# Clone own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis  # km3netHdf5ToHistograms
-do
-	if [ ! -d "$projectName" ]; then
-		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
+		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -228,7 +226,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in bewirtschaftungserkennung bewirtschaftungsdaten
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -238,7 +236,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in controller_control localization hardware_assembly
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_URL_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
@@ -248,21 +246,9 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in heimauto heimsprech website_static
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-
-
-# other stuff @ geis.ddnss
-for projectName in blender3d pacman \
-	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
-	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen  # ownnn gitlab_korrektur
-do
-	if [ ! -d "$projectName" ]; then
-		git clone git@geis.ddnss.de:sgeisselsoeder/${projectName}.git ${projectName}
-	fi
-done
-
 
 
 # Clone siemens projects, needs more credentials
