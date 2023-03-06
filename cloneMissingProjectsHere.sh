@@ -263,7 +263,7 @@ done
 # clone non-siemens exdra repos
 for projectName in exdra-backend-python exdra-local-installation exdra-other
 do
-	if [ ! -d "$projectName" ]; then
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
