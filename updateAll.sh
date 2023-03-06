@@ -4,11 +4,10 @@ MY_TIMEOUT_IN_S=10
 GITGROUPTAG="_projects"
 
 # update everything that didn't flee fast enough
-for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" -e ${GITGROUPTAG} ` ;
+for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e ${GITGROUPTAG} ` ;
 do
 cd $i
 echo "### Updating next: " $i
-# git pull | grep -v -e "Already up-to-date" -e "Bereits aktuell" -e "Already up to date"
 git pull | grep -v -e "Already" -e "Bereits"
 # timeout $MY_TIMEOUT_IN_S git pull
 cd $BASEPATH
@@ -20,7 +19,7 @@ do
 cd $j
 BASEPATH2=`pwd`
 echo "### Updating Group " $j
-	for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e "inactive" ` ;
+	for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" ` ;
 	do
 	cd $i
 	echo "### Updating next: " $i
