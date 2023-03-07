@@ -17,6 +17,17 @@ do
 done
 
 
+GROUPNAME="2023_studentenprojekte"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in reinforcementlearningescape produktinhalt autoencoder kognitivekooperation robo \
+	eeg-dl eeg-autoencoder eeg-explainable
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
 GROUPNAME="2023_ki2"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2023_ki2_vorlesung 2023_ki2_data \
