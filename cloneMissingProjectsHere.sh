@@ -19,7 +19,7 @@ done
 
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in reinforcementlearningescape produktinhalt autoencoder kognitivekooperation robo \
+for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation robo \
 	eeg-dl eeg-explainable
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
