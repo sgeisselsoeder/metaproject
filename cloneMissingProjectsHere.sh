@@ -257,7 +257,7 @@ done
 
 GROUPNAME="heimauto"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in heimauto heimsprech website_static
+for projectName in heimauto heimsprech website_static heimauto-monitor
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
