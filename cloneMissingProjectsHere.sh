@@ -45,7 +45,9 @@ done
 
 GROUPNAME="2023_ki4"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki4_vorlesung 2023_ki4_a1_loesung 2023_ki4_a1 2023_ki4_a2_ps 2023_ki4_a2_loesung_ps
+for projectName in 2023_ki4_vorlesung \
+	2023_ki4_a1_loesung 2023_ki4_a1 \
+	2023_ki4_a2_ps 2023_ki4_a2_loesung_ps 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
