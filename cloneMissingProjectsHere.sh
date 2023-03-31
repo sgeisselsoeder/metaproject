@@ -209,7 +209,8 @@ done
 # other stuff @ geis.ddnss
 for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
-	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen  # ownnn gitlab_korrektur
+	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen \
+	network_output_unequals_probability  # ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${projectName}
