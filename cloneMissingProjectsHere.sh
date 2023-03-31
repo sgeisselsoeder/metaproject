@@ -30,7 +30,7 @@ done
 
 GROUPNAME="2023_ki2"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki2_vorlesung 2023_ki2_data \
+for projectName in 2023_ki2_vorlesung 2023_ki2_data 2023_ki2_uebung_bewerten \
 	2023_ki2_a1 2023_ki2_a1_loesung \
 	2023_ki2_a2 2023_ki2_a2_loesung \
 	2023_ki2_a3 2023_ki2_a3_loesung \
