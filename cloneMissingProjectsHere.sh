@@ -20,7 +20,7 @@ done
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation robo \
-	eeg-dl eeg-explainable sprachassistent osu_beatmap_discriminator deepfake pepperGPT
+	eeg-dl eeg-explainable sprachassistent osu deepfake pepperGPT
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -47,8 +47,8 @@ GROUPNAME="2023_ki4"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2023_ki4_vorlesung \
 	2023_ki4_a1_loesung 2023_ki4_a1 \
-	2023_ki4_a2_ps 2023_ki4_a2_loesung \
-        2023_ki4_a3 2023_ki4_a3_loesung
+	2023_ki4_a2 2023_ki4_a2_loesung \
+    2023_ki4_a3 2023_ki4_a3_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
