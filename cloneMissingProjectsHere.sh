@@ -30,7 +30,7 @@ done
 
 GROUPNAME="2023_ki2"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki2_vorlesung 2023_ki2_data 2023_ki2_uebung_bewerten \
+for projectName in 2023_ki2_vorlesung 2023_ki2_uebung_bewerten \
 	2023_ki2_a1 2023_ki2_a1_loesung \
 	2023_ki2_a2 2023_ki2_a2_loesung \
 	2023_ki2_a3 2023_ki2_a3_loesung \
@@ -39,6 +39,12 @@ for projectName in 2023_ki2_vorlesung 2023_ki2_data 2023_ki2_uebung_bewerten \
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+for projectName in 2023_ki2_data
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
