@@ -20,7 +20,7 @@ done
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation \
-	eeg-dl sprachassistent osu deepfake pepperGPT eeg-explainable
+	eeg-dl sprachassistent osu deepfake pepperGPT eeg_explainable
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
