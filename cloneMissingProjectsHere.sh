@@ -179,8 +179,8 @@ do
 done
 
 
-# teching projects without own group
-for projectName in 2022_sose_biolern_vorlesung
+# teaching projects without own group
+for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
