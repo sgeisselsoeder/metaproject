@@ -55,7 +55,8 @@ for projectName in 2023_ki4_vorlesung \
 	2023_ki4_a1_loesung 2023_ki4_a1 \
 	2023_ki4_a2 2023_ki4_a2_loesung \
 	2023_ki4_a3 2023_ki4_a3_loesung \
-	2023_ki4_a4 2023_ki4_a4_loesung
+	2023_ki4_a4 2023_ki4_a4_loesung \
+	2023_ki4_a5 2023_ki4_a5_loesung 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -180,7 +181,7 @@ done
 
 
 # teaching projects without own group
-for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten
+for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
