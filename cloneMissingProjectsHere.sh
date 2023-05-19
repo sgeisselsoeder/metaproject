@@ -35,7 +35,9 @@ for projectName in 2023_ki2_vorlesung 2023_ki2_uebung_bewerten \
 	2023_ki2_a2 2023_ki2_a2_loesung \
 	2023_ki2_a3 2023_ki2_a3_loesung \
 	2023_ki2_a4 2023_ki2_a4_loesung \
-	2023_ki2_a5 2023_ki2_a5_loesung 
+	2023_ki2_a5 2023_ki2_a5_loesung \
+	2023_ki2_a6 2023_ki2_a6_loesung \
+	2023_ki2_a7 2023_ki2_a7_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -57,7 +59,8 @@ for projectName in 2023_ki4_vorlesung \
 	2023_ki4_a3 2023_ki4_a3_loesung \
 	2023_ki4_a4 2023_ki4_a4_loesung \
 	2023_ki4_a5 2023_ki4_a5_loesung \
-	2023_ki4_a6 2023_ki4_a6_loesung_1 2023_ki4_a6_loesung_2
+	2023_ki4_a6 2023_ki4_a6_loesung_1 2023_ki4_a6_loesung_2 \
+	2023_ki4_a7 2023_ki4_a7_loesung 2023_ki4_weitsprung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -250,10 +253,16 @@ done
 
 GROUPNAME="fleximaus"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in bewirtschaftungserkennung bewirtschaftungsdaten bewirtschaftungserkennung-v2
+for projectName in bewirtschaftungserkennung bewirtschaftungserkennung-v2
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+for projectName in publications_fleximaus
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
