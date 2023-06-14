@@ -225,7 +225,7 @@ done
 for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen \
-	network_output_unequals_probability 2023_06_01_rothenburg_cvision_and_robots # ownnn gitlab_korrektur
+	network_output_unequals_probability 2023_06_01_rothenburg_cvision_and_robots 2023-06-14-neuendettelsau-chancen-risiken # ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${projectName}
