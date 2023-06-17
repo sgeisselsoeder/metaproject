@@ -195,14 +195,6 @@ do
 done
 
 
-# Clone all private projects from bytegeist.ddnss.de
-# for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia webseiteGsGrosshadern softwareEngineering \
-# 	universe openclTest qtTest reviews resourceAwareMachineLearning rechnungen droneSuite ekg ledTests relais \
-#	sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rfid_player finanzierung aktien \
-#	backup-scripts doktorarbeit sprech
-# 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
-
-
 # Clone own public projects from github
 for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis  # km3netHdf5ToHistograms
 do
@@ -211,10 +203,20 @@ do
 	fi
 done
 
+
+# Clone all private projects from bytegeist.ddnss.de
+# for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia webseiteGsGrosshadern softwareEngineering \
+# 	universe openclTest qtTest reviews resourceAwareMachineLearning rechnungen droneSuite ekg ledTests relais \
+#	sprachkommandos siemensBewerbungTask biogas geisselsoedercom raspberryErrorLED deDup rfid_player finanzierung aktien \
+#	backup-scripts doktorarbeit sprech
+# 	permanently inactive: data metaproject singularityProjects checklist notizen reportkm3net2.0asterics convertKm3RootToHdf5 matrixflow
+
+
 # clone non-teaching repos without gitlab
 for projectName in lebenslauf bewerbungen presentations rlweitsprung \
 	pythonPDF autoencoderensemble hausmodel \
-	ubuntu-default-software onintelcoop glab_verwalten backup-scripts # doktorarbeit
+	ubuntu-default-software onintelcoop glab_verwalten backup-scripts \
+	deDup rfid_player universe  # doktorarbeit
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
