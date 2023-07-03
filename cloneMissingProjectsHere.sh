@@ -82,7 +82,8 @@ for projectName in 2022_ki1_vorlesung 2022_ki1_uebung_bewerten \
 	2022_ki1_a6_loesung 2022_ki1_a6 \
 	2022_ki1_probeklausur 2021_ki1_probeklausur \
 	2022_ki1_klausur 2022_ki1_klausuraufgaben \
-	2022_ki1_a0.5 2022_ki1_a2.5 2022_ki1_a6.5
+	2022_ki1_a0.5 2022_ki1_a2.5 2022_ki1_a6.5 \
+	ki1_nachklausur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -216,7 +217,7 @@ done
 for projectName in lebenslauf bewerbungen presentations rlweitsprung \
 	pythonPDF autoencoderensemble hausmodel \
 	ubuntu-default-software onintelcoop glab_verwalten backup-scripts \
-	deDup rfid_player universe  # doktorarbeit
+	deDup rfid_player universe rechnungen  # doktorarbeit
 do
 	if [ ! -d "$projectName" ]; then
 		git clone ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/${projectName}.git ${projectName}
