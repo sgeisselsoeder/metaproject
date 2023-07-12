@@ -188,7 +188,7 @@ done
 
 
 # teaching projects without own group
-for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor
+for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor 2023_ki2_klausuraufgaben 2023_ki3_klausuraufgaben
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
@@ -229,7 +229,7 @@ for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen \
 	network_output_unequals_probability 2023_06_01_rothenburg_cvision_and_robots 2023_06_14_neuendettelsau_chancen_risiken \
-	2023_07_bmt_fleximaus 2023_07_07_schacht 2023_ki2_klausuraufgaben 2023_ki3_klausuraufgaben 
+	2023_07_bmt_fleximaus 2023_07_07_schacht 
 	# ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
