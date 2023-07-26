@@ -188,7 +188,9 @@ done
 
 
 # teaching projects without own group
-for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor 2023_ki2_klausuraufgaben 2023_ki3_klausuraufgaben
+for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor \
+	2023_ki2_klausuraufgaben 2023_ki3_klausuraufgaben \
+	2023_07_oechsler
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
