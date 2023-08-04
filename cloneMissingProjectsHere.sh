@@ -37,7 +37,7 @@ for projectName in 2023_ki2_vorlesung 2023_ki2_uebung_bewerten \
 	2023_ki2_a4 2023_ki2_a4_loesung \
 	2023_ki2_a5b 2023_ki2_a5b_loesung \
 	2023_ki2_a6 2023_ki2_a6_loesung \
-	2023_ki2_klausur 2023_ki2_klausurkorrektur
+	2023_ki2_klausur 2023_ki2_klausurkorrektur 2023_ki2_klausuraufgaben
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -84,7 +84,6 @@ for projectName in 2022_ki1_vorlesung 2022_ki1_uebung_bewerten \
 	2022_ki1_probeklausur 2021_ki1_probeklausur \
 	2022_ki1_klausur 2022_ki1_klausuraufgaben \
 	2022_ki1_a0.5 2022_ki1_a2.5 2022_ki1_a6.5 \
-	ki1_nachklausur \
 	2023_ki1_nachklausur 2023_ki1_nachklausur_korrektur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
