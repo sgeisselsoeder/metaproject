@@ -276,6 +276,15 @@ do
 	fi
 done
 
+GROUPNAME="siemens"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in dolphin
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 GROUPNAME="wall-a"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
