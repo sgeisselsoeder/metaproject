@@ -232,7 +232,7 @@ for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen \
 	network_output_unequals_probability 2023_06_01_rothenburg_cvision_and_robots 2023_06_14_neuendettelsau_chancen_risiken \
-	2023_07_bmt_fleximaus 2023_07_07_schacht 
+	2023_07_bmt_fleximaus 2023_07_07_schacht dolphin
 	# ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
@@ -273,15 +273,6 @@ for projectName in publications_fleximaus
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-
-GROUPNAME="siemens"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in dolphin
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
