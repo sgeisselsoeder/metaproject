@@ -289,7 +289,7 @@ done
 
 GROUPNAME="wall-a"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in controller_control localization hardware_assembly
+for projectName in controller_control hardware_assembly leo_rover_repo
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
