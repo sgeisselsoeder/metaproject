@@ -8,8 +8,8 @@ for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "
 do
 cd $i
 echo "### Updating next: " $i
-git pull | grep -v -e "Already" -e "Bereits"
-# timeout $MY_TIMEOUT_IN_S git pull
+# git pull | grep -v -e "Already" -e "Bereits"
+timeout $MY_TIMEOUT_IN_S git pull
 cd $BASEPATH
 done
 
@@ -23,8 +23,8 @@ echo "### Updating Group " $j
 	do
 	cd $i
 	echo "### Updating next: " $i
-	git pull | grep -v -e "Already" -e "Bereits"
-	# timeout $MY_TIMEOUT_IN_S git pull
+	# git pull | grep -v -e "Already" -e "Bereits"
+	timeout $MY_TIMEOUT_IN_S git pull
 	cd $BASEPATH2
 	done
 cd $BASEPATH
