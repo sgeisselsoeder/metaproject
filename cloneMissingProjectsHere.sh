@@ -38,7 +38,7 @@ do
 done
 
 # 2023_ki1
-GROUPNAME="2023_ki1_material"
+GROUPNAME="2023_ki1"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2023_ki1_uebung_bewerten 
 do
