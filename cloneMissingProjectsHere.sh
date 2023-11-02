@@ -38,9 +38,9 @@ do
 done
 
 # 2023_ki1
-GROUPNAME="2023_ki1"
+GROUPNAME="2023_ki1_material"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2022_ki1_uebung_bewerten 
+for projectName in 2023_ki1_uebung_bewerten 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
