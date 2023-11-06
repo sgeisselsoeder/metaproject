@@ -252,7 +252,7 @@ for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen \
 	network_output_unequals_probability 2023_06_01_rothenburg_cvision_and_robots 2023_06_14_neuendettelsau_chancen_risiken \
-	2023_07_bmt_fleximaus 2023_07_07_schacht dolphin
+	2023_07_bmt_fleximaus 2023_07_07_schacht dolphin camera_sender
 	# ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
