@@ -33,7 +33,9 @@ for projectName in 2023_ki3_vorlesung \
 	2023_ki3_a1 2023_ki3_a1_loesung \
 	2023_ki3_a2 2023_ki3_a2_loesung \
 	2023_ki3_a3 2023_ki3_a3_loesung \
-	2023_ki3_a4 2023_ki3_a4_loesung 
+	2023_ki3_a4 2023_ki3_a4_loesung \ 
+	2023_ki3_a5 2023_ki3_a5_loesung \
+	2023_ki3_a6 2023_ki3_a6_loesung 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
