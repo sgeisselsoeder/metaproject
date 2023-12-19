@@ -17,10 +17,11 @@ do
 done
 
 
+# Image-Reconstruction-using-GANs-and-Autoencoders pawsomepals-unity-project 
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation \
-	eeg-dl sprachassistent osu deepfake pepperGPT eeg_explainable
+	eeg-dl sprachassistent osu deepfake pepperGPT eeg_explainable 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -37,7 +38,8 @@ for projectName in 2023_ki3_vorlesung \
 	2023_ki3_a5 2023_ki3_a5_loesung \
 	2023_ki3_a6 2023_ki3_a6_loesung \
 	2023_ki3_a7 2023_ki3_a7_loesung \
-	2023_ki3_a8 2023_ki3_a8_loesung 
+	2023_ki3_a8 2023_ki3_a8_loesung \
+	2022_ki3_klausur 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -216,10 +218,23 @@ do
 done
 
 
-# teaching projects without own group
+
+GROUPNAME="paw_print"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in analytics frontend backend authgate data
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
+# university projects without own group
 for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor \
 	2023_07_oechsler 2023_07_siemens pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
-	2023_12_07_promotionskolleg_cv_zeitr 2023_12_13_ankit_flagler 2023_12_14_ankit_stammtisch
+	2023_12_07_promotionskolleg_cv_zeitr 2023_12_13_ankit_flagler 2023_12_14_ankit_stammtisch \
+	reckenberg_wasser_solar turns
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
