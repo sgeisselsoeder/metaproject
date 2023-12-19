@@ -17,11 +17,11 @@ do
 done
 
 
-# Image-Reconstruction-using-GANs-and-Autoencoders pawsomepals-unity-project 
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation \
-	eeg-dl sprachassistent osu deepfake pepperGPT eeg_explainable 
+	eeg-dl sprachassistent osu deepfake pepperGPT eeg_explainable \
+	Image-Reconstruction-using-GANs-and-Autoencoders pawsomepals-unity-project 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
