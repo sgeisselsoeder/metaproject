@@ -232,7 +232,7 @@ done
 
 GROUPNAME="techdemos"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in pyscriptweb
+for projectName in pyscriptweb ansibleapp
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
