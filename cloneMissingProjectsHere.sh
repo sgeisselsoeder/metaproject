@@ -67,7 +67,7 @@ for projectName in 2023_ki2_vorlesung 2023_ki2_uebung_bewerten \
 	2023_ki2_a4 2023_ki2_a4_loesung \
 	2023_ki2_a5b 2023_ki2_a5b_loesung \
 	2023_ki2_a6 2023_ki2_a6_loesung \
-	2023_ki2_klausur 2023_ki2_klausurkorrektur 2023_ki2_klausuraufgaben
+	2023_ki2_klausur 2023_ki2_klausurkorrektur 2023_ki2_klausuraufgaben 2023_ki2_nachklausur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
