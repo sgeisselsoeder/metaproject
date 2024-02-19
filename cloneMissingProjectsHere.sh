@@ -17,6 +17,16 @@ do
 done
 
 
+GROUPNAME="deep-eeg"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in ap0_versioned_data ap2-data-preprocessing ap0_literatur
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation \
