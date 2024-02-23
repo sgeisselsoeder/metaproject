@@ -1,6 +1,6 @@
 #!/bin/bash
 BASEPATH=`pwd`
-MY_TIMEOUT_IN_S=15
+MY_TIMEOUT_IN_S=12
 GITGROUPTAG="_projects"
 
 # update everything that didn't flee fast enough
