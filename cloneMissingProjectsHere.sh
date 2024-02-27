@@ -26,6 +26,14 @@ do
 	fi
 done
 
+GROUPNAME="2024_studentenprojekte"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in hautkrebs 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
