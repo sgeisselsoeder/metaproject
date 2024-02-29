@@ -37,7 +37,7 @@ done
 
 GROUPNAME="webapp"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in flask_auth 
+for projectName in flask_auth flask_auth2 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
