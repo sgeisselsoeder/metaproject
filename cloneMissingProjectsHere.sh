@@ -35,6 +35,15 @@ do
 	fi
 done
 
+GROUPNAME="webapp"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in flask_auth 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation \
