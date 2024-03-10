@@ -7,6 +7,56 @@ GITLAB_HS="git-kik.hs-ansbach.de"
 GITGROUPTAG="_projects"
 
 
+GROUPNAME="2024_ki4"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in 2024_ki4_vorlesung \
+	2024_ki4_a1 2024_ki4_a1_loesung \
+	2024_ki4_a2 2024_ki4_a2_loesung \
+	2024_ki4_a2.5 2024_ki4_a2.5_loesung \
+	2024_ki4_a3 2024_ki4_a3_loesung \
+	2024_ki4_a4 2024_ki4_a4_loesung \
+	2024_ki4_a5 2024_ki4_a5_loesung \
+	2024_ki4_a6 2024_ki4_a6_loesung \
+	2024_ki4_a7 2024_ki4_a7_loesung 2023_ki4_weitsprung \
+	2024_ki4_a8 2024_ki4_a8_loesung \
+	2024_ki4_a9 2024_ki4_a9_loesung \
+	2024_ki4_a10 2024_ki4_a10_loesung
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+GROUPNAME="2024_ki2"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in 2023_ki2_vorlesung \
+	2023_ki2_a1 2023_ki2_a1_loesung \
+	2023_ki2_a2 2023_ki2_a2_loesung \
+	2023_ki2_a3 2023_ki2_a3_loesung 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+GROUPNAME="2024_studentenprojekte"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in hautkrebs 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+GROUPNAME="2024_kiforschung"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in 2024_kiforschung_vorlesung 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 GROUPNAME="eigenki"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in kigraph eigenki-frontend eigenki-frontend-js eigenki-backend eigenki-installation eigenki-kicontainer
@@ -20,15 +70,6 @@ done
 GROUPNAME="deep-eeg"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in ap0_versioned_data ap2-data-preprocessing 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-
-GROUPNAME="2024_studentenprojekte"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in hautkrebs 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
