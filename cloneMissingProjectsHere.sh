@@ -426,6 +426,18 @@ do
 		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+# Clone siemens projects, willy stuff
+igit@code.siemens.com:dolphin/willy/vas03_context_search.git
+GROUPNAME="siemens"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in common VAS03_context_search Service_LLM_keyword_search service_sentiment_analysis service_automatic_related_topics \
+	service_automated_tagging service_text_mining service_data_extraction_and_preprocessing service_text_summary \
+	service_automatic_note_extraction service_normalized_overlap_of_lists service_clustering DataPreparation
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@code.siemens.com:dolphin/willy/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 # clone non-siemens exdra repos
 for projectName in exdra-backend-python exdra-local-installation exdra-other
 do
