@@ -438,7 +438,6 @@ do
 	fi
 done
 # Clone siemens projects, willy stuff
-igit@code.siemens.com:dolphin/willy/vas03_context_search.git
 GROUPNAME="siemens"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in common VAS03_context_search Service_LLM_keyword_search service_sentiment_analysis service_automatic_related_topics \
