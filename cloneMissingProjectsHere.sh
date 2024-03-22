@@ -55,6 +55,17 @@ do
 	fi
 done
 
+GROUPNAME="turns"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in spectroscopy
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
 GROUPNAME="eigenki"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in kigraph eigenki-frontend eigenki-frontend-js eigenki-backend eigenki-installation eigenki-kicontainer
