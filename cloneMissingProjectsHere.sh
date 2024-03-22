@@ -299,7 +299,7 @@ done
 
 GROUPNAME="techdemos"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in pyscriptweb ansibleapp demo_sprachprotokoll
+for projectName in pyscriptweb ansibleapp demo_sprachprotokoll retrain_yolo
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
