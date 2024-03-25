@@ -17,7 +17,7 @@ for projectName in 2024_ki4_vorlesung \
 	2024_ki4_a4_loesung \
 	2024_ki4_a5_loesung \
 	2024_ki4_a6_loesung \
-	2024_ki4_a7_loesung 2024_ki4_weitsprung \
+	2024_ki4_a7_loesung \
 	2024_ki4_a8_loesung 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
