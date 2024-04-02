@@ -2,8 +2,10 @@
 BASEPATH=`pwd`
 # clone every repo I want.
 
-EIGEN_GITLAB="geis.ddnss.de"
+
 GITLAB_HS="git-kik.hs-ansbach.de"
+# EIGEN_GITLAB="geis.ddnss.de"
+EIGEN_GITLAB=${GITLAB_HS}  # eigen Gitlab is no more
 GITGROUPTAG="_projects"
 
 
@@ -358,7 +360,7 @@ do
 	fi
 done
 
-# other stuff @ geis.ddnss
+# other stuff, used to be at @ geis.ddnss
 for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	2023_01_16_stammtisch_ankit_cvision studentenprojektausschreibungen \
