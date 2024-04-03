@@ -50,7 +50,7 @@ done
 
 GROUPNAME="2024_kiforschung"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2024_kiforschung_vorlesung 
+for projectName in 2024_kiforschung_vorlesung astro_anomalies 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
