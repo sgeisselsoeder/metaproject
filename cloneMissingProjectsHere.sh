@@ -41,7 +41,7 @@ done
 
 GROUPNAME="2024_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in hautkrebs drohne eegelektroden elektrodenmessung serviceroboter 3Danomaly shootair frontend bioreaktor genai_music tradebot
+for projectName in hautkrebs drohne eegelektroden elektrodenmessung serviceroboter 3Danomaly shootair frontend bioreaktor genai_music 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
