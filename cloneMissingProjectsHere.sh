@@ -47,6 +47,20 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+# also clone studentprojects subgroup pumpbot 
+SUBGROUPNAME="pumpbot"
+mkdir -p ${SUBGROUPNAME}${GITGROUPTAG}
+for projectName in api cryptofyt3r position_watcher dashboard report
+do
+	if [ ! -d "${SUBGROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${SUBGROUPNAME}/${projectName}.git ${SUBGROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
+
+
 
 GROUPNAME="2024_kiforschung"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
