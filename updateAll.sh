@@ -7,7 +7,7 @@ GITGROUPTAG="_projects"
 for i in `ls | grep -v -e "$(basename $0)" -e "\.log" -e "\.git" -e "\.txt" -e "\.sh" -e "\.tar.gz" -e ${GITGROUPTAG} ` ;
 do
 cd $i
-# echo "### Updating next: " $i
+echo "### Updating next: " $i
 git pull | grep -v -e "Already" -e "Bereits"
 # timeout $MY_TIMEOUT_IN_S git pull
 cd $BASEPATH
