@@ -32,7 +32,11 @@ done
 
 
 echo "Updating the cloneMissing, updateAll and statusAll scripts in the main projects folder with the content of metaproject."
-cp metaproject/*.sh .
+# cp metaproject/*.sh .
+cp metaproject/updateAll.sh .
+cp metaproject/statusAll.sh .
+cp metaproject/cloneMissingProjectsHere.sh .
+echo "Done copying new scripts to project folder"
 
 echo "Checking for missing projects"
 # source ./cloneMissingProjectsHere.sh
