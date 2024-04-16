@@ -14,8 +14,9 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2024_ki4_vorlesung \
 	2024_ki4_a1 2024_ki4_a1_loesung \
 	2024_ki4_a2 2024_ki4_a2_loesung \
-	2024_ki4_a2_5_loesung \
-	2024_ki4_a3_loesung \
+	2024_ki4_a2_5 2024_ki4_a2_5_loesung \
+	2024_ki4_a2_6_loesung \
+	2024_ki4_a3 2024_ki4_a3_loesung \
 	2024_ki4_a4_loesung \
 	2024_ki4_a5_loesung \
 	2024_ki4_a6_loesung \
@@ -32,7 +33,9 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2024_ki2_vorlesung \
 	2024_ki2_a1 2024_ki2_a1_loesung \
 	2024_ki2_a2 2024_ki2_a2_loesung \
-	2024_ki2_a3 2024_ki2_a3_loesung 
+	2024_ki2_a3 2024_ki2_a3_loesung \
+	2024_ki2_a4 2024_ki2_a4_loesung \
+	2024_ki2_a5 2024_ki2_a5_loesung 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
