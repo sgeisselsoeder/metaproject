@@ -10,7 +10,7 @@ elif [[ $RELEASEINFO = *opensuse* ]]; then
 	alias update='sudo zypper up -y --auto-agree-with-licenses ; sudo flatpak upgrade -y ; cd ~/projects && ./updateAll.sh && cd - '
 elif [[ $RELEASEINFO = *ndeavour* ]]; then
 	# echo "Found EndeavourOS"
-	alias update='sudo pacman -Syyu ; flatpak update -y ; cd ~/projects && ./updateAll.sh && cd - ; yay -Syyu --noconfirm '
+	alias update='sudo pacman -Syyu ; yay -Syyu --noconfirm ; flatpak update -y ; cd ~/projects && ./updateAll.sh && cd - '
 else
 	echo "Unkown OS. Not updating system, just projects"
 	alias update='cd ~/projects && ./updateAll.sh && cd - '
