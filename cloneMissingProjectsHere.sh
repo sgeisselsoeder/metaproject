@@ -17,7 +17,8 @@ for projectName in 2024_ki4_vorlesung \
 	2024_ki4_a2_5 2024_ki4_a2_5_loesung \
 	2024_ki4_a2_6_loesung \
 	2024_ki4_a3 2024_ki4_a3_loesung \
-	2024_ki4_a4_loesung \
+	2024_ki4_a4_loesung 2024_ki4_a4 \
+	2024_ki4_a4_5_loesung 2024_ki4_a4_5 \
 	2024_ki4_a5_loesung \
 	2024_ki4_a6_loesung \
 	2024_ki4_a7_loesung \
