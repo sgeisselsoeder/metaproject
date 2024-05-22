@@ -352,7 +352,8 @@ done
 for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor \
 	2023_07_oechsler 2023_07_siemens pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
 	2023_12_07_promotionskolleg_cv_zeitr 2023_12_13_ankit_flagler 2023_12_14_ankit_stammtisch \
-	reckenberg_wasser_solar data_connector_sftp 2024_lernverhalten 2024_04_18_fit_ki_unternehmen blistervision 2024_05_13_sparkasse
+	reckenberg_wasser_solar data_connector_sftp 2024_lernverhalten 2024_04_18_fit_ki_unternehmen blistervision 2024_05_13_sparkasse \
+	2024-ai-in-industry
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
