@@ -448,6 +448,15 @@ do
 	fi
 done
 
+GROUPNAME="neuraldrones"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in carpark 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 GROUPNAME="heimauto"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
