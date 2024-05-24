@@ -423,6 +423,17 @@ do
 done
 
 
+GROUPNAME="ccs"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in dyca dyca_intern ai_eeg_source_localization
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@github.com:HS-Ansbach-CCS/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
 GROUPNAME="fleximaus"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in bewirtschaftungserkennungv0p1 bewirtschaftungserkennung-v2
