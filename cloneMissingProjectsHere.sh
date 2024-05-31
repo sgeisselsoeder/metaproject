@@ -77,7 +77,7 @@ done
 
 GROUPNAME="turns"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in spectroscopy
+for projectName in spectroscopy kleidung_yolo
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
