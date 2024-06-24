@@ -485,7 +485,7 @@ do
 done
 
 
-# Clone siemens projects, needs more credentials
+# Clone siemens exdra projects, needs more credentials
 GROUPNAME="siemens"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in exdra-backend exdra-infrastructure exdra-ai-container exdra-frontend
@@ -494,12 +494,13 @@ do
 		git clone git@code.siemens.com:pd-de/exdra-plus/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-# Clone siemens projects, willy stuff
+# Clone siemens willy/dolphin projects
 GROUPNAME="siemens"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in common VAS03_context_search Service_LLM_keyword_search service_sentiment_analysis service_automatic_related_topics \
 	service_automated_tagging service_text_mining service_data_extraction_and_preprocessing service_text_summary \
-	service_automatic_note_extraction service_normalized_overlap_of_lists service_clustering DataPreparation
+	service_automatic_note_extraction service_normalized_overlap_of_lists service_clustering DataPreparation service_free_input \
+	evaluate_sentiment_analysis evaluate_context_search embeddings datafiltering
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@code.siemens.com:dolphin/willy/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
