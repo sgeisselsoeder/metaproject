@@ -116,6 +116,13 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+for projectName in django-locallibrary-tutorial
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 GROUPNAME="2023_studentenprojekte"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
@@ -417,7 +424,6 @@ do
 		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-# TODO: Move from git-kik to geis.ddnss?
 for projectName in demo_nn
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
