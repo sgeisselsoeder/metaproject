@@ -41,7 +41,8 @@ for projectName in 2024_ki2_vorlesung \
 	2024_ki2_a6_loesung \
 	2024_ki2_a7 2024_ki2_a7_loesung \
 	2024_ki2_a8 2024_ki2_a8_loesung \
-	2024_ki2_klausuraufgaben 2024_ki2_klausur
+	2024_ki2_klausuraufgaben 2024_ki2_klausur \
+	2024_ki2_klausurkorrektur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
