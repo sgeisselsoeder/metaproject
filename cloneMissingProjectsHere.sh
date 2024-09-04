@@ -531,6 +531,13 @@ if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 	git clone git@code.siemens.com:data-crafts/frameworks/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 fi
 
+for projectName in cloud-native-llm # text-summary-llm
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@code.siemens.com:data-crafts/genai/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 for projectName in ai4esp ai4srp # 4pcp
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
