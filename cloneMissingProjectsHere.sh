@@ -369,6 +369,15 @@ do
 	fi
 done
 
+GROUPNAME="pawprint"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in 2024_studiprojekt pawpoc
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 # university projects without own group
 for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor \
