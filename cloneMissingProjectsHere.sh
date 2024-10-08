@@ -9,6 +9,24 @@ EIGEN_GITLAB=${GITLAB_HS}  # eigen Gitlab is no more
 GITGROUPTAG="_projects"
 
 
+GROUPNAME="2024_ki3"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in 2024_ki3_vorlesung \
+	2024_ki3_a1 2024_ki3_a1_loesung 
+	# 2024_ki3_a2 2024_ki3_a2_loesung \
+	# 2024_ki3_a3 2024_ki3_a3_loesung \
+	# 2024_ki3_a4 2024_ki3_a4_loesung \
+	# 2024_ki3_a5 2024_ki3_a5_loesung \
+	# 2024_ki3_a6 2024_ki3_a6_loesung \
+	# 2024_ki3_a7 2024_ki3_a7_loesung \
+	# 2024_ki3_a8 2024_ki3_a8_loesung 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
 GROUPNAME="2024_ki4"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2024_ki4_vorlesung \
