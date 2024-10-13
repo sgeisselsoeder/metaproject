@@ -606,6 +606,16 @@ if [ ! -d "$projectName" ]; then
 	git clone https://github.com/ChrisDelClea/${projectName}.git $projectName
 fi
 
+for projectName in temp_blister
+do
+	if [ ! -d "${projectName}" ]; then
+		git clone git@${EIGEN_GITLAB}:Korn.Robin/${projectName}.git ${projectName}
+	fi
+done
+
+
+
+
 # projectName=github_cbiernoth_noximi42
 # if [ ! -d "$projectName" ]; then
 # 	git clone https://github.com/Noximi42/km3net.git $projectName
