@@ -12,7 +12,14 @@ GITGROUPTAG="_projects"
 GROUPNAME="2024_ki3"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in 2024_ki3_vorlesung \
-	2024_ki3_a1 2024_ki3_a1_loesung 
+        2024_ki3_a1 2024_ki3_a1_loesung  \
+        2024_ki3_a2_loesung \
+        2024_ki3_a3_loesung \
+        2024_ki3_a4_loesung \
+        2024_ki3_a5_loesung \
+        2024_ki3_a6_loesung \
+        2024_ki3_a7_loesung \
+        2024_ki3_a8_loesung
 	# 2024_ki3_a2 2024_ki3_a2_loesung \
 	# 2024_ki3_a3 2024_ki3_a3_loesung \
 	# 2024_ki3_a4 2024_ki3_a4_loesung \
