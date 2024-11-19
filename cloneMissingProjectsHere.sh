@@ -631,6 +631,12 @@ do
 	fi
 done
 
+for projectName in myawesomeproject
+do
+	if [ ! -d "${projectName}" ]; then
+		git clone git@${EIGEN_GITLAB}:maria/${projectName}.git ${projectName}
+	fi
+done
 
 
 
