@@ -365,14 +365,14 @@ done
 
 
 
-GROUPNAME="paw_print"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in analytics frontend backend authgate data
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="paw_print"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in analytics frontend backend authgate data
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
 GROUPNAME="techdemos"
