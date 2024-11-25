@@ -138,7 +138,7 @@ done
 
 GROUPNAME="deep-eeg"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in ap0_versioned_data ap2-data-preprocessing 
+for projectName in ap0_versioned_data ap2-data-preprocessing ap3-seizure-detection
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
