@@ -402,6 +402,15 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+GROUPNAME="vision1"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in backend fundkiste
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:pawprint/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 
 # university projects without own group
