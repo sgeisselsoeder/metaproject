@@ -19,15 +19,8 @@ for projectName in 2024_ki3_vorlesung \
         2024_ki3_a5_loesung \
         2024_ki3_a6_loesung \
         2024_ki3_a7_loesung \
-        2024_ki3_a8_loesung
-	# 2024_ki3_a2 2024_ki3_a2_loesung \
-	# 2024_ki3_a3 2024_ki3_a3_loesung \
-	# 2024_ki3_a4 2024_ki3_a4_loesung \
-	# 2024_ki3_a5 2024_ki3_a5_loesung \
-	# 2024_ki3_a6 2024_ki3_a6_loesung \
-	# 2024_ki3_a7 2024_ki3_a7_loesung \
-	# 2024_ki3_a8 2024_ki3_a8_loesung 
-do
+        2024_ki3_a8_loesung \
+	2024_ki3_klausuraufgaben 2024_ki3_klausur
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
@@ -67,7 +60,8 @@ for projectName in 2024_ki2_vorlesung \
 	2024_ki2_a7 2024_ki2_a7_loesung \
 	2024_ki2_a8 2024_ki2_a8_loesung \
 	2024_ki2_klausuraufgaben 2024_ki2_klausur \
-	2024_ki2_klausurkorrektur
+	2024_ki2_klausurkorrektur \
+	2024_ki2_nachklausur
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
