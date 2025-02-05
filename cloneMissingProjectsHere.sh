@@ -521,7 +521,7 @@ done
 
 GROUPNAME="intellichair"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in ultrasonic_microcontroller performance_computer movement_microcontroller  
+for projectName in ultrasonic_microcontroller high_performanc_computer movement_microcontroller  
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
