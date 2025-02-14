@@ -399,7 +399,7 @@ do
 done
 GROUPNAME="vision1"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in backend fundkiste
+for projectName in backend 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:pawprint/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
