@@ -397,6 +397,7 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+
 GROUPNAME="vision1"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in backend 
@@ -407,13 +408,40 @@ do
 done
 
 
+GROUPNAME="kupferopti"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in kupfer_analyse
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+GROUPNAME="kupferpreis"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in kupferpreis 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+GROUPNAME="swarminteligence"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in warehouseautomation 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
 
 # university projects without own group
 for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor \
 	2023_07_oechsler 2023_07_siemens pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
 	2023_12_07_promotionskolleg_cv_zeitr 2023_12_13_ankit_flagler 2023_12_14_ankit_stammtisch \
 	reckenberg_wasser_solar data_connector_sftp 2024_lernverhalten 2024_04_18_fit_ki_unternehmen blistervision 2024_05_13_sparkasse \
-	2024_ai_in_industry 2024_07_22_ecap einsammeln 2024_09_27_chain_of_thought 2024_09_27_ki_praxis
+	2024_ai_in_industry 2024_07_22_ecap einsammeln 2024_09_27_chain_of_thought 2024_09_27_ki_praxis 
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
