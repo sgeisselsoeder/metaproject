@@ -3,8 +3,8 @@ BASEPATH=`pwd`
 # clone every repo I want.
 
 
+GITLAB_COM="gitlab.com"
 GITLAB_HS="git-kik.hs-ansbach.de"
-# EIGEN_GITLAB="geis.ddnss.de"
 EIGEN_GITLAB=${GITLAB_HS}  # eigen Gitlab is no more
 GITGROUPTAG="_projects"
 
@@ -88,6 +88,14 @@ do
 done
 
 
+GROUPNAME="aiblueprints"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in lakefs_demo 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 
 
 GROUPNAME="windforest"
