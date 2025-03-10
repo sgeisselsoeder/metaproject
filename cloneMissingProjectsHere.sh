@@ -90,7 +90,7 @@ done
 
 GROUPNAME="aiblueprints"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in lakefs_demo 
+for projectName in lakefs_demo lakefs_demo_test 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		echo 
