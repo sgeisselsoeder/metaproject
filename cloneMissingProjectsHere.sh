@@ -18,10 +18,20 @@ for projectName in vorlesung \
 	a3 a3_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		echo "git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}"
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+
+GROUPNAME="2025_kiforschung"
+SUB_URL="hsangit/aki/ki-forschung/2025"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in survival
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 
 GROUPNAME="2024_ki3"
