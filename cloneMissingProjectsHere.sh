@@ -557,7 +557,7 @@ done
 
 GROUPNAME="fleximaus"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in bewirtschaftungserkennungv0p1 bewirtschaftungserkennung onboarding
+for projectName in bewirtschaftungserkennungv0p1 bewirtschaftungserkennung onboarding 2025_gutachten
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
