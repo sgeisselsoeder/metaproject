@@ -9,6 +9,26 @@ EIGEN_GITLAB=${GITLAB_HS}  # eigen Gitlab is no more
 GITGROUPTAG="_projects"
 
 
+GROUPNAME="2025_studentenprojekte"
+SUB_URL="hsangit/aki/praxisprojekt-1/ss25"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in dronepose 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+SUB_URL="hsangit/aki/praxisprojekt-2/ss25"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in gaia hautkrebs chart-erkennung tetris-ai 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
 GROUPNAME="2025_ki4"
 SUB_URL="hsangit/aki/deep-learning/sose25/material"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
