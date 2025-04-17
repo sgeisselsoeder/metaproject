@@ -620,7 +620,7 @@ done
 
 GROUPNAME="neuraldrones"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in carpark djistream 
+for projectName in carpark djistream rtmp_ai
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -628,9 +628,9 @@ do
 done
 echo "TODO: FIX PROBLEM WITH DRONE_CONTROL_APP"
 projectName=drone_control_app
-# if [ ! -d "$projectName" ]; then
-# 	git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-# fi
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+fi
 
 for projectName in YOLO-Parking-Spot
 do
