@@ -638,6 +638,13 @@ do
 		git clone git@github.com:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+# https://gitlab.com/neuraldr/neuraldrones_infrared
+for projectName in neuraldrones_infrared
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@gitlab.com:neuraldr/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 
 
 GROUPNAME="heimauto"
