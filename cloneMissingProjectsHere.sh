@@ -632,7 +632,7 @@ if [ ! -d "$projectName" ]; then
 	git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 fi
 
-for projectName in YOLO-Parking-Spot
+for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
