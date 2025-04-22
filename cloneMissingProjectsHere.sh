@@ -626,7 +626,6 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-echo "TODO: FIX PROBLEM WITH DRONE_CONTROL_APP"
 projectName=drone_control_app
 if [ ! -d "$projectName" ]; then
 	# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
