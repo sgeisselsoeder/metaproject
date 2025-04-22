@@ -629,7 +629,8 @@ done
 echo "TODO: FIX PROBLEM WITH DRONE_CONTROL_APP"
 projectName=drone_control_app
 if [ ! -d "$projectName" ]; then
-	git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	git clone git@github.com:b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 fi
 
 for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal
