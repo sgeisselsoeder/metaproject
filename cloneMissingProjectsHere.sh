@@ -35,7 +35,10 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in vorlesung \
 	a1 a1_loesung \
 	a2 a2_loesung \
-	a3 a3_loesung
+	a3 a3_loesung \
+	a4 a4_loesung \
+	a5 a5_loesung \
+	a6 a6_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
