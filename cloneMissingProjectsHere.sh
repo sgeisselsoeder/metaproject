@@ -629,12 +629,13 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-projectName=drone_control_app
-if [ ! -d "$projectName" ]; then
-	# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	git clone git@github.com:b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-fi
-
+for projectName in drone_control_app neuraldrones
+do
+	if [ ! -d "$projectName" ]; then
+		# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@github.com:b1acksheep1/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
@@ -648,6 +649,17 @@ do
 		git clone git@gitlab.com:neuraldr/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+
+
+
+
+for projectName in neurabox
+do
+	if [ ! -d "${projectName}" ]; then
+		git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${projectName}
+	fi
+done
+# git@gitlab.com:profgeisselsoeder/neurabox.git
 
 
 GROUPNAME="heimauto"
