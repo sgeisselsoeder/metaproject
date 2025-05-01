@@ -27,6 +27,15 @@ do
 	fi
 done
 
+GROUPNAME="osm"
+SUB_URL="hsangit/research"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in osm 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 
 
 GROUPNAME="2025_ki4"
