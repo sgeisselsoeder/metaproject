@@ -490,6 +490,16 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+SUB_URL="profgeisselsoeder"
+for projectName in webrecorder
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
 GROUPNAME="swarminteligence"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in warehouseautomation 
