@@ -517,7 +517,7 @@ for projectName in 2022_sose_biolern_vorlesung 2023_lernverhalten 2023_04_27_for
 	2023_07_oechsler 2023_07_siemens pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
 	2023_12_07_promotionskolleg_cv_zeitr 2023_12_13_ankit_flagler 2023_12_14_ankit_stammtisch \
 	reckenberg_wasser_solar data_connector_sftp 2024_lernverhalten 2024_04_18_fit_ki_unternehmen blistervision 2024_05_13_sparkasse \
-	2024_ai_in_industry 2024_07_22_ecap einsammeln 2024_09_27_chain_of_thought 2024_09_27_ki_praxis dji_local
+	2024_ai_in_industry 2024_07_22_ecap einsammeln 2024_09_27_chain_of_thought 2024_09_27_ki_praxis 
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
@@ -526,7 +526,7 @@ done
 
 
 # Clone own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis demo-self-driving dji_local_backend  # km3netHdf5ToHistograms
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis demo-self-driving  # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
@@ -655,7 +655,7 @@ do
 		git clone git@github.com:b1acksheep1/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal
+for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal dji_cloud_api_installer
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
