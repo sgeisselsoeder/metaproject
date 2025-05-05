@@ -147,11 +147,11 @@ done
 
 GROUPNAME="aiblueprints"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in lakefs_demo lakefs_demo_test 
+for projectName in Towards_AI_Blueprints DVC_Example lakefs_demo MLFlow_LakeFS_example
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		echo 
-		git clone git@${GITLAB_COM}:hsangit/research/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@github.com:NicolasWeeger/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
