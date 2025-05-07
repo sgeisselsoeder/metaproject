@@ -662,7 +662,7 @@ do
 		git clone git@github.com:b1acksheep1/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal dji_cloud_api_installer
+for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal dji_cloud_api_installer dji_dock_backend
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
