@@ -677,15 +677,11 @@ do
 done
 
 
-
-
-for projectName in neurabox
-do
-	if [ ! -d "${projectName}" ]; then
-		git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${projectName}
-	fi
-done
-# git@gitlab.com:profgeisselsoeder/neurabox.git
+GROUPNAME="pick_box_neura"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+projectName="neurabox"
+git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+git clone git@git-kik.hs-ansbach.de:neura/pick_box.git ${GROUPNAME}${GITGROUPTAG}/pick_box
 
 
 GROUPNAME="heimauto"

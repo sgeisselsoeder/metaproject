@@ -9,6 +9,8 @@ do
 cd $i
 echo "### Updating next: " $i
 git pull | grep -v -e "Already" -e "Bereits"
+# git checkout master && git pull | grep -v -e "Already" -e "Bereits"
+# git checkout main && git pull | grep -v -e "Already" -e "Bereits"
 # timeout $MY_TIMEOUT_IN_S git pull
 cd $BASEPATH
 done
@@ -24,6 +26,8 @@ echo "### Updating Group " $j
 	cd $i
 	echo "### Updating next: " $i
 	git pull | grep -v -e "Already" -e "Bereits"
+	# git checkout master && git pull | grep -v -e "Already" -e "Bereits"
+	# git checkout main && git pull | grep -v -e "Already" -e "Bereits"
 	# timeout $MY_TIMEOUT_IN_S git pull
 	cd $BASEPATH2
 	done
