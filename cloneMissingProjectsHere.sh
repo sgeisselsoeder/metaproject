@@ -655,7 +655,7 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in drone_control_app neuraldrones
+for projectName in drone_control_app neuraldrones nd_whip_server
 do
 	if [ ! -d "$projectName" ]; then
 		# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
