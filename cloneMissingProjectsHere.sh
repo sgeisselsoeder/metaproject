@@ -657,7 +657,7 @@ do
 done
 for projectName in drone_control_app neuraldrones nd_whip_server
 do
-	if [ ! -d "$projectName" ]; then
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 		git clone git@github.com:b1acksheep1/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
@@ -680,8 +680,13 @@ done
 GROUPNAME="pick_box_neura"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 projectName="neurabox"
-git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-git clone git@git-kik.hs-ansbach.de:neura/pick_box.git ${GROUPNAME}${GITGROUPTAG}/pick_box
+if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+	git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+fi	
+projectName="pick_box"
+if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+	git clone git@git-kik.hs-ansbach.de:neura/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+fi
 
 
 GROUPNAME="heimauto"
