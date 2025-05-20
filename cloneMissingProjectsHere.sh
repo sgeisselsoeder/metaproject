@@ -27,6 +27,16 @@ do
 	fi
 done
 
+
+SUB_URL="hsangit/aki/lernverhalten"
+for projectName in 2025
+do
+	if [ ! -d "${projectName}_lernverhalten" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${projectName}_lernverhalten
+	fi
+done
+
+
 GROUPNAME="osm"
 SUB_URL="hsangit/research"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
