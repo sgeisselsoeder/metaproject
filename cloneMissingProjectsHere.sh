@@ -687,7 +687,7 @@ do
 	fi
 done
 # https://gitlab.com/neuraldr/neuraldrones_infrared
-for projectName in neuraldrones_infrared
+for projectName in neuraldrones_infrared mavsdk_gazebo
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@gitlab.com:neuraldr/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
