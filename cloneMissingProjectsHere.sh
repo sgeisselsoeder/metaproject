@@ -58,7 +58,10 @@ for projectName in vorlesung \
 	a4 a4_loesung \
 	a5 a5_loesung \
 	a6 a6_loesung \
-	a7 a7_loesung
+	a7 a7_loesung \
+	a8 a8_loesung \
+	a9 a9_loesung \
+	a10 a10_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
