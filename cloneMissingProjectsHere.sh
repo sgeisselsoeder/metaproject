@@ -9,6 +9,14 @@ EIGEN_GITLAB=${GITLAB_HS}  # eigen Gitlab is no more
 GITGROUPTAG="_projects"
 
 
+for projectName in spielwiese 
+do
+	if [ ! -d "${projectName}" ]; then
+		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${projectName}
+	fi
+done
+
+
 GROUPNAME="2025_studentenprojekte"
 SUB_URL="hsangit/aki/praxisprojekt-1/ss25"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
