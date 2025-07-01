@@ -20,7 +20,8 @@ do
 done
 SUB_URL="hsangit/aki/praxisprojekt-2/ss25"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in gaia hautkrebs chart-erkennung tetris-ai 
+# for projectName in gaia hautkrebs chart-erkennung tetris-ai 
+for projectName in gaia hautkrebs tetris-ai 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
