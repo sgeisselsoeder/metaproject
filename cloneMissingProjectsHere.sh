@@ -106,6 +106,8 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+git clone git@gitlab.com:hsangit/aki/neuronale-netze/sose25/material/2025_ki3_nachklausur.git ${GROUPNAME}${GITGROUPTAG}/2025_ki3_nachklausur
+
 
 
 GROUPNAME="2024_ki4"
