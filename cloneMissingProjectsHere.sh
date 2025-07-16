@@ -9,6 +9,11 @@ EIGEN_GITLAB=${GITLAB_HS}  # eigen Gitlab is no more
 GITGROUPTAG="_projects"
 
 
+projectName="predator_prey_sim_latex_madrian"
+if [ ! -d "${projectName}" ]; then
+	git clone git@github.com:fynn-madrian/predator_prey_sim_LaTex.git ${projectName}
+fi
+
 for projectName in spielwiese 2025_ki3_nachklausur 
 do
 	if [ ! -d "${projectName}" ]; then
@@ -106,7 +111,10 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-git clone git@gitlab.com:hsangit/aki/neuronale-netze/sose25/material/2025_ki3_nachklausur.git ${GROUPNAME}${GITGROUPTAG}/2025_ki3_nachklausur
+projectName="2025_ki3_nachklausur"
+if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+	git clone git@gitlab.com:hsangit/aki/neuronale-netze/sose25/material/2025_ki3_nachklausur.git ${GROUPNAME}${GITGROUPTAG}/2025_ki3_nachklausur
+fi
 
 
 
