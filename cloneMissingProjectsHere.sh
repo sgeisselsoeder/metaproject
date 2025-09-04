@@ -530,12 +530,19 @@ do
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+# for projectName in web_scraper
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:tonihofmann/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 for projectName in web_scraper
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:tonihofmann/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+
 
 SUB_URL="profgeisselsoeder"
 for projectName in webrecorder
