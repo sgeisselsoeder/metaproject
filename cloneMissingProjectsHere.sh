@@ -524,7 +524,7 @@ do
 done
 GROUPNAME="kupferpreis"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in kupferpreis 
+for projectName in kupferpreis demo_app 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
