@@ -226,12 +226,25 @@ do
 		git clone git@github.com:Kognitivx/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in summarize 
+for projectName in summarize
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+for projectName in ragflow
+do
+        if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+                git clone https://github.com/infiniflow/ragflow ${GROUPNAME}${GITGROUPTAG}/${projectName}
+        fi
+done
+for projectName in noScribe 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@github.com:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 
 
