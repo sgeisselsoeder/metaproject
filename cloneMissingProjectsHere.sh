@@ -856,7 +856,18 @@ do
 	fi
 done
 
-
+projectName=ComfyUI
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/comfyanonymous/${projectName}.git $projectName
+fi
+projectName=ragflow
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/infiniflow/${projectName}.git $projectName
+fi
+projectName=noScribe
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/kaixxx/${projectName}.git $projectName
+fi
 
 # projectName=github_cbiernoth_noximi42
 # if [ ! -d "$projectName" ]; then
