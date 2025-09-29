@@ -519,7 +519,7 @@ done
 
 GROUPNAME="pawprint"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2024_studiprojekt pawpoc pawai pawdata backend
+for projectName in 2024_studiprojekt pawai pawdata backend
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
