@@ -14,7 +14,8 @@ if [ ! -d "${projectName}" ]; then
 	git clone git@github.com:fynn-madrian/predator_prey_sim_LaTex.git ${projectName}
 fi
 
-for projectName in spielwiese 2025_ki3_nachklausur 
+# own projects from private gitlab
+for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service  
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${projectName}
