@@ -15,7 +15,7 @@ if [ ! -d "${projectName}" ]; then
 fi
 
 # own projects from private gitlab
-for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 
+for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${projectName}
