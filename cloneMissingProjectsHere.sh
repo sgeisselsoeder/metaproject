@@ -23,6 +23,18 @@ do
 done
 
 
+# https://gitlab.com/hsangit/aki/neuronale-netze/ws2526/material/2025_ki3_vorlesung
+GROUPNAME="2025_ki3"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in 2025_ki3_vorlesung 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:hsangit/aki/neuronale-netze/ws2526/material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
 GROUPNAME="2025_studentenprojekte"
 SUB_URL="hsangit/aki/praxisprojekt-1/ss25"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
