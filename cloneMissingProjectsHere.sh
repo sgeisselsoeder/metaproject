@@ -22,6 +22,19 @@ do
 	fi
 done
 
+# git@github.com:KIForAN/WaLo2D.git
+GROUPNAME="kiforan"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in WaLo2D ROS2Gym 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@github.com:KIForAN/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
+
+
 
 # https://gitlab.com/hsangit/aki/neuronale-netze/ws2526/material/2025_ki3_vorlesung
 GROUPNAME="2025_ki3"
