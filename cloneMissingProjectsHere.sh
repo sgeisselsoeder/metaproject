@@ -206,7 +206,7 @@ done
 
 GROUPNAME="aiblueprints"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in Blueprints_Documentation SAML2025_Vision_Paper Towards_AI_Blueprints DVC_Example lakefs_demo MLFlow_LakeFS_example
+for projectName in Blueprints_Documentation SAML2025_Vision_Paper Towards_AI_Blueprints DVC_Example lakefs_demo MLFlow_LakeFS_example Enterprise_RAG_Blueprint
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		echo 
@@ -255,7 +255,7 @@ done
 
 GROUPNAME="optimaise"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in RAG_Prototype Organisatorisches webscraper hsan_finance summarize 
+for projectName in RAG_Prototype Organisatorisches webscraper hsan_finance summarize RAG_Prototype
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:Kognitivx/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
