@@ -255,7 +255,7 @@ done
 
 GROUPNAME="optimaise"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in RAG_Prototype Organisatorisches webscraper hsan_finance summarize RAG_Prototype
+for projectName in RAG_Prototype Organisatorisches webscraper hsan_finance summarize RAG_Prototype Enterprise_RAG
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:Kognitivx/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
