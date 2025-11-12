@@ -914,6 +914,10 @@ projectName=noScribe
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/kaixxx/${projectName}.git $projectName
 fi
+projectName=open-reception
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/open-reception/appointment-booking-software.git $projectName
+fi
 
 # projectName=github_cbiernoth_noximi42
 # if [ ! -d "$projectName" ]; then
