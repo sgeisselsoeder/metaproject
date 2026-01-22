@@ -15,7 +15,7 @@ if [ ! -d "${projectName}" ]; then
 fi
 
 # own projects from private gitlab
-for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag
+for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag generate_anomaly_data
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${projectName}
@@ -605,10 +605,8 @@ do
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-
-
 SUB_URL="profgeisselsoeder"
-for projectName in webrecorder
+	for projectName in webrecorder
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
