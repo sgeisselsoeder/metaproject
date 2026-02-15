@@ -902,6 +902,12 @@ projectName=rag-test
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/niclashart/${projectName}.git $projectName
 fi
+projectName=bgme
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/robinkorn/${projectName}.git $projectName
+fi
+
+# https://github.com/robinkorn/bgme
 # https://github.com/niclashart/rag-test
 
 for projectName in temp_blister
