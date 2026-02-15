@@ -898,6 +898,11 @@ projectName=streamlit-agraph
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/ChrisDelClea/${projectName}.git $projectName
 fi
+projectName=rag-test
+if [ ! -d "$projectName" ]; then
+	git clone https://github.com/niclashart/${projectName}.git $projectName
+fi
+# https://github.com/niclashart/rag-test
 
 for projectName in temp_blister
 do
