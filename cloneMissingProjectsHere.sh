@@ -906,7 +906,12 @@ projectName=bgme
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/robinkorn/${projectName}.git $projectName
 fi
-
+# git@gitlab.com:hsan.tobias.roth/ba_multimodal.git
+# https://gitlab.com/hsan.tobias.roth/ba_multimodal.git
+projectName=ba_multimodal
+if [ ! -d "$projectName" ]; then
+	git clone git@gitlab.com:hsan.tobias.roth/${projectName}.git $projectName
+fi
 # https://github.com/robinkorn/bgme
 # https://github.com/niclashart/rag-test
 
