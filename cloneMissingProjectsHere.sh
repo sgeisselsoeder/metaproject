@@ -606,7 +606,14 @@ do
 	fi
 done
 SUB_URL="profgeisselsoeder"
-	for projectName in webrecorder
+for projectName in webrecorder
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+SUB_URL="ki64/kupferpreis"
+for projectName in text_to_timeseries
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
