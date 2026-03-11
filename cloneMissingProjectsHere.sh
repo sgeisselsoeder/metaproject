@@ -633,7 +633,7 @@ done
 
 GROUPNAME="swarm_intelligence"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in warehouseautomation walo2D paper_icra2026
+for projectName in warehouseautomation walo2D paper_icra2026 rescuemission
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:hsangit/research/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
