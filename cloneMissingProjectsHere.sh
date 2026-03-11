@@ -620,6 +620,13 @@ do
 	fi
 done
 
+# git@gitlab.com:vishalkagade/semiautomatic-labelling.git
+for projectName in semiautomatic-labelling
+do
+	if [ ! -d "${projectName}" ]; then
+		git clone git@${GITLAB_COM}:vishalkagade/${projectName}.git ${projectName}
+	fi
+done
 
 # git@gitlab.com:hsangit/research/swarm_intelligence/walo2d.git
 # git@gitlab.com:hsangit/research/swarm_intelligence/paper_icra2026.git
