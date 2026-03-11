@@ -267,12 +267,6 @@ do
 		git clone git@github.com:Kognitivx/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in summarize
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}_own" ]; then
-		git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}_own
-	fi
-done
 for projectName in ragflow
 do
         if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
@@ -287,6 +281,12 @@ do
 done
 
 
+for projectName in summarize
+do
+	if [ ! -d "${projectName}_own" ]; then
+		git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${projectName}_own
+	fi
+done
 
 
 
