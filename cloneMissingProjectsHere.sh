@@ -94,7 +94,7 @@ do
 done
 
 GROUPNAME="2026_ki4"
-SUB_URL="hsangit/aki/deep-learning/sose25/material"
+SUB_URL="hsangit/aki/deep-learning/sose26/material"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in vorlesung 
 do
