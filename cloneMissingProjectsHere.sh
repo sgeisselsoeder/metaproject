@@ -617,7 +617,7 @@ do
 	fi
 done
 SUB_URL="profgeisselsoeder"
-for projectName in webrecorder
+for projectName in webrecorder reservations
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
