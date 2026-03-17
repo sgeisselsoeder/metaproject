@@ -93,6 +93,17 @@ do
 	fi
 done
 
+GROUPNAME="2026_ki4"
+SUB_URL="hsangit/aki/deep-learning/sose25/material"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in vorlesung 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
+
 
 GROUPNAME="2025_ki4"
 SUB_URL="hsangit/aki/deep-learning/sose25/material"
