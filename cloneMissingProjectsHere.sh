@@ -292,7 +292,7 @@ do
 done
 
 
-for projectName in summarize
+for projectName in summarize reservations
 do
 	if [ ! -d "${projectName}_own" ]; then
 		git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${projectName}_own
@@ -617,7 +617,7 @@ do
 	fi
 done
 SUB_URL="profgeisselsoeder"
-for projectName in webrecorder reservations
+for projectName in webrecorder 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
