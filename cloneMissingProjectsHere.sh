@@ -254,13 +254,13 @@ done
 
 GROUPNAME="turns"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in spectroscopy kleidung_yolo
+for projectName in spectroscopy kleidung_yolo 
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in paper_yolo paper_spectroscopy Spectroscopy
+for projectName in paper_yolo paper_spectroscopy Spectroscopy abschlussbericht
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		echo git@${GITLAB_COM}:hsangit/research/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
