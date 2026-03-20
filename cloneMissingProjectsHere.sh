@@ -14,8 +14,8 @@ if [ ! -d "${projectName}" ]; then
 	git clone git@github.com:fynn-madrian/predator_prey_sim_LaTex.git ${projectName}
 fi
 
-# own projects from private gitlab
-for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag generate_anomaly_data inference_benchmark
+# own projects
+for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag generate_anomaly_data inference_benchmark 2026_03_19_ttz_fuck_up
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${projectName}
@@ -617,7 +617,7 @@ do
 	fi
 done
 SUB_URL="profgeisselsoeder"
-for projectName in webrecorder 
+for projectName in webrecorder
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
