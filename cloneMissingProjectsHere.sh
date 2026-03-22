@@ -15,7 +15,7 @@ if [ ! -d "${projectName}" ]; then
 fi
 
 # own projects
-for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag generate_anomaly_data inference_benchmark 2026_03_19_ttz_fuck_up
+for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag generate_anomaly_data inference_benchmark 2026_03_19_ttz_fuck_up feuerdetektion
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${projectName}
