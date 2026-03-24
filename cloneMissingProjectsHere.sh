@@ -683,6 +683,11 @@ do
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
 	fi
 done
+# Clone own public projects from github
+projectName="open-webui"
+if [ ! -d "$projectName" ]; then
+	git clone git@github.com:open-webui/${projectName} ${projectName}
+fi
 
 
 # Clone all private projects from bytegeist.ddnss.de
