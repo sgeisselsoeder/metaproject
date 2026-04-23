@@ -274,7 +274,7 @@ do
 done
 
 
-for projectName in summarize reservations
+for projectName in summarize reservations mailki
 do
 	if [ ! -d "${projectName}_own" ]; then
 		git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${projectName}_own
