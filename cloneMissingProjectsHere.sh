@@ -948,6 +948,13 @@ projectName=open-reception
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/open-reception/appointment-booking-software.git $projectName
 fi
+projectName=anything-llm
+if [ ! -d "$projectName" ]; then
+        # git clone https://github.com/Mintplex-Labs/anything-lmm.git $projectName
+	echo "anything-llm still missing"
+fi
+# https://github.com/Mintplex-Labs/anything-llm.git
+# https://github.com/Mintplex-Labs/anything-llm.git
 
 # projectName=github_cbiernoth_noximi42
 # if [ ! -d "$projectName" ]; then
