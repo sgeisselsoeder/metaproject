@@ -93,6 +93,18 @@ do
 	fi
 done
 
+
+GROUPNAME="ctrlf"
+SUB_URL="hsangit/research"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in management backend perception_ai train_fdetect 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+# git@gitlab.com:hsangit/research/ctrlf/backend.git
+
 GROUPNAME="2026_ki4"
 SUB_URL="hsangit/aki/deep-learning/sose26/material"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
@@ -804,7 +816,7 @@ do
 		git clone git@gitlab.com:neuraldr/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in neuraldrones-backend neuraldrones-stack
+for projectName in neuraldrones-backend neuraldrones-stack neuraldrones-frontend
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:gegner-io/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
