@@ -97,7 +97,7 @@ done
 GROUPNAME="ctrlf"
 SUB_URL="hsangit/research"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in management backend perception_ai train_fdetect 
+	for projectName in management backend perception_ai train_fdetect installer frontend
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
