@@ -749,7 +749,7 @@ done
 
 GROUPNAME="fleximaus"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in bewirtschaftungserkennungv0p1 bewirtschaftungserkennung onboarding 2025_gutachten
+for projectName in bewirtschaftungserkennungv0p1 onboarding 2025_gutachten
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -768,6 +768,13 @@ do
 		git clone git@${GITLAB_COM}:ki64/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+for projectName in bewirtschaftungserkennung
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 
 
