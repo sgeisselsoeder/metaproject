@@ -261,6 +261,14 @@ do
 		git clone git@${GITLAB_COM}:hsangit/research/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+for projectName in fabric_spectroscopy_report
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		# echo git@${GITLAB_COM}:hsangit/research/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+		git clone git@github.com:KIForAN/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+# git@github.com:KIForAN/fabric_spectroscopy_report.git
 
 
 
