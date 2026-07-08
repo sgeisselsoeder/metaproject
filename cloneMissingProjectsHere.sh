@@ -51,6 +51,12 @@ do
 		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+for projectName in 2026_ki3_nachklausur 
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:hsangit/aki/neuronale-netze/ss26/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 
 
 
