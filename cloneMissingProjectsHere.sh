@@ -789,6 +789,15 @@ do
 	fi
 done
 
+# git@gitlab.com:hsangit/research/acting_ai/agent0.git
+GROUPNAME="acting_ai"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in environment agent0  
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:hsangit/research/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 
 
 
