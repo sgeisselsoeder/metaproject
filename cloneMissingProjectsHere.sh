@@ -685,7 +685,7 @@ done
 
 
 # Clone own public projects from github
-for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis demo-self-driving webscrape  # km3netHdf5ToHistograms
+for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis demo-self-driving webscrape templates-hs-ansbach  # km3netHdf5ToHistograms
 do
 	if [ ! -d "$projectName" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${projectName}
