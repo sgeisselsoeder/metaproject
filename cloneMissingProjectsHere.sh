@@ -624,6 +624,7 @@ do
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+
 SUB_URL="profgeisselsoeder"
 for projectName in webrecorder
 do
@@ -638,6 +639,14 @@ do
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
+SUB_URL="ki64"
+for projectName in sucher-ir
+do
+	if [ ! -d "${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${projectName}
+	fi
+done
+
 
 # git@gitlab.com:vishalkagade/semiautomatic-labelling.git
 for projectName in semiautomatic-labelling
