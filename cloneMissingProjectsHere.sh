@@ -971,6 +971,12 @@ projectName=quantum-tcn
 if [ ! -d "$projectName" ]; then
 	git clone https://github.com/HoceiniRihab/${projectName}.git $projectName
 fi
+projectName=quantum-tcn
+if [ ! -d "${projectName}_own" ]; then
+	git clone https://github.com/sgeisselsoeder/${projectName}.git ${projectName}_own
+fi
+
+
 
 # git@gitlab.com:hsan.tobias.roth/ba_multimodal.git
 # https://gitlab.com/hsan.tobias.roth/ba_multimodal.git
