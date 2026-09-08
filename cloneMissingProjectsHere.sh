@@ -155,70 +155,70 @@ done
 
 
 
-GROUPNAME="2024_ki3"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2024_ki3_vorlesung \
-        2024_ki3_a1 2024_ki3_a1_loesung  \
-        2024_ki3_a2_loesung \
-        2024_ki3_a3_loesung \
-        2024_ki3_a4_loesung \
-        2024_ki3_a5_loesung \
-        2024_ki3_a6_loesung \
-        2024_ki3_a7_loesung \
-        2024_ki3_a8_loesung \
-	2024_ki3_klausuraufgaben 2024_ki3_klausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-projectName="2025_ki3_nachklausur"
-if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-	git clone git@gitlab.com:hsangit/aki/neuronale-netze/sose25/material/2025_ki3_nachklausur.git ${GROUPNAME}${GITGROUPTAG}/2025_ki3_nachklausur
-fi
+# GROUPNAME="2024_ki3"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2024_ki3_vorlesung \
+#         2024_ki3_a1 2024_ki3_a1_loesung  \
+#         2024_ki3_a2_loesung \
+#         2024_ki3_a3_loesung \
+#         2024_ki3_a4_loesung \
+#         2024_ki3_a5_loesung \
+#         2024_ki3_a6_loesung \
+#         2024_ki3_a7_loesung \
+#         2024_ki3_a8_loesung \
+# 	2024_ki3_klausuraufgaben 2024_ki3_klausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
+# projectName="2025_ki3_nachklausur"
+# if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 	git clone git@gitlab.com:hsangit/aki/neuronale-netze/sose25/material/2025_ki3_nachklausur.git ${GROUPNAME}${GITGROUPTAG}/2025_ki3_nachklausur
+# fi
 
 
 
-GROUPNAME="2024_ki4"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2024_ki4_vorlesung \
-	2024_ki4_a1 2024_ki4_a1_loesung \
-	2024_ki4_a2 2024_ki4_a2_loesung \
-	2024_ki4_a2_5 2024_ki4_a2_5_loesung \
-	2024_ki4_a2_6 \
-	2024_ki4_a3 2024_ki4_a3_loesung \
-	2024_ki4_a4_loesung 2024_ki4_a4 \
-	2024_ki4_a4_5_loesung 2024_ki4_a4_5 \
-	2024_ki4_a5 2024_ki4_a5_loesung \
-	2024_ki4_a6 2024_ki4_a6_loesung \
-	2024_ki4_a7 2024_ki4_a7_loesung \
-	2024_ki4_a8 2024_ki4_a8_loesung 2024_ki4_a8_loesung_alt \
-	2024_ki4_muendliche_pruefungen
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="2024_ki4"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2024_ki4_vorlesung \
+# 	2024_ki4_a1 2024_ki4_a1_loesung \
+# 	2024_ki4_a2 2024_ki4_a2_loesung \
+# 	2024_ki4_a2_5 2024_ki4_a2_5_loesung \
+# 	2024_ki4_a2_6 \
+# 	2024_ki4_a3 2024_ki4_a3_loesung \
+# 	2024_ki4_a4_loesung 2024_ki4_a4 \
+# 	2024_ki4_a4_5_loesung 2024_ki4_a4_5 \
+# 	2024_ki4_a5 2024_ki4_a5_loesung \
+# 	2024_ki4_a6 2024_ki4_a6_loesung \
+# 	2024_ki4_a7 2024_ki4_a7_loesung \
+# 	2024_ki4_a8 2024_ki4_a8_loesung 2024_ki4_a8_loesung_alt \
+# 	2024_ki4_muendliche_pruefungen
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
-GROUPNAME="2024_ki2"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2024_ki2_vorlesung \
-	2024_ki2_a1 2024_ki2_a1_loesung \
-	2024_ki2_a2 2024_ki2_a2_loesung \
-	2024_ki2_a3 2024_ki2_a3_loesung \
-	2024_ki2_a4_loesung \
-	2024_ki2_a5 \
-	2024_ki2_a6_loesung \
-	2024_ki2_a7 2024_ki2_a7_loesung \
-	2024_ki2_a8 2024_ki2_a8_loesung \
-	2024_ki2_klausuraufgaben 2024_ki2_klausur \
-	2024_ki2_klausurkorrektur \
-	2024_ki2_nachklausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="2024_ki2"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2024_ki2_vorlesung \
+# 	2024_ki2_a1 2024_ki2_a1_loesung \
+# 	2024_ki2_a2 2024_ki2_a2_loesung \
+# 	2024_ki2_a3 2024_ki2_a3_loesung \
+# 	2024_ki2_a4_loesung \
+# 	2024_ki2_a5 \
+# 	2024_ki2_a6_loesung \
+# 	2024_ki2_a7 2024_ki2_a7_loesung \
+# 	2024_ki2_a8 2024_ki2_a8_loesung \
+# 	2024_ki2_klausuraufgaben 2024_ki2_klausur \
+# 	2024_ki2_klausurkorrektur \
+# 	2024_ki2_nachklausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
 GROUPNAME="aiblueprints"
@@ -355,196 +355,196 @@ do
 	fi
 done
 
-GROUPNAME="2023_ki3"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki3_vorlesung \
-	2023_ki3_a1 2023_ki3_a1_loesung \
-	2023_ki3_a2 2023_ki3_a2_loesung \
-	2023_ki3_a3 2023_ki3_a3_loesung \
-	2023_ki3_a4 2023_ki3_a4_loesung \
-	2023_ki3_a5 2023_ki3_a5_loesung \
-	2023_ki3_a6 2023_ki3_a6_loesung \
-	2023_ki3_a7 2023_ki3_a7_loesung \
-	2023_ki3_a8 2023_ki3_a8_loesung \
-	2022_ki3_klausur \
-        2023_ki3_klausuraufgaben 2023_ki3_klausur \
-	2023_ki3_klausurkorrektur 2024_ki3_nachklausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="2023_ki3"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2023_ki3_vorlesung \
+# 	2023_ki3_a1 2023_ki3_a1_loesung \
+# 	2023_ki3_a2 2023_ki3_a2_loesung \
+# 	2023_ki3_a3 2023_ki3_a3_loesung \
+# 	2023_ki3_a4 2023_ki3_a4_loesung \
+# 	2023_ki3_a5 2023_ki3_a5_loesung \
+# 	2023_ki3_a6 2023_ki3_a6_loesung \
+# 	2023_ki3_a7 2023_ki3_a7_loesung \
+# 	2023_ki3_a8 2023_ki3_a8_loesung \
+# 	2022_ki3_klausur \
+#         2023_ki3_klausuraufgaben 2023_ki3_klausur \
+# 	2023_ki3_klausurkorrektur 2024_ki3_nachklausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
-# 2023_ki1
-GROUPNAME="2023_ki1"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki1_uebung_bewerten 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-
-
-GROUPNAME="2023_ki2"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki2_vorlesung 2023_ki2_uebung_bewerten \
-	2023_ki2_a1 2023_ki2_a1_loesung \
-	2023_ki2_a2 2023_ki2_a2_loesung \
-	2023_ki2_a3 2023_ki2_a3_loesung \
-	2023_ki2_a4 2023_ki2_a4_loesung \
-	2023_ki2_a5b 2023_ki2_a5b_loesung \
-	2023_ki2_a6 2023_ki2_a6_loesung \
-	2023_ki2_klausur 2023_ki2_klausurkorrektur 2023_ki2_klausuraufgaben 2023_ki2_nachklausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-for projectName in 2023_ki2_data
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# # 2023_ki1
+# GROUPNAME="2023_ki1"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2023_ki1_uebung_bewerten 
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
-GROUPNAME="2023_ki4"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2023_ki4_vorlesung \
-	2023_ki4_a1_loesung 2023_ki4_a1 \
-	2023_ki4_a2 2023_ki4_a2_loesung \
-	2023_ki4_a3 2023_ki4_a3_loesung \
-	2023_ki4_a4 2023_ki4_a4_loesung \
-	2023_ki4_a5 2023_ki4_a5_loesung \
-	2023_ki4_a6 2023_ki4_a6_loesung_1 2023_ki4_a6_loesung_2 \
-	2023_ki4_a7 2023_ki4_a7_loesung 2023_ki4_weitsprung \
-	2023_ki4_a8 2023_ki4_a8_loesung2 rl_playground \
-	2023_ki4_a9 2023_ki4_a9_loesung \
-	2023_ki4_a10 2023_ki4_a10_loesung
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="2023_ki2"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2023_ki2_vorlesung 2023_ki2_uebung_bewerten \
+# 	2023_ki2_a1 2023_ki2_a1_loesung \
+# 	2023_ki2_a2 2023_ki2_a2_loesung \
+# 	2023_ki2_a3 2023_ki2_a3_loesung \
+# 	2023_ki2_a4 2023_ki2_a4_loesung \
+# 	2023_ki2_a5b 2023_ki2_a5b_loesung \
+# 	2023_ki2_a6 2023_ki2_a6_loesung \
+# 	2023_ki2_klausur 2023_ki2_klausurkorrektur 2023_ki2_klausuraufgaben 2023_ki2_nachklausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
+# for projectName in 2023_ki2_data
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
-# 2022_ki1
-GROUPNAME="2022_ki1"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2022_ki1_vorlesung 2022_ki1_uebung_bewerten \
-	2022_ki1_a1 \
-	2022_ki1_a2_loesung 2022_ki1_a2 \
-	2022_ki1_a3_loesung 2022_ki1_a3 \
-	2022_ki1_a4_loesung 2022_ki1_a4 \
-	2022_ki1_a5_loesung 2022_ki1_a5 \
-	2022_ki1_a6_loesung 2022_ki1_a6 \
-	2022_ki1_probeklausur 2021_ki1_probeklausur \
-	2022_ki1_klausur 2022_ki1_klausuraufgaben \
-	2022_ki1_a0.5 2022_ki1_a2.5 2022_ki1_a6.5 \
-	2023_ki1_nachklausur 2023_ki1_nachklausur_korrektur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-for projectName in 2022_ki1_korrektur_klausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="2023_ki4"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2023_ki4_vorlesung \
+# 	2023_ki4_a1_loesung 2023_ki4_a1 \
+# 	2023_ki4_a2 2023_ki4_a2_loesung \
+# 	2023_ki4_a3 2023_ki4_a3_loesung \
+# 	2023_ki4_a4 2023_ki4_a4_loesung \
+# 	2023_ki4_a5 2023_ki4_a5_loesung \
+# 	2023_ki4_a6 2023_ki4_a6_loesung_1 2023_ki4_a6_loesung_2 \
+# 	2023_ki4_a7 2023_ki4_a7_loesung 2023_ki4_weitsprung \
+# 	2023_ki4_a8 2023_ki4_a8_loesung2 rl_playground \
+# 	2023_ki4_a9 2023_ki4_a9_loesung \
+# 	2023_ki4_a10 2023_ki4_a10_loesung
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
-# 2022_ki3
-GROUPNAME="2022_ki3"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2022_ki3_vorlesung \
-	2022_ki3_a1_loesung 2022_ki3_a1 \
-	2022_ki3_a2_loesung 2022_ki3_a2 \
-	2022_ki3_a3_loesung 2022_ki3_a3 \
-	2022_ki3_a4_loesung 2022_ki3_a4 \
-	2022_ki3_a5_loesung 2022_ki3_a5 \
-	2022_ki3_klausur 2022_ki3_klausuraufgaben 2022_ki3_uebung_bewerten \
-	2023_ki3_klausuraufgaben 2023_ki3_nachklausur 2023_ki3_korrektur_nachklausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# # 2022_ki1
+# GROUPNAME="2022_ki1"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2022_ki1_vorlesung 2022_ki1_uebung_bewerten \
+# 	2022_ki1_a1 \
+# 	2022_ki1_a2_loesung 2022_ki1_a2 \
+# 	2022_ki1_a3_loesung 2022_ki1_a3 \
+# 	2022_ki1_a4_loesung 2022_ki1_a4 \
+# 	2022_ki1_a5_loesung 2022_ki1_a5 \
+# 	2022_ki1_a6_loesung 2022_ki1_a6 \
+# 	2022_ki1_probeklausur 2021_ki1_probeklausur \
+# 	2022_ki1_klausur 2022_ki1_klausuraufgaben \
+# 	2022_ki1_a0.5 2022_ki1_a2.5 2022_ki1_a6.5 \
+# 	2023_ki1_nachklausur 2023_ki1_nachklausur_korrektur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
+# for projectName in 2022_ki1_korrektur_klausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
-GROUPNAME="2022_ki2"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2022_ki2_vorlesung \
-	2022_sose_ki2_a1 2022_ki2_a1_loesung \
-	2022_sose_ki2_a2 2022_ki2_a2_loesung \
-	2022_sose_ki2_a3 2022_sose_ki2_a3_loesung \
-	2022_sose_ki2_a4 2022_sose_ki2_a4_loesung \
-	2022_sose_ki2_a5 2022_sose_ki2_a5_loesung \
-	2022_sose_ki2_klausuraufgaben 2022_sose_ki2_klausur \
-	2022_ki2_nachklausur 2022_ki2_data
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-# also the grading projects, but not in the shared repo
-for projectName in 2022_ki2_korrektur_klausur 2022_ki2_korrektur_nachklausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# # 2022_ki3
+# GROUPNAME="2022_ki3"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2022_ki3_vorlesung \
+# 	2022_ki3_a1_loesung 2022_ki3_a1 \
+# 	2022_ki3_a2_loesung 2022_ki3_a2 \
+# 	2022_ki3_a3_loesung 2022_ki3_a3 \
+# 	2022_ki3_a4_loesung 2022_ki3_a4 \
+# 	2022_ki3_a5_loesung 2022_ki3_a5 \
+# 	2022_ki3_klausur 2022_ki3_klausuraufgaben 2022_ki3_uebung_bewerten \
+# 	2023_ki3_klausuraufgaben 2023_ki3_nachklausur 2023_ki3_korrektur_nachklausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
-GROUPNAME="2021_p1"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2021_wise_p1_vorlesung wise21_p1_codebeispiele \
-	wise21_p1_a1 2021_wise_p1_a1_loesung \
-	wise21_p1_a2 2021_wise_p1_a2_loesung \
-	wise21_p1_a2.5 2021_wise_p1_a2.5_loesung \
-	wise21_p1_a3 2021_wise_p1_a3_loesung \
-	wise21_p1_a4 2021_wise_p1_a4_loesung \
-	wise21_p1_a5 2021_wise_p1_a5_loesung \
-	wise21_p1_a6 2021_wise_p1_a6_loesung \
-	wise21_p1_a7 2021_wise_p1_a7_loesung \
-	wise21_p1_a8 2021_wise_p1_a8_loesung \
-	wise21_p1_klausur wise21_p1_probeklausur \
-	wise21_p1_klausurloesung wise21_p1_klausuraufgaben \
-	2021_wise_p1_klausuraufgabensammlung \
-	2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:2021_wise_p1_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-# also the grading projects, but not in the shared repo
-for projectName in 2022_sose_p1_klausur_vorbenotung
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="2022_ki2"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2022_ki2_vorlesung \
+# 	2022_sose_ki2_a1 2022_ki2_a1_loesung \
+# 	2022_sose_ki2_a2 2022_ki2_a2_loesung \
+# 	2022_sose_ki2_a3 2022_sose_ki2_a3_loesung \
+# 	2022_sose_ki2_a4 2022_sose_ki2_a4_loesung \
+# 	2022_sose_ki2_a5 2022_sose_ki2_a5_loesung \
+# 	2022_sose_ki2_klausuraufgaben 2022_sose_ki2_klausur \
+# 	2022_ki2_nachklausur 2022_ki2_data
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
+# # also the grading projects, but not in the shared repo
+# for projectName in 2022_ki2_korrektur_klausur 2022_ki2_korrektur_nachklausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
-GROUPNAME="2021_ki1"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in vorlesung_ki1 \
-	wise21_ki1_a1 \
-	wise21_ki1_a2 \
-	wise21_ki1_a3 wise21_ki1_a3_loesung \
-	wise21_ki1_a4 wise21_ki1_a4_loesung \
-	wise21_ki1_a5 wise21_ki1_a5_loesung \
-	wise21_ki1_a6 wise21_ki1_a6_loesung \
-	wise21_ki1_a7 wise21_ki1_a7_loesung \
-	wise21_ki1_klausur wise21_ki1_probeklausur \
-	wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung \
-	2022_sose_ki1_klausur
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+
+# GROUPNAME="2021_p1"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in 2021_wise_p1_vorlesung wise21_p1_codebeispiele \
+# 	wise21_p1_a1 2021_wise_p1_a1_loesung \
+# 	wise21_p1_a2 2021_wise_p1_a2_loesung \
+# 	wise21_p1_a2.5 2021_wise_p1_a2.5_loesung \
+# 	wise21_p1_a3 2021_wise_p1_a3_loesung \
+# 	wise21_p1_a4 2021_wise_p1_a4_loesung \
+# 	wise21_p1_a5 2021_wise_p1_a5_loesung \
+# 	wise21_p1_a6 2021_wise_p1_a6_loesung \
+# 	wise21_p1_a7 2021_wise_p1_a7_loesung \
+# 	wise21_p1_a8 2021_wise_p1_a8_loesung \
+# 	wise21_p1_klausur wise21_p1_probeklausur \
+# 	wise21_p1_klausurloesung wise21_p1_klausuraufgaben \
+# 	2021_wise_p1_klausuraufgabensammlung \
+# 	2022_sose_p1_klausur 2022_sose_p1_klausuraufgaben
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:2021_wise_p1_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
+# # also the grading projects, but not in the shared repo
+# for projectName in 2022_sose_p1_klausur_vorbenotung
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
+
+# GROUPNAME="2021_ki1"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in vorlesung_ki1 \
+# 	wise21_ki1_a1 \
+# 	wise21_ki1_a2 \
+# 	wise21_ki1_a3 wise21_ki1_a3_loesung \
+# 	wise21_ki1_a4 wise21_ki1_a4_loesung \
+# 	wise21_ki1_a5 wise21_ki1_a5_loesung \
+# 	wise21_ki1_a6 wise21_ki1_a6_loesung \
+# 	wise21_ki1_a7 wise21_ki1_a7_loesung \
+# 	wise21_ki1_klausur wise21_ki1_probeklausur \
+# 	wise21_ki1_klausuraufgaben wise21_ki1_klausurloesung \
+# 	2022_sose_ki1_klausur
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:${GROUPNAME}_material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
 
