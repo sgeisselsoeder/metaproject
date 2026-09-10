@@ -808,6 +808,15 @@ do
 	fi
 done
 
+# individual research projects
+for projectName in vision_server
+do
+	if [ ! -d "${projectName}" ]; then
+		git clone git@${GITLAB_COM}:hsangit/research/${projectName}.git ${projectName}
+	fi
+done
+
+
 
 
 GROUPNAME="intellichair"
