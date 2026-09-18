@@ -706,6 +706,15 @@ if [ ! -d "$projectName" ]; then
 	git clone git@github.com:open-webui/${projectName} ${projectName}
 fi
 
+GROUPNAME="optimaise"
+mkdir -p ${GROUPNAME}${GITGROUPTAG}
+for projectName in optimAIseRAG
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@github.com:Kognitivx/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
+
 
 # Clone all private projects from bytegeist.ddnss.de
 # for projectName in featureTools kidsMatch onoff SGClassify sgcu swissKnifeJulia webseiteGsGrosshadern softwareEngineering \
