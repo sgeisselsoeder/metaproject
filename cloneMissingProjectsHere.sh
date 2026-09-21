@@ -708,7 +708,7 @@ fi
 
 GROUPNAME="optimaise"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in optimAIseRAG
+for projectName in optimAIseRAG abas_mock
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:Kognitivx/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
