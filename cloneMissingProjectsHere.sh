@@ -754,7 +754,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 # Clone own public demo projects from github
 for projectName in expectation_maximization cnn_visualization demo_computer_vision \
 	demo_speech_recognition demo_feature_selection demo_input_output_sensitivity \
-	makeyourownneuralnetwork demo_plotting demo_yolov8
+	makeyourownneuralnetwork demo_plotting demo_yolov8 demo_vlm
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}${GITGROUPTAG}/${projectName}
