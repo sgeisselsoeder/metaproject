@@ -103,7 +103,7 @@ done
 GROUPNAME="ctrlf"
 SUB_URL="hsangit/research"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-	for projectName in management perception_ai train_fdetect installer frontend mission_control
+	for projectName in management perception_ai train_fdetect installer frontend mission_control camera_alert
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -708,7 +708,7 @@ fi
 
 GROUPNAME="optimaise"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in optimAIseRAG abas_mock
+for projectName in optimAIseRAG abas_mock waermenetz_agent
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:Kognitivx/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -754,7 +754,7 @@ mkdir -p ${GROUPNAME}${GITGROUPTAG}
 # Clone own public demo projects from github
 for projectName in expectation_maximization cnn_visualization demo_computer_vision \
 	demo_speech_recognition demo_feature_selection demo_input_output_sensitivity \
-	makeyourownneuralnetwork demo_plotting demo_yolov8
+	makeyourownneuralnetwork demo_plotting demo_yolov8 demo_vlm
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}${GITGROUPTAG}/${projectName}
