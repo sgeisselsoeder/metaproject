@@ -243,14 +243,6 @@ done
 
 
 
-GROUPNAME="2024_kiforschung"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2024_kiforschung_vorlesung astro_anomalies 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 GROUPNAME="turns"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
@@ -967,6 +959,18 @@ clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/sprachassistent
 # clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a8_loesung_alt.git 2024_ki4_projects/2024_ki4_a8_loesung_alt
 # clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_muendliche_pruefungen.git 2024_ki4_projects/2024_ki4_muendliche_pruefungen
 # clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_vorlesung.git 2024_ki4_projects/2024_ki4_vorlesung
+clone_if_missing git@gitlab.com:hsangit/aki/ki-forschung/2024/2024_kiforschung_vorlesung.git 2024_kiforschung_projects/2024_kiforschung_vorlesung
+clone_if_missing git@gitlab.com:hsangit/aki/ki-forschung/2024/astro_anomalies.git 2024_kiforschung_projects/astro_anomalies
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/drohne.git 2024_studentenprojekte_projects/drohne
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/eegelektroden.git 2024_studentenprojekte_projects/eegelektroden
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/elektrodenmessung.git 2024_studentenprojekte_projects/elektrodenmessung
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/frontend.git 2024_studentenprojekte_projects/frontend
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/genai_music.git 2024_studentenprojekte_projects/genai_music
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/hautkrebs.git 2024_studentenprojekte_projects/hautkrebs
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/heimauto.git 2024_studentenprojekte_projects/heimauto
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pawprint.git 2024_studentenprojekte_projects/pawprint
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/serviceroboter.git 2024_studentenprojekte_projects/serviceroboter
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git 2024_studentenprojekte_projects/bioreaktor
 # end of git-kik migration
 
 
