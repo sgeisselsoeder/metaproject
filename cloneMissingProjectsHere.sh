@@ -682,8 +682,8 @@ done
 
 # university projects without own group
 for projectName in 2023_lernverhalten bioreaktor \
-	2023_07_oechsler 2023_07_siemens pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
-	2023_12_07_promotionskolleg_cv_zeitr 2023_12_13_ankit_flagler 2023_12_14_ankit_stammtisch \
+	pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
+	2023_12_14_ankit_stammtisch \
 	reckenberg_wasser_solar data_connector_sftp 2024_lernverhalten 2024_04_18_fit_ki_unternehmen blistervision 2024_05_13_sparkasse \
 	2024_ai_in_industry 2024_07_22_ecap einsammeln 2024_09_27_chain_of_thought 2024_09_27_ki_praxis 
 do
@@ -707,6 +707,10 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_06_01_rothe
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_06_14_neuendettelsau_chancen_risiken.git 2023_06_14_neuendettelsau_chancen_risiken
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_07_schacht.git 2023_07_07_schacht
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_bmt_fleximaus.git 2023_07_bmt_fleximaus
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_oechsler.git 2023_07_oechsler
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_siemens.git 2023_07_siemens
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_12_07_promotionskolleg_cv_zeitr.git 2023_12_07_promotionskolleg_cv_zeitr
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_12_13_ankit_flagler.git 2023_12_13_ankit_flagler
 # end of git-kik migration
 
 
