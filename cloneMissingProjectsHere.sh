@@ -943,6 +943,30 @@ clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/sprachassistent
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_klausur.git 2024_ki3_projects/2024_ki3_klausur
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_klausuraufgaben.git 2024_ki3_projects/2024_ki3_klausuraufgaben
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_vorlesung.git 2024_ki3_projects/2024_ki3_vorlesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a1.git 2024_ki4_projects/2024_ki4_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a1_loesung.git 2024_ki4_projects/2024_ki4_a1_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2.git 2024_ki4_projects/2024_ki4_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_5.git 2024_ki4_projects/2024_ki4_a2_5
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_5_loesung.git 2024_ki4_projects/2024_ki4_a2_5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_6.git 2024_ki4_projects/2024_ki4_a2_6
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_loesung.git 2024_ki4_projects/2024_ki4_a2_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a3.git 2024_ki4_projects/2024_ki4_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a3_loesung.git 2024_ki4_projects/2024_ki4_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4.git 2024_ki4_projects/2024_ki4_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4_5.git 2024_ki4_projects/2024_ki4_a4_5
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4_5_loesung.git 2024_ki4_projects/2024_ki4_a4_5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4_loesung.git 2024_ki4_projects/2024_ki4_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a5.git 2024_ki4_projects/2024_ki4_a5
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a5_loesung.git 2024_ki4_projects/2024_ki4_a5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a6.git 2024_ki4_projects/2024_ki4_a6
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a6_loesung.git 2024_ki4_projects/2024_ki4_a6_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a7.git 2024_ki4_projects/2024_ki4_a7
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a7_loesung.git 2024_ki4_projects/2024_ki4_a7_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a8.git 2024_ki4_projects/2024_ki4_a8
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a8_loesung.git 2024_ki4_projects/2024_ki4_a8_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a8_loesung_alt.git 2024_ki4_projects/2024_ki4_a8_loesung_alt
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_muendliche_pruefungen.git 2024_ki4_projects/2024_ki4_muendliche_pruefungen
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_vorlesung.git 2024_ki4_projects/2024_ki4_vorlesung
 # end of git-kik migration
 
 
