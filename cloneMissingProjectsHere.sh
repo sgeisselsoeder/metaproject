@@ -683,8 +683,8 @@ done
 # university projects without own group
 for projectName in bioreaktor \
 	pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
-	reckenberg_wasser_solar data_connector_sftp 2024_lernverhalten blistervision \
-	2024_ai_in_industry einsammeln 2024_09_27_ki_praxis 
+	reckenberg_wasser_solar data_connector_sftp blistervision \
+	einsammeln 
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
@@ -716,6 +716,9 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_04_18_fit_k
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_05_13_sparkasse.git 2024_05_13_sparkasse
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_07_22_ecap.git 2024_07_22_ecap
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_09_27_chain_of_thought.git 2024_09_27_chain_of_thought
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_09_27_ki_praxis.git 2024_09_27_ki_praxis
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_ai_in_industry.git 2024_ai_in_industry
+clone_if_missing git@gitlab.com:hsangit/aki/lernverhalten/2024/2024_lernverhalten.git 2024_lernverhalten
 # end of git-kik migration
 
 
