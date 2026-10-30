@@ -704,6 +704,9 @@ clone_if_missing git@gitlab.com:hsangit/aki/lernverhalten/2022/2022_sose_biolern
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_01_16_stammtisch_ankit_cvision.git 2023_01_16_stammtisch_ankit_cvision
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_04_27_forschungs_und_innovationstag.git 2023_04_27_forschungs_und_innovationstag
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_06_01_rothenburg_cvision_and_robots.git 2023_06_01_rothenburg_cvision_and_robots
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_06_14_neuendettelsau_chancen_risiken.git 2023_06_14_neuendettelsau_chancen_risiken
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_07_schacht.git 2023_07_07_schacht
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_bmt_fleximaus.git 2023_07_bmt_fleximaus
 # end of git-kik migration
 
 
@@ -753,8 +756,7 @@ done
 for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	studentenprojektausschreibungen \
-	2023_06_14_neuendettelsau_chancen_risiken \
-	2023_07_bmt_fleximaus 2023_07_07_schacht dolphin camera_sender answer_llm
+	dolphin camera_sender answer_llm
 	# ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
