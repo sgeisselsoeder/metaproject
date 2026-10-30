@@ -810,6 +810,23 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git
 # clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_vorlesung.git 2022_ki1_projects/2022_ki1_vorlesung
 # clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2023_ki1_nachklausur.git 2022_ki1_projects/2023_ki1_nachklausur
 # clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2023_ki1_nachklausur_korrektur.git 2022_ki1_projects/2023_ki1_nachklausur_korrektur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_a1_loesung.git 2022_ki2_projects/2022_ki2_a1_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_a2_loesung.git 2022_ki2_projects/2022_ki2_a2_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_data.git 2022_ki2_projects/2022_ki2_data
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_korrektur_klausur.git 2022_ki2_projects/2022_ki2_korrektur_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_korrektur_nachklausur.git 2022_ki2_projects/2022_ki2_korrektur_nachklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_nachklausur.git 2022_ki2_projects/2022_ki2_nachklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_vorlesung.git 2022_ki2_projects/2022_ki2_vorlesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a1.git 2022_ki2_projects/2022_sose_ki2_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a2.git 2022_ki2_projects/2022_sose_ki2_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a3.git 2022_ki2_projects/2022_sose_ki2_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a3_loesung.git 2022_ki2_projects/2022_sose_ki2_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a4.git 2022_ki2_projects/2022_sose_ki2_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a4_loesung.git 2022_ki2_projects/2022_sose_ki2_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a5.git 2022_ki2_projects/2022_sose_ki2_a5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a5_loesung.git 2022_ki2_projects/2022_sose_ki2_a5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_klausur.git 2022_ki2_projects/2022_sose_ki2_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_klausuraufgaben.git 2022_ki2_projects/2022_sose_ki2_klausuraufgaben
 # end of git-kik migration
 
 
