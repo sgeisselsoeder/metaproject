@@ -682,9 +682,9 @@ done
 
 # university projects without own group
 for projectName in \
-	pybullet_playground image_upload_server treenet kivy-playground \
-	reckenberg_wasser_solar data_connector_sftp \
-	einsammeln 
+	pybullet_playground treenet \
+	reckenberg_wasser_solar \
+	
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
@@ -728,6 +728,15 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/blistervision.gi
 # removed: boosted_ensemble (git@git-kik.hs-ansbach.de:sgeisselsoeder/boosted_ensemble.git)
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/buch_sigurd_carsten.git buch_sigurd_carsten
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/biogas_zentrale_v0p1.git biogas_zentrale_v0p1
+# removed: checklist_industrial_ai (git@git-kik.hs-ansbach.de:sgeisselsoeder/checklist_industrial_ai.git)
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/data_connector_sftp.git data_connector_sftp
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/dji_local.git dji_local
+# clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/dolphin.git dolphin
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/einsammeln.git einsammeln
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/image_upload_server.git image_upload_server
+# removed: kivy-playground (git@git-kik.hs-ansbach.de:sgeisselsoeder/kivy-playground.git)
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/kooperation.git kooperation
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/myawesomeproject.git myawesomeproject
 # end of git-kik migration
 
 
@@ -775,9 +784,8 @@ done
 
 # other stuff, used to be at @ geis.ddnss
 for projectName in pacman \
-	kooperation checklist_industrial_ai \
 	studentenprojektausschreibungen \
-	dolphin 
+	
 	# ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
@@ -1049,12 +1057,12 @@ do
 	fi
 done
 
-for projectName in myawesomeproject
-do
-	if [ ! -d "${projectName}" ]; then
-		git clone git@${EIGEN_GITLAB}:maria/${projectName}.git ${projectName}
-	fi
-done
+# for projectName in myawesomeproject
+# do
+# 	if [ ! -d "${projectName}" ]; then
+# 		git clone git@${EIGEN_GITLAB}:maria/${projectName}.git ${projectName}
+# 	fi
+# done
 
 projectName=ComfyUI
 if [ ! -d "$projectName" ]; then
