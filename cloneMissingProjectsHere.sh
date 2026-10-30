@@ -301,19 +301,11 @@ done
 
 
 
-GROUPNAME="eigenki"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in kigraph eigenki-frontend eigenki-frontend-js eigenki-backend eigenki-installation eigenki-kicontainer
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${EIGEN_GITLAB}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 
 GROUPNAME="deep-eeg"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in ap0_versioned_data ap2-data-preprocessing ap3-seizure-detection
+for projectName in ap3-seizure-detection
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -966,6 +958,15 @@ clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git 
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/3Danomaly.git 2024_studentenprojekte_projects/3Danomaly
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/shootair.git 2024_studentenprojekte_projects/shootair
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/maispreis.git biogas_projects/maispreis
+clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap2-data-preprocessing.git deep-eeg_projects/ap2-data-preprocessing
+clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap0_versioned_data.git deep-eeg_projects/ap0_versioned_data
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-backend.git eigenki_projects/eigenki-backend
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-frontend.git eigenki_projects/eigenki-frontend
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-frontend-js.git eigenki_projects/eigenki-frontend-js
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-installation.git eigenki_projects/eigenki-installation
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-kicontainer.git eigenki_projects/eigenki-kicontainer
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/kigraph.git eigenki_projects/kigraph
+clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap3-seizure-detection.git deep-eeg_projects/ap3-seizure-detection
 # end of git-kik migration
 
 
