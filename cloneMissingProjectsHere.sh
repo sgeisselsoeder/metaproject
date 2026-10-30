@@ -550,14 +550,6 @@ do
 done
 
 
-GROUPNAME="biogas"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in maispreis
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 GROUPNAME="pawprint"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
@@ -971,6 +963,9 @@ clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/heimauto.git 20
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pawprint.git 2024_studentenprojekte_projects/pawprint
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/serviceroboter.git 2024_studentenprojekte_projects/serviceroboter
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git 2024_studentenprojekte_projects/bioreaktor
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/3Danomaly.git 2024_studentenprojekte_projects/3Danomaly
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/shootair.git 2024_studentenprojekte_projects/shootair
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/maispreis.git biogas_projects/maispreis
 # end of git-kik migration
 
 
