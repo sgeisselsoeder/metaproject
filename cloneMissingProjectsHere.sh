@@ -741,6 +741,52 @@ clone_if_missing git@gitlab.com:hsangit/research/reckenberg_wasser_solar.git rec
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/studentenprojektausschreibungen.git studentenprojektausschreibungen
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git temp_blister
 # removed: treenet (git@git-kik.hs-ansbach.de:sgeisselsoeder/treenet.git)
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/2022_sose_ki1_klausur.git 2021_ki1_projects/2022_sose_ki1_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/vorlesung_ki1.git 2021_ki1_projects/vorlesung_ki1
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a1.git 2021_ki1_projects/wise21_ki1_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a2.git 2021_ki1_projects/wise21_ki1_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a3.git 2021_ki1_projects/wise21_ki1_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a3_loesung.git 2021_ki1_projects/wise21_ki1_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a4.git 2021_ki1_projects/wise21_ki1_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a4_loesung.git 2021_ki1_projects/wise21_ki1_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a5.git 2021_ki1_projects/wise21_ki1_a5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a5_loesung.git 2021_ki1_projects/wise21_ki1_a5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a6.git 2021_ki1_projects/wise21_ki1_a6
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a6_loesung.git 2021_ki1_projects/wise21_ki1_a6_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a7.git 2021_ki1_projects/wise21_ki1_a7
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a7_loesung.git 2021_ki1_projects/wise21_ki1_a7_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausur.git 2021_ki1_projects/wise21_ki1_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausuraufgaben.git 2021_ki1_projects/wise21_ki1_klausuraufgaben
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausurloesung.git 2021_ki1_projects/wise21_ki1_klausurloesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_probeklausur.git 2021_ki1_projects/wise21_ki1_probeklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a1_loesung.git 2021_p1_projects/2021_wise_p1_a1_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a2.5_loesung.git 2021_p1_projects/2021_wise_p1_a2.5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a2_loesung.git 2021_p1_projects/2021_wise_p1_a2_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a3_loesung.git 2021_p1_projects/2021_wise_p1_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a4_loesung.git 2021_p1_projects/2021_wise_p1_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a5_loesung.git 2021_p1_projects/2021_wise_p1_a5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a6_loesung.git 2021_p1_projects/2021_wise_p1_a6_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a7_loesung.git 2021_p1_projects/2021_wise_p1_a7_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a8_loesung.git 2021_p1_projects/2021_wise_p1_a8_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_klausuraufgabensammlung.git 2021_p1_projects/2021_wise_p1_klausuraufgabensammlung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_vorlesung.git 2021_p1_projects/2021_wise_p1_vorlesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2022_sose_p1_klausur.git 2021_p1_projects/2022_sose_p1_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2022_sose_p1_klausuraufgaben.git 2021_p1_projects/2022_sose_p1_klausuraufgaben
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2022_sose_p1_klausur_vorbenotung.git 2021_p1_projects/2022_sose_p1_klausur_vorbenotung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a1.git 2021_p1_projects/wise21_p1_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a2.git 2021_p1_projects/wise21_p1_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a2.5.git 2021_p1_projects/wise21_p1_a2.5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a3.git 2021_p1_projects/wise21_p1_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a4.git 2021_p1_projects/wise21_p1_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a5.git 2021_p1_projects/wise21_p1_a5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a6.git 2021_p1_projects/wise21_p1_a6
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a7.git 2021_p1_projects/wise21_p1_a7
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a8.git 2021_p1_projects/wise21_p1_a8
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_codebeispiele.git 2021_p1_projects/wise21_p1_codebeispiele
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausur.git 2021_p1_projects/wise21_p1_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausuraufgaben.git 2021_p1_projects/wise21_p1_klausuraufgaben
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausurloesung.git 2021_p1_projects/wise21_p1_klausurloesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_probeklausur.git 2021_p1_projects/wise21_p1_probeklausur
 # end of git-kik migration
 
 
