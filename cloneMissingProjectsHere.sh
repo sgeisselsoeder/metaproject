@@ -787,6 +787,29 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git
 # clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausuraufgaben.git 2021_p1_projects/wise21_p1_klausuraufgaben
 # clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausurloesung.git 2021_p1_projects/wise21_p1_klausurloesung
 # clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_probeklausur.git 2021_p1_projects/wise21_p1_probeklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2021_ki1_probeklausur.git 2022_ki1_projects/2021_ki1_probeklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a0.5.git 2022_ki1_projects/2022_ki1_a0.5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a1.git 2022_ki1_projects/2022_ki1_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a2.git 2022_ki1_projects/2022_ki1_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a2.5.git 2022_ki1_projects/2022_ki1_a2.5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a2_loesung.git 2022_ki1_projects/2022_ki1_a2_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a3.git 2022_ki1_projects/2022_ki1_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a3_loesung.git 2022_ki1_projects/2022_ki1_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a4.git 2022_ki1_projects/2022_ki1_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a4_loesung.git 2022_ki1_projects/2022_ki1_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a5.git 2022_ki1_projects/2022_ki1_a5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a5_loesung.git 2022_ki1_projects/2022_ki1_a5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a6.git 2022_ki1_projects/2022_ki1_a6
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a6.5.git 2022_ki1_projects/2022_ki1_a6.5
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a6_loesung.git 2022_ki1_projects/2022_ki1_a6_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_klausur.git 2022_ki1_projects/2022_ki1_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_klausuraufgaben.git 2022_ki1_projects/2022_ki1_klausuraufgaben
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_korrektur_klausur.git 2022_ki1_projects/2022_ki1_korrektur_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_probeklausur.git 2022_ki1_projects/2022_ki1_probeklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_uebung_bewerten.git 2022_ki1_projects/2022_ki1_uebung_bewerten
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_vorlesung.git 2022_ki1_projects/2022_ki1_vorlesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2023_ki1_nachklausur.git 2022_ki1_projects/2023_ki1_nachklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2023_ki1_nachklausur_korrektur.git 2022_ki1_projects/2023_ki1_nachklausur_korrektur
 # end of git-kik migration
 
 
