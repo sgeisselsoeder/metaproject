@@ -1,6 +1,6 @@
 #!/bin/bash
 # Move a repo away from git-kik.hs-ansbach.de.
-# usage: migrate_from_kik.sh <repo-dir relative to ~/projects> <new-origin-url|SKIP|LATER> [note]
+# usage: migrate_from_kik.sh <repo-dir relative to ~/projects> <new-origin-url|SKIP|LATER|REMOVE> [note]
 # The old origin is kept as remote "kik". Every decision is logged to git-kik-migration.tsv.
 
 PROJECTS=~/projects
@@ -16,6 +16,8 @@ log() { printf "%s\t%s\t%s\t%s\t%s\t%s\n" "$(date +%F)" "$repo" "$old" "$1" "$2"
 
 case "$target" in
 	SKIP|LATER) log "-" "$target"; echo "$repo: $target"; exit 0;;
+	REMOVE) log "-" "REMOVED"; echo "$repo: REMOVED"
+		sed -i "s|^# end of git-kik migration$|# removed: $repo ($old)\n&|" "$CLONESCRIPT"; exit 0;;
 esac
 
 git remote get-url kik >/dev/null 2>&1 || git remote add kik "$old"

@@ -719,6 +719,7 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_09_27_chain
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_09_27_ki_praxis.git 2024_09_27_ki_praxis
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_ai_in_industry.git 2024_ai_in_industry
 clone_if_missing git@gitlab.com:hsangit/aki/lernverhalten/2024/2024_lernverhalten.git 2024_lernverhalten
+# removed: answer_llm (git@git-kik.hs-ansbach.de:sgeisselsoeder/answer_llm.git)
 # end of git-kik migration
 
 
@@ -768,7 +769,7 @@ done
 for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	studentenprojektausschreibungen \
-	dolphin camera_sender answer_llm
+	dolphin camera_sender 
 	# ownnn gitlab_korrektur
 do
 	if [ ! -d "$projectName" ]; then
