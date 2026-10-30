@@ -21,6 +21,11 @@ case "$target" in
 esac
 
 git remote get-url kik >/dev/null 2>&1 || git remote add kik "$old"
+# the pi does not create repos on push: create a bare repo there first
+if [[ "$target" =~ ^ssh://pi@bytegeist.ddnss.de:50022(/.*\.git)$ ]]; then
+	d="${BASH_REMATCH[1]}"
+	ssh -p 50022 pi@bytegeist.ddnss.de "[ -d '$d' ] || { git init --bare '$d' && git --git-dir='$d' symbolic-ref HEAD refs/heads/main; }"
+fi
 git remote set-url origin "$target"
 if git push -u origin --all && git push origin --tags; then
 	log "$target" "pushed"; echo "$repo -> $target OK"

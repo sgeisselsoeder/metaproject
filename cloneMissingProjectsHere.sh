@@ -681,9 +681,9 @@ done
 
 
 # university projects without own group
-for projectName in bioreaktor \
+for projectName in \
 	pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
-	reckenberg_wasser_solar data_connector_sftp blistervision \
+	reckenberg_wasser_solar data_connector_sftp \
 	einsammeln 
 do
 	if [ ! -d "${projectName}" ]; then
@@ -720,6 +720,11 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_09_27_ki_pr
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2024_ai_in_industry.git 2024_ai_in_industry
 clone_if_missing git@gitlab.com:hsangit/aki/lernverhalten/2024/2024_lernverhalten.git 2024_lernverhalten
 # removed: answer_llm (git@git-kik.hs-ansbach.de:sgeisselsoeder/answer_llm.git)
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/arbeitszeugnisse.git arbeitszeugnisse
+# removed: berufung (git@git-kik.hs-ansbach.de:sgeisselsoeder/berufung.git)
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/bioreaktor.git bioreaktor
+# removed: blender3d (git@git-kik.hs-ansbach.de:sgeisselsoeder/blender3d.git)
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/blistervision.git blistervision
 # end of git-kik migration
 
 
@@ -766,8 +771,8 @@ do
 done
 
 # other stuff, used to be at @ geis.ddnss
-for projectName in blender3d pacman \
-	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
+for projectName in pacman \
+	kooperation buch_sigurd_carsten checklist_industrial_ai \
 	studentenprojektausschreibungen \
 	dolphin camera_sender 
 	# ownnn gitlab_korrektur
