@@ -681,7 +681,7 @@ done
 
 
 # university projects without own group
-for projectName in 2023_lernverhalten 2023_04_27_forschungs_und_innovationstag bioreaktor \
+for projectName in 2023_lernverhalten bioreaktor \
 	2023_07_oechsler 2023_07_siemens pybullet_playground image_upload_server boosted_ensemble treenet kivy-playground \
 	2023_12_07_promotionskolleg_cv_zeitr 2023_12_13_ankit_flagler 2023_12_14_ankit_stammtisch \
 	reckenberg_wasser_solar data_connector_sftp 2024_lernverhalten 2024_04_18_fit_ki_unternehmen blistervision 2024_05_13_sparkasse \
@@ -702,6 +702,8 @@ clone_if_missing() {
 }
 clone_if_missing git@gitlab.com:hsangit/aki/lernverhalten/2022/2022_sose_biolern_vorlesung.git 2022_sose_biolern_vorlesung
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_01_16_stammtisch_ankit_cvision.git 2023_01_16_stammtisch_ankit_cvision
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_04_27_forschungs_und_innovationstag.git 2023_04_27_forschungs_und_innovationstag
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_06_01_rothenburg_cvision_and_robots.git 2023_06_01_rothenburg_cvision_and_robots
 # end of git-kik migration
 
 
@@ -751,7 +753,7 @@ done
 for projectName in blender3d pacman \
 	kooperation berufung arbeitszeugnisse buch_sigurd_carsten checklist_industrial_ai \
 	studentenprojektausschreibungen \
-	2023_06_01_rothenburg_cvision_and_robots 2023_06_14_neuendettelsau_chancen_risiken \
+	2023_06_14_neuendettelsau_chancen_risiken \
 	2023_07_bmt_fleximaus 2023_07_07_schacht dolphin camera_sender answer_llm
 	# ownnn gitlab_korrektur
 do
