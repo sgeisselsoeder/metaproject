@@ -344,16 +344,6 @@ do
 done
 
 
-GROUPNAME="2023_studentenprojekte"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in allgemeine_info reinforcementlearningescape produktinhalt autoencoder kognitivekooperation \
-	eeg-dl sprachassistent osu deepfake pepperGPT eeg_explainable \
-	Image-Reconstruction-using-GANs-and-Autoencoders pawsomepals-unity-project 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 # GROUPNAME="2023_ki3"
 # mkdir -p ${GROUPNAME}${GITGROUPTAG}
@@ -910,6 +900,19 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git
 # clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_vorlesung.git 2023_ki4_projects/2023_ki4_vorlesung
 # clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_weitsprung.git 2023_ki4_projects/2023_ki4_weitsprung
 # clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/rl_playground.git 2023_ki4_projects/rl_playground
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/allgemeine_info.git 2023_studentenprojekte_projects/allgemeine_info
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/autoencoder.git 2023_studentenprojekte_projects/autoencoder
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/deepfake.git 2023_studentenprojekte_projects/deepfake
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/eeg-dl.git 2023_studentenprojekte_projects/eeg-dl
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/eeg_explainable.git 2023_studentenprojekte_projects/eeg_explainable
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/Image-Reconstruction-using-GANs-and-Autoencoders.git 2023_studentenprojekte_projects/Image-Reconstruction-using-GANs-and-Autoencoders
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/kognitivekooperation.git 2023_studentenprojekte_projects/kognitivekooperation
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/osu.git 2023_studentenprojekte_projects/osu
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/pawsomepals-unity-project.git 2023_studentenprojekte_projects/pawsomepals-unity-project
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/pepperGPT.git 2023_studentenprojekte_projects/pepperGPT
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/produktinhalt.git 2023_studentenprojekte_projects/produktinhalt
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/reinforcementlearningescape.git 2023_studentenprojekte_projects/reinforcementlearningescape
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/sprachassistent.git 2023_studentenprojekte_projects/sprachassistent
 # end of git-kik migration
 
 
