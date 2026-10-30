@@ -681,14 +681,13 @@ done
 
 
 # university projects without own group
-for projectName in \
-	treenet \
-	
-do
-	if [ ! -d "${projectName}" ]; then
-		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
-	fi
-done
+# for projectName in \
+#
+# do
+# 	if [ ! -d "${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${projectName}
+# 	fi
+# done
 
 
 # projects migrated away from git-kik (see git-kik-migration.tsv)
@@ -741,6 +740,7 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pybullet_playgro
 clone_if_missing git@gitlab.com:hsangit/research/reckenberg_wasser_solar.git reckenberg_wasser_solar
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/studentenprojektausschreibungen.git studentenprojektausschreibungen
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git temp_blister
+# removed: treenet (git@git-kik.hs-ansbach.de:sgeisselsoeder/treenet.git)
 # end of git-kik migration
 
 
