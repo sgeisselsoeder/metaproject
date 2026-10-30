@@ -864,6 +864,28 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git
 # clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_nachklausur.git 2023_ki2_projects/2023_ki2_nachklausur
 # clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_uebung_bewerten.git 2023_ki2_projects/2023_ki2_uebung_bewerten
 # clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_vorlesung.git 2023_ki2_projects/2023_ki2_vorlesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2022_ki3_klausur.git 2023_ki3_projects/2022_ki3_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a1.git 2023_ki3_projects/2023_ki3_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a1_loesung.git 2023_ki3_projects/2023_ki3_a1_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a2.git 2023_ki3_projects/2023_ki3_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a2_loesung.git 2023_ki3_projects/2023_ki3_a2_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a3.git 2023_ki3_projects/2023_ki3_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a3_loesung.git 2023_ki3_projects/2023_ki3_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a4.git 2023_ki3_projects/2023_ki3_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a4_loesung.git 2023_ki3_projects/2023_ki3_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a5.git 2023_ki3_projects/2023_ki3_a5
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a5_loesung.git 2023_ki3_projects/2023_ki3_a5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a6.git 2023_ki3_projects/2023_ki3_a6
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a6_loesung.git 2023_ki3_projects/2023_ki3_a6_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a7.git 2023_ki3_projects/2023_ki3_a7
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a7_loesung.git 2023_ki3_projects/2023_ki3_a7_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a8.git 2023_ki3_projects/2023_ki3_a8
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a8_loesung.git 2023_ki3_projects/2023_ki3_a8_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_klausur.git 2023_ki3_projects/2023_ki3_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_klausuraufgaben.git 2023_ki3_projects/2023_ki3_klausuraufgaben
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_klausurkorrektur.git 2023_ki3_projects/2023_ki3_klausurkorrektur
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_vorlesung.git 2023_ki3_projects/2023_ki3_vorlesung
+# clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2024_ki3_nachklausur.git 2023_ki3_projects/2024_ki3_nachklausur
 # end of git-kik migration
 
 
