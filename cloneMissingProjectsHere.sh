@@ -845,6 +845,25 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2022/2023_ki3_korrektur_nachklausur.git 2022_ki3_projects/2023_ki3_korrektur_nachklausur
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2022/2023_ki3_nachklausur.git 2022_ki3_projects/2023_ki3_nachklausur
 # clone_if_missing git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2023/2023_ki1_uebung_bewerten.git 2023_ki1_projects/2023_ki1_uebung_bewerten
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a1.git 2023_ki2_projects/2023_ki2_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a1_loesung.git 2023_ki2_projects/2023_ki2_a1_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a2.git 2023_ki2_projects/2023_ki2_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a2_loesung.git 2023_ki2_projects/2023_ki2_a2_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a3.git 2023_ki2_projects/2023_ki2_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a3_loesung.git 2023_ki2_projects/2023_ki2_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a4.git 2023_ki2_projects/2023_ki2_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a4_loesung.git 2023_ki2_projects/2023_ki2_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a5b.git 2023_ki2_projects/2023_ki2_a5b
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a5b_loesung.git 2023_ki2_projects/2023_ki2_a5b_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a6.git 2023_ki2_projects/2023_ki2_a6
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a6_loesung.git 2023_ki2_projects/2023_ki2_a6_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_data.git 2023_ki2_projects/2023_ki2_data
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_klausur.git 2023_ki2_projects/2023_ki2_klausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_klausuraufgaben.git 2023_ki2_projects/2023_ki2_klausuraufgaben
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_klausurkorrektur.git 2023_ki2_projects/2023_ki2_klausurkorrektur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_nachklausur.git 2023_ki2_projects/2023_ki2_nachklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_uebung_bewerten.git 2023_ki2_projects/2023_ki2_uebung_bewerten
+# clone_if_missing git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_vorlesung.git 2023_ki2_projects/2023_ki2_vorlesung
 # end of git-kik migration
 
 
