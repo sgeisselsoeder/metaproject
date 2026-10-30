@@ -886,6 +886,30 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_klausurkorrektur.git 2023_ki3_projects/2023_ki3_klausurkorrektur
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_vorlesung.git 2023_ki3_projects/2023_ki3_vorlesung
 # clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/2023/2024_ki3_nachklausur.git 2023_ki3_projects/2024_ki3_nachklausur
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a1.git 2023_ki4_projects/2023_ki4_a1
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a10.git 2023_ki4_projects/2023_ki4_a10
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a10_loesung.git 2023_ki4_projects/2023_ki4_a10_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a1_loesung.git 2023_ki4_projects/2023_ki4_a1_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a2.git 2023_ki4_projects/2023_ki4_a2
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a2_loesung.git 2023_ki4_projects/2023_ki4_a2_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a3.git 2023_ki4_projects/2023_ki4_a3
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a3_loesung.git 2023_ki4_projects/2023_ki4_a3_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a4.git 2023_ki4_projects/2023_ki4_a4
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a4_loesung.git 2023_ki4_projects/2023_ki4_a4_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a5.git 2023_ki4_projects/2023_ki4_a5
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a5_loesung.git 2023_ki4_projects/2023_ki4_a5_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a6.git 2023_ki4_projects/2023_ki4_a6
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a6_loesung_1.git 2023_ki4_projects/2023_ki4_a6_loesung_1
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a6_loesung_2.git 2023_ki4_projects/2023_ki4_a6_loesung_2
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a7.git 2023_ki4_projects/2023_ki4_a7
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a7_loesung.git 2023_ki4_projects/2023_ki4_a7_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a8.git 2023_ki4_projects/2023_ki4_a8
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a8_loesung2.git 2023_ki4_projects/2023_ki4_a8_loesung2
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a9.git 2023_ki4_projects/2023_ki4_a9
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a9_loesung.git 2023_ki4_projects/2023_ki4_a9_loesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_vorlesung.git 2023_ki4_projects/2023_ki4_vorlesung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_weitsprung.git 2023_ki4_projects/2023_ki4_weitsprung
+# clone_if_missing git@gitlab.com:hsangit/aki/deep-learning/2023/rl_playground.git 2023_ki4_projects/rl_playground
 # end of git-kik migration
 
 
