@@ -682,8 +682,7 @@ done
 
 # university projects without own group
 for projectName in \
-	pybullet_playground treenet \
-	reckenberg_wasser_solar \
+	treenet \
 	
 do
 	if [ ! -d "${projectName}" ]; then
@@ -737,6 +736,11 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/image_upload_ser
 # removed: kivy-playground (git@git-kik.hs-ansbach.de:sgeisselsoeder/kivy-playground.git)
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/kooperation.git kooperation
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/myawesomeproject.git myawesomeproject
+# removed: pacman (git@git-kik.hs-ansbach.de:sgeisselsoeder/pacman.git)
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pybullet_playground.git pybullet_playground
+clone_if_missing git@gitlab.com:hsangit/research/reckenberg_wasser_solar.git reckenberg_wasser_solar
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/studentenprojektausschreibungen.git studentenprojektausschreibungen
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git temp_blister
 # end of git-kik migration
 
 
@@ -783,15 +787,14 @@ do
 done
 
 # other stuff, used to be at @ geis.ddnss
-for projectName in pacman \
-	studentenprojektausschreibungen \
-	
-	# ownnn gitlab_korrektur
-do
-	if [ ! -d "$projectName" ]; then
-		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${projectName}
-	fi
-done
+# for projectName in \
+#
+# 	# ownnn gitlab_korrektur
+# do
+# 	if [ ! -d "$projectName" ]; then
+# 		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${projectName}
+# 	fi
+# done
 
 
 GROUPNAME="demo"
@@ -1050,12 +1053,12 @@ fi
 # https://github.com/robinkorn/bgme
 # https://github.com/niclashart/rag-test
 
-for projectName in temp_blister
-do
-	if [ ! -d "${projectName}" ]; then
-		git clone git@${EIGEN_GITLAB}:Korn.Robin/${projectName}.git ${projectName}
-	fi
-done
+# for projectName in temp_blister
+# do
+# 	if [ ! -d "${projectName}" ]; then
+# 		git clone git@${EIGEN_GITLAB}:Korn.Robin/${projectName}.git ${projectName}
+# 	fi
+# done
 
 # for projectName in myawesomeproject
 # do
