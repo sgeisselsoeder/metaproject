@@ -1,0 +1,434 @@
+date	repo	old_origin	new_origin	status	note
+2026-10-30	2022_sose_biolern_vorlesung	git@git-kik.hs-ansbach.de:sgeisselsoeder/2022_sose_biolern_vorlesung.git	git@gitlab.com:hsangit/aki/lernverhalten/2022/2022_sose_biolern_vorlesung.git	pushed	
+2026-10-30	2023_01_16_stammtisch_ankit_cvision	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_01_16_stammtisch_ankit_cvision.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_01_16_stammtisch_ankit_cvision.git	pushed	
+2026-10-30	2023_04_27_forschungs_und_innovationstag	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_04_27_forschungs_und_innovationstag.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_04_27_forschungs_und_innovationstag.git	pushed	
+2026-10-30	2023_06_01_rothenburg_cvision_and_robots	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_06_01_rothenburg_cvision_and_robots.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_06_01_rothenburg_cvision_and_robots.git	pushed	
+2026-10-30	2023_06_14_neuendettelsau_chancen_risiken	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_06_14_neuendettelsau_chancen_risiken.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_06_14_neuendettelsau_chancen_risiken.git	pushed	
+2026-10-30	2023_07_07_schacht	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_07_07_schacht.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_07_schacht.git	pushed	
+2026-10-30	2023_07_bmt_fleximaus	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_07_bmt_fleximaus.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_bmt_fleximaus.git	pushed	
+2026-10-30	2023_07_oechsler	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_07_oechsler.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_oechsler.git	pushed	
+2026-10-30	2023_07_siemens	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_07_siemens.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_07_siemens.git	pushed	
+2026-10-30	2023_12_07_promotionskolleg_cv_zeitr	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_12_07_promotionskolleg_cv_zeitr.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_12_07_promotionskolleg_cv_zeitr.git	pushed	
+2026-10-30	2023_12_13_ankit_flagler	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_12_13_ankit_flagler.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_12_13_ankit_flagler.git	pushed	
+2026-10-30	2023_12_14_ankit_stammtisch	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_12_14_ankit_stammtisch.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2023_12_14_ankit_stammtisch.git	pushed	
+2026-10-30	2023_lernverhalten	git@git-kik.hs-ansbach.de:sgeisselsoeder/2023_lernverhalten.git	git@gitlab.com:hsangit/aki/lernverhalten/2023/2023_lernverhalten.git	pushed	
+2026-10-30	2024_04_18_fit_ki_unternehmen	git@git-kik.hs-ansbach.de:sgeisselsoeder/2024_04_18_fit_ki_unternehmen.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2024_04_18_fit_ki_unternehmen.git	pushed	
+2026-10-30	2024_05_13_sparkasse	git@git-kik.hs-ansbach.de:sgeisselsoeder/2024_05_13_sparkasse.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2024_05_13_sparkasse.git	pushed	
+2026-10-30	2024_07_22_ecap	git@git-kik.hs-ansbach.de:sgeisselsoeder/2024_07_22_ecap.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2024_07_22_ecap.git	pushed	
+2026-10-30	2024_09_27_chain_of_thought	git@git-kik.hs-ansbach.de:sgeisselsoeder/2024_09_27_chain_of_thought.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2024_09_27_chain_of_thought.git	pushed	
+2026-10-30	2024_09_27_ki_praxis	git@git-kik.hs-ansbach.de:sgeisselsoeder/2024_09_27_ki_praxis.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2024_09_27_ki_praxis.git	pushed	
+2026-10-30	2024_ai_in_industry	git@git-kik.hs-ansbach.de:sgeisselsoeder/2024_ai_in_industry.git	git@gitlab.com:hsangit/research/sgeisselsoeder/2024_ai_in_industry.git	pushed	
+2026-10-30	2024_lernverhalten	git@git-kik.hs-ansbach.de:sgeisselsoeder/2024_lernverhalten.git	git@gitlab.com:hsangit/aki/lernverhalten/2024/2024_lernverhalten.git	pushed	
+2026-10-30	answer_llm	git@git-kik.hs-ansbach.de:sgeisselsoeder/answer_llm.git	-	REMOVED	
+2026-10-30	arbeitszeugnisse	git@git-kik.hs-ansbach.de:sgeisselsoeder/arbeitszeugnisse.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/arbeitszeugnisse.git	PUSH FAILED	
+2026-10-30	arbeitszeugnisse	git@git-kik.hs-ansbach.de:sgeisselsoeder/arbeitszeugnisse.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/arbeitszeugnisse.git	pushed	
+2026-10-30	berufung	git@git-kik.hs-ansbach.de:sgeisselsoeder/berufung.git	-	REMOVED	
+2026-10-30	bioreaktor	git@git-kik.hs-ansbach.de:sgeisselsoeder/bioreaktor.git	git@gitlab.com:hsangit/research/sgeisselsoeder/bioreaktor.git	pushed	
+2026-10-30	blender3d	git@git-kik.hs-ansbach.de:sgeisselsoeder/blender3d.git	-	REMOVED	
+2026-10-30	blistervision	git@git-kik.hs-ansbach.de:sgeisselsoeder/blistervision.git	git@gitlab.com:hsangit/research/sgeisselsoeder/blistervision.git	pushed	
+2026-10-30	boosted_ensemble	git@git-kik.hs-ansbach.de:sgeisselsoeder/boosted_ensemble.git	-	REMOVED	
+2026-10-30	buch_sigurd_carsten	git@git-kik.hs-ansbach.de:sgeisselsoeder/buch_sigurd_carsten.git	git@gitlab.com:hsangit/research/sgeisselsoeder/buch_sigurd_carsten.git	pushed	
+2026-10-30	camera_sender	git@git-kik.hs-ansbach.de:sgeisselsoeder/camera_sender.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/biogas_zentrale_v0p1.git	pushed	renamed to biogas_zentrale_v0p1
+2026-10-30	checklist_industrial_ai	git@git-kik.hs-ansbach.de:sgeisselsoeder/checklist_industrial_ai.git	-	REMOVED	
+2026-10-30	data_connector_sftp	git@git-kik.hs-ansbach.de:sgeisselsoeder/data_connector_sftp.git	git@gitlab.com:hsangit/research/sgeisselsoeder/data_connector_sftp.git	pushed	
+2026-10-30	dji_local	git@git-kik.hs-ansbach.de:sgeisselsoeder/dji_local.git	git@gitlab.com:hsangit/research/sgeisselsoeder/dji_local.git	pushed	
+2026-10-30	dolphin	git@git-kik.hs-ansbach.de:sgeisselsoeder/dolphin.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/dolphin.git	pushed	clone entry commented out
+2026-10-30	einsammeln	git@git-kik.hs-ansbach.de:sgeisselsoeder/einsammeln.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/einsammeln.git	pushed	
+2026-10-30	image_upload_server	git@git-kik.hs-ansbach.de:sgeisselsoeder/image_upload_server.git	git@gitlab.com:hsangit/research/sgeisselsoeder/image_upload_server.git	pushed	
+2026-10-30	kivy-playground	git@git-kik.hs-ansbach.de:sgeisselsoeder/kivy-playground.git	-	REMOVED	
+2026-10-30	kooperation	git@git-kik.hs-ansbach.de:sgeisselsoeder/kooperation.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/kooperation.git	pushed	
+2026-10-30	myawesomeproject	git@git-kik.hs-ansbach.de:maria/myawesomeproject.git	git@gitlab.com:hsangit/research/sgeisselsoeder/myawesomeproject.git	pushed	
+2026-10-30	network_output_unequals_probability	git@git-kik.hs-ansbach.de:sgeisselsoeder/network_output_unequals_probability.git	git@github.com:sgeisselsoeder/network_output_unequals_probability.git	pushed	already on github
+2026-10-30	pacman	git@git-kik.hs-ansbach.de:sgeisselsoeder/pacman.git	-	REMOVED	
+2026-10-30	pybullet_playground	git@git-kik.hs-ansbach.de:sgeisselsoeder/pybullet_playground.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pybullet_playground.git	pushed	
+2026-10-30	reckenberg_wasser_solar	git@git-kik.hs-ansbach.de:sgeisselsoeder/reckenberg_wasser_solar.git	git@gitlab.com:hsangit/research/reckenberg_wasser_solar.git	pushed	
+2026-10-30	studentenprojektausschreibungen	git@git-kik.hs-ansbach.de:sgeisselsoeder/studentenprojektausschreibungen.git	git@gitlab.com:hsangit/research/sgeisselsoeder/studentenprojektausschreibungen.git	pushed	
+2026-10-30	temp_blister	git@git-kik.hs-ansbach.de:Korn.Robin/temp_blister.git	git@gitlab.com:hsangit/research/sgeisselsoeder/temp_blister.git	pushed	
+2026-10-30	treenet	git@git-kik.hs-ansbach.de:sgeisselsoeder/treenet.git	-	REMOVED	
+2026-10-30	2021_ki1_projects/2022_sose_ki1_klausur	git@git-kik.hs-ansbach.de:2021_ki1_material/2022_sose_ki1_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/2022_sose_ki1_klausur.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/vorlesung_ki1	git@git-kik.hs-ansbach.de:2021_ki1_material/vorlesung_ki1.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/vorlesung_ki1.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a1	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a1.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a1.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a2	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a2.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a2.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a3	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a3.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a3.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a3_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a3_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a3_loesung.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a4	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a4.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a4.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a4_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a4_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a4_loesung.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a5	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a5.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a5_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a5_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a5_loesung.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a6	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a6.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a6.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a6_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a6_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a6_loesung.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a7	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a7.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a7.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_a7_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a7_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a7_loesung.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_klausur	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausur.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_klausuraufgaben	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausuraufgaben.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_klausurloesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_klausurloesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausurloesung.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/wise21_ki1_probeklausur	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_probeklausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_probeklausur.git	PUSH FAILED	
+2026-10-30	2021_ki1_projects/2022_sose_ki1_klausur	git@git-kik.hs-ansbach.de:2021_ki1_material/2022_sose_ki1_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/2022_sose_ki1_klausur.git	pushed	
+2026-10-30	2021_ki1_projects/vorlesung_ki1	git@git-kik.hs-ansbach.de:2021_ki1_material/vorlesung_ki1.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/vorlesung_ki1.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a1	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a1.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a1.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a2	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a2.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a2.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a3	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a3.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a3.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a3_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a3_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a3_loesung.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a4	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a4.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a4.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a4_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a4_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a4_loesung.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a5	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a5.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a5_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a5_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a5_loesung.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a6	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a6.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a6.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a6_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a6_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a6_loesung.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a7	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a7.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a7.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_a7_loesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_a7_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_a7_loesung.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_klausur	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausur.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_klausuraufgaben	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausuraufgaben.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_klausurloesung	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_klausurloesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_klausurloesung.git	pushed	
+2026-10-30	2021_ki1_projects/wise21_ki1_probeklausur	git@git-kik.hs-ansbach.de:2021_ki1_material/wise21_ki1_probeklausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021/wise21_ki1_probeklausur.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a1_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a1_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a1_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a2.5_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a2.5_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a2.5_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a2_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a2_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a2_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a3_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a3_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a3_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a4_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a4_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a4_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a5_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a5_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a5_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a6_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a6_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a6_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a7_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a7_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a7_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_a8_loesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_a8_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_a8_loesung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_klausuraufgabensammlung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_klausuraufgabensammlung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_klausuraufgabensammlung.git	pushed	
+2026-10-30	2021_p1_projects/2021_wise_p1_vorlesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2021_wise_p1_vorlesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2021_wise_p1_vorlesung.git	pushed	
+2026-10-30	2021_p1_projects/2022_sose_p1_klausur	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2022_sose_p1_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2022_sose_p1_klausur.git	pushed	
+2026-10-30	2021_p1_projects/2022_sose_p1_klausuraufgaben	git@git-kik.hs-ansbach.de:2021_wise_p1_material/2022_sose_p1_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2022_sose_p1_klausuraufgaben.git	pushed	
+2026-10-30	2021_p1_projects/2022_sose_p1_klausur_vorbenotung	git@git-kik.hs-ansbach.de:sgeisselsoeder/2022_sose_p1_klausur_vorbenotung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/2022_sose_p1_klausur_vorbenotung.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a1	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a1.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a1.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a2	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a2.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a2.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a2.5	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a2.5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a2.5.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a3	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a3.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a3.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a4	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a4.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a4.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a5	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a5.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a6	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a6.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a6.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a7	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a7.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a7.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_a8	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_a8.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_a8.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_codebeispiele	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_codebeispiele.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_codebeispiele.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_klausur	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausur.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_klausuraufgaben	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausuraufgaben.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_klausurloesung	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_klausurloesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_klausurloesung.git	pushed	
+2026-10-30	2021_p1_projects/wise21_p1_probeklausur	git@git-kik.hs-ansbach.de:2021_wise_p1_material/wise21_p1_probeklausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2021_programmieren1/wise21_p1_probeklausur.git	pushed	
+2026-10-30	2022_ki1_projects/2021_ki1_probeklausur	git@git-kik.hs-ansbach.de:2022_ki1_material/2021_ki1_probeklausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2021_ki1_probeklausur.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a0.5	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a0.5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a0.5.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a1	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a1.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a1.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a2	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a2.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a2.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a2.5	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a2.5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a2.5.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a2_loesung	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a2_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a2_loesung.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a3	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a3.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a3.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a3_loesung	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a3_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a3_loesung.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a4	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a4.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a4.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a4_loesung	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a4_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a4_loesung.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a5	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a5.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a5_loesung	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a5_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a5_loesung.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a6	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a6.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a6.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a6.5	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a6.5.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a6.5.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_a6_loesung	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_a6_loesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_a6_loesung.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_klausur	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_klausur.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_klausuraufgaben	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_klausuraufgaben.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_korrektur_klausur	git@git-kik.hs-ansbach.de:sgeisselsoeder/2022_ki1_korrektur_klausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_korrektur_klausur.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_probeklausur	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_probeklausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_probeklausur.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_uebung_bewerten	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_uebung_bewerten.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_uebung_bewerten.git	pushed	
+2026-10-30	2022_ki1_projects/2022_ki1_vorlesung	git@git-kik.hs-ansbach.de:2022_ki1_material/2022_ki1_vorlesung.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2022_ki1_vorlesung.git	pushed	
+2026-10-30	2022_ki1_projects/2023_ki1_nachklausur	git@git-kik.hs-ansbach.de:2022_ki1_material/2023_ki1_nachklausur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2023_ki1_nachklausur.git	pushed	
+2026-10-30	2022_ki1_projects/2023_ki1_nachklausur_korrektur	git@git-kik.hs-ansbach.de:2022_ki1_material/2023_ki1_nachklausur_korrektur.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2022/2023_ki1_nachklausur_korrektur.git	pushed	
+2026-10-30	2022_ki2_projects/2022_ki2_a1_loesung	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_ki2_a1_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_a1_loesung.git	pushed	
+2026-10-30	2022_ki2_projects/2022_ki2_a2_loesung	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_ki2_a2_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_a2_loesung.git	pushed	
+2026-10-30	2022_ki2_projects/2022_ki2_data	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_ki2_data.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_data.git	pushed	
+2026-10-30	2022_ki2_projects/2022_ki2_korrektur_klausur	git@git-kik.hs-ansbach.de:sgeisselsoeder/2022_ki2_korrektur_klausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_korrektur_klausur.git	pushed	
+2026-10-30	2022_ki2_projects/2022_ki2_korrektur_nachklausur	git@git-kik.hs-ansbach.de:sgeisselsoeder/2022_ki2_korrektur_nachklausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_korrektur_nachklausur.git	pushed	
+2026-10-30	2022_ki2_projects/2022_ki2_nachklausur	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_ki2_nachklausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_nachklausur.git	pushed	
+2026-10-30	2022_ki2_projects/2022_ki2_vorlesung	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_ki2_vorlesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_ki2_vorlesung.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a1	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a1.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a1.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a2	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a2.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a2.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a3	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a3.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a3.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a3_loesung	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a3_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a3_loesung.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a4	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a4.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a4.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a4_loesung	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a4_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a4_loesung.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a5	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a5.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a5.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_a5_loesung	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_a5_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_a5_loesung.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_klausur	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_klausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_klausur.git	pushed	
+2026-10-30	2022_ki2_projects/2022_sose_ki2_klausuraufgaben	git@git-kik.hs-ansbach.de:2022_ki2_material/2022_sose_ki2_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2022/2022_sose_ki2_klausuraufgaben.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a1	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a1.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a1.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a1_loesung	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a1_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a1_loesung.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a2	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a2.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a2.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a2_loesung	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a2_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a2_loesung.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a3	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a3.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a3.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a3_loesung	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a3_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a3_loesung.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a4	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a4.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a4.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a4_loesung	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a4_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a4_loesung.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a5	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a5.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a5.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_a5_loesung	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_a5_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_a5_loesung.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_klausur	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_klausur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_klausur.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_klausuraufgaben	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_klausuraufgaben.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_klausuraufgaben.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_uebung_bewerten	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_uebung_bewerten.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_uebung_bewerten.git	pushed	
+2026-10-30	2022_ki3_projects/2022_ki3_vorlesung	git@git-kik.hs-ansbach.de:2022_ki3_material/2022_ki3_vorlesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2022_ki3_vorlesung.git	pushed	
+2026-10-30	2022_ki3_projects/2023_ki3_klausuraufgaben	git@git-kik.hs-ansbach.de:2022_ki3_material/2023_ki3_klausuraufgaben.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2023_ki3_klausuraufgaben.git	pushed	
+2026-10-30	2022_ki3_projects/2023_ki3_korrektur_nachklausur	git@git-kik.hs-ansbach.de:2022_ki3_material/2023_ki3_korrektur_nachklausur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2023_ki3_korrektur_nachklausur.git	pushed	
+2026-10-30	2022_ki3_projects/2023_ki3_nachklausur	git@git-kik.hs-ansbach.de:2022_ki3_material/2023_ki3_nachklausur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2022/2023_ki3_nachklausur.git	pushed	
+2026-10-30	2023_ki1_projects/2023_ki1_uebung_bewerten	git@git-kik.hs-ansbach.de:2023_ki1_material/2023_ki1_uebung_bewerten.git	git@gitlab.com:hsangit/aki/ki1-einfuehrung-ki/2023/2023_ki1_uebung_bewerten.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a1	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a1.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a1.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a1_loesung	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a1_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a1_loesung.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a2	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a2.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a2.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a2_loesung	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a2_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a2_loesung.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a3	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a3.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a3.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a3_loesung	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a3_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a3_loesung.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a4	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a4.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a4.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a4_loesung	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a4_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a4_loesung.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a5b	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a5b.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a5b.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a5b_loesung	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a5b_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a5b_loesung.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a6	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a6.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a6.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_a6_loesung	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_a6_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_a6_loesung.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_data	git@git-kik.hs-ansbach.de:2023_ki2/2023_ki2_data.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_data.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_klausur	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_klausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_klausur.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_klausuraufgaben	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_klausuraufgaben.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_klausurkorrektur	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_klausurkorrektur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_klausurkorrektur.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_nachklausur	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_nachklausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_nachklausur.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_uebung_bewerten	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_uebung_bewerten.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_uebung_bewerten.git	pushed	
+2026-10-30	2023_ki2_projects/2023_ki2_vorlesung	git@git-kik.hs-ansbach.de:2023_ki2_material/2023_ki2_vorlesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2023/2023_ki2_vorlesung.git	pushed	
+2026-10-30	2023_ki3_projects/2022_ki3_klausur	git@git-kik.hs-ansbach.de:2023_ki3_material/2022_ki3_klausur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2022_ki3_klausur.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a1	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a1.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a1.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a1_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a1_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a1_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a2	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a2.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a2.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a2_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a2_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a2_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a3	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a3.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a3.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a3_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a3_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a3_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a4	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a4.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a4.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a4_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a4_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a4_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a5	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a5.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a5.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a5_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a5_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a5_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a6	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a6.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a6.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a6_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a6_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a6_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a7	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a7.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a7.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a7_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a7_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a7_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a8	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a8.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a8.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_a8_loesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_a8_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_a8_loesung.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_klausur	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_klausur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_klausur.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_klausuraufgaben	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_klausuraufgaben.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_klausuraufgaben.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_klausurkorrektur	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_klausurkorrektur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_klausurkorrektur.git	pushed	
+2026-10-30	2023_ki3_projects/2023_ki3_vorlesung	git@git-kik.hs-ansbach.de:2023_ki3_material/2023_ki3_vorlesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2023_ki3_vorlesung.git	pushed	
+2026-10-30	2023_ki3_projects/2024_ki3_nachklausur	git@git-kik.hs-ansbach.de:2023_ki3_material/2024_ki3_nachklausur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2023/2024_ki3_nachklausur.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a1	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a1.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a1.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a10	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a10.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a10.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a10_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a10_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a10_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a1_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a1_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a1_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a2	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a2.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a2.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a2_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a2_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a2_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a3	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a3.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a3.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a3_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a3_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a3_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a4	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a4.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a4.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a4_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a4_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a4_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a5	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a5.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a5.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a5_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a5_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a5_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a6	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a6.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a6.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a6_loesung_1	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a6_loesung_1.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a6_loesung_1.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a6_loesung_2	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a6_loesung_2.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a6_loesung_2.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a7	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a7.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a7.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a7_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a7_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a7_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a8	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a8.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a8.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a8_loesung2	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a8_loesung2.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a8_loesung2.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a9	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a9.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a9.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_a9_loesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_a9_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_a9_loesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_vorlesung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_vorlesung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_vorlesung.git	pushed	
+2026-10-30	2023_ki4_projects/2023_ki4_weitsprung	git@git-kik.hs-ansbach.de:2023_ki4_material/2023_ki4_weitsprung.git	git@gitlab.com:hsangit/aki/deep-learning/2023/2023_ki4_weitsprung.git	pushed	
+2026-10-30	2023_ki4_projects/rl_playground	git@git-kik.hs-ansbach.de:2023_ki4_material/rl_playground.git	git@gitlab.com:hsangit/aki/deep-learning/2023/rl_playground.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/allgemeine_info	git@git-kik.hs-ansbach.de:2023_studentenprojekte/allgemeine_info.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/allgemeine_info.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/autoencoder	git@git-kik.hs-ansbach.de:2023_studentenprojekte/autoencoder.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/autoencoder.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/deepfake	git@git-kik.hs-ansbach.de:2023_studentenprojekte/deepfake.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/deepfake.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/eeg-dl	git@git-kik.hs-ansbach.de:2023_studentenprojekte/eeg-dl.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/eeg-dl.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/eeg_explainable	git@git-kik.hs-ansbach.de:2023_studentenprojekte/eeg_explainable.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/eeg_explainable.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/Image-Reconstruction-using-GANs-and-Autoencoders	git@git-kik.hs-ansbach.de:2023_studentenprojekte/Image-Reconstruction-using-GANs-and-Autoencoders.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/Image-Reconstruction-using-GANs-and-Autoencoders.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/kognitivekooperation	git@git-kik.hs-ansbach.de:2023_studentenprojekte/kognitivekooperation.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/kognitivekooperation.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/osu	git@git-kik.hs-ansbach.de:2023_studentenprojekte/osu.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/osu.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/pawsomepals-unity-project	git@git-kik.hs-ansbach.de:2023_studentenprojekte/pawsomepals-unity-project.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/pawsomepals-unity-project.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/pepperGPT	git@git-kik.hs-ansbach.de:2023_studentenprojekte/pepperGPT.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/pepperGPT.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/produktinhalt	git@git-kik.hs-ansbach.de:2023_studentenprojekte/produktinhalt.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/produktinhalt.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/reinforcementlearningescape	git@git-kik.hs-ansbach.de:2023_studentenprojekte/reinforcementlearningescape.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/reinforcementlearningescape.git	pushed	
+2026-10-30	2023_studentenprojekte_projects/sprachassistent	git@git-kik.hs-ansbach.de:2023_studentenprojekte/sprachassistent.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2023/sprachassistent.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a1	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a1.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a1.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a1_loesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a1_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a1_loesung.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a2	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a2.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a2.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a2_loesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a2_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a2_loesung.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a3	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a3.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a3.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a3_loesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a3_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a3_loesung.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a4_loesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a4_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a4_loesung.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a5	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a5.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a5.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a6_loesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a6_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a6_loesung.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a7	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a7.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a7.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a7_loesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a7_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a7_loesung.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a8	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a8.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a8.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_a8_loesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_a8_loesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_a8_loesung.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_klausur	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_klausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_klausur.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_klausuraufgaben	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_klausuraufgaben.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_klausuraufgaben.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_klausurkorrektur	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_klausurkorrektur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_klausurkorrektur.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_nachklausur	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_nachklausur.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_nachklausur.git	pushed	
+2026-10-30	2024_ki2_projects/2024_ki2_vorlesung	git@git-kik.hs-ansbach.de:2024_ki2_material/2024_ki2_vorlesung.git	git@gitlab.com:hsangit/aki/ki2-maschinelles-lernen/2024/2024_ki2_vorlesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a1	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a1.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a1.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a1_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a1_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a1_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a2_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a2_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a2_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a3_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a3_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a3_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a4_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a4_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a4_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a5_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a5_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a5_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a6_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a6_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a6_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a7_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a7_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a7_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_a8_loesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_a8_loesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_a8_loesung.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_klausur	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_klausur.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_klausur.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_klausuraufgaben	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_klausuraufgaben.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_klausuraufgaben.git	pushed	
+2026-10-30	2024_ki3_projects/2024_ki3_vorlesung	git@git-kik.hs-ansbach.de:2024_ki3_material/2024_ki3_vorlesung.git	git@gitlab.com:hsangit/aki/neuronale-netze/2024/2024_ki3_vorlesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a1	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a1.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a1.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a1_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a1_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a1_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a2	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a2.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a2_5	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a2_5.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_5.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a2_5_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a2_5_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_5_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a2_6	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a2_6.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_6.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a2_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a2_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a2_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a3	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a3.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a3.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a3_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a3_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a3_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a4	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a4.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a4_5	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a4_5.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4_5.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a4_5_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a4_5_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4_5_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a4_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a4_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a4_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a5	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a5.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a5.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a5_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a5_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a5_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a6	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a6.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a6.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a6_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a6_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a6_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a7	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a7.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a7.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a7_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a7_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a7_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a8	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a8.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a8.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a8_loesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a8_loesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a8_loesung.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_a8_loesung_alt	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_a8_loesung_alt.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_a8_loesung_alt.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_muendliche_pruefungen	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_muendliche_pruefungen.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_muendliche_pruefungen.git	pushed	
+2026-10-30	2024_ki4_projects/2024_ki4_vorlesung	git@git-kik.hs-ansbach.de:2024_ki4_material/2024_ki4_vorlesung.git	git@gitlab.com:hsangit/aki/deep-learning/2024/2024_ki4_vorlesung.git	pushed	
+2026-10-30	2024_kiforschung_projects/2024_kiforschung_vorlesung	git@git-kik.hs-ansbach.de:2024_kiforschung/2024_kiforschung_vorlesung.git	git@gitlab.com:hsangit/aki/ki-forschung/2024/2024_kiforschung_vorlesung.git	pushed	
+2026-10-30	2024_kiforschung_projects/astro_anomalies	git@git-kik.hs-ansbach.de:2024_kiforschung/astro_anomalies.git	git@gitlab.com:hsangit/aki/ki-forschung/2024/astro_anomalies.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/3Danomaly	git@git-kik.hs-ansbach.de:2024_studentenprojekte/3Danomaly.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/3Danomaly.git	PUSH FAILED	
+2026-10-30	2024_studentenprojekte_projects/bioreaktor	git@git-kik.hs-ansbach.de:2024_studentenprojekte/bioreaktor.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git	PUSH FAILED	
+2026-10-30	2024_studentenprojekte_projects/drohne	git@git-kik.hs-ansbach.de:2024_studentenprojekte/drohne.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/drohne.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/eegelektroden	git@git-kik.hs-ansbach.de:2024_studentenprojekte/eegelektroden.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/eegelektroden.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/elektrodenmessung	git@git-kik.hs-ansbach.de:2024_studentenprojekte/elektrodenmessung.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/elektrodenmessung.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/frontend	git@git-kik.hs-ansbach.de:2024_studentenprojekte/frontend.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/frontend.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/genai_music	git@git-kik.hs-ansbach.de:2024_studentenprojekte/genai_music.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/genai_music.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/hautkrebs	git@git-kik.hs-ansbach.de:2024_studentenprojekte/hautkrebs.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/hautkrebs.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/heimauto	git@git-kik.hs-ansbach.de:2024_studentenprojekte/heimauto.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/heimauto.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/pawprint	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pawprint.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pawprint.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/serviceroboter	git@git-kik.hs-ansbach.de:2024_studentenprojekte/serviceroboter.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/serviceroboter.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/shootair	git@git-kik.hs-ansbach.de:2024_studentenprojekte/shootair.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/shootair.git	PUSH FAILED	
+2026-10-30	2024_studentenprojekte_projects/bioreaktor	git@git-kik.hs-ansbach.de:2024_studentenprojekte/bioreaktor.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git	pushed	
+2026-10-30	2024_studentenprojekte_projects/3Danomaly	git@git-kik.hs-ansbach.de:2024_studentenprojekte/3Danomaly.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/3Danomaly.git	pushed	
+2026-10-30	biogas_projects/maispreis	git@git-kik.hs-ansbach.de:biogas/maispreis.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/maispreis.git	pushed	
+2026-10-30	deep-eeg_projects/ap2-data-preprocessing	git@git-kik.hs-ansbach.de:deep-eeg/ap2-data-preprocessing.git	git@gitlab.com:hsangit/research/deep-eeg/ap2-data-preprocessing.git	origin switched	already on gitlab (ahead), no push; pulled
+2026-10-30	deep-eeg_projects/ap0_versioned_data	git@git-kik.hs-ansbach.de:deep-eeg/ap0_versioned_data.git	git@gitlab.com:hsangit/research/deep-eeg/ap0_versioned_data.git	pushed	
+2026-10-30	deep-eeg_projects/ap3-seizure-detection	git@git-kik.hs-ansbach.de:deep-eeg/ap3-seizure-detection.git	-	LATER	user checks for existing copy on gitlab
+2026-10-30	eigenki_projects/eigenki-backend	git@git-kik.hs-ansbach.de:eigenki/eigenki-backend.git	git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-backend.git	pushed	
+2026-10-30	eigenki_projects/eigenki-frontend	git@git-kik.hs-ansbach.de:eigenki/eigenki-frontend.git	git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-frontend.git	pushed	
+2026-10-30	eigenki_projects/eigenki-frontend-js	git@git-kik.hs-ansbach.de:eigenki/eigenki-frontend-js.git	git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-frontend-js.git	pushed	
+2026-10-30	eigenki_projects/eigenki-installation	git@git-kik.hs-ansbach.de:eigenki/eigenki-installation.git	git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-installation.git	pushed	
+2026-10-30	eigenki_projects/eigenki-kicontainer	git@git-kik.hs-ansbach.de:eigenki/eigenki-kicontainer.git	git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-kicontainer.git	pushed	
+2026-10-30	eigenki_projects/kigraph	git@git-kik.hs-ansbach.de:eigenki/kigraph.git	git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/kigraph.git	pushed	
+2026-10-30	deep-eeg_projects/ap3-seizure-detection	git@git-kik.hs-ansbach.de:deep-eeg/ap3-seizure-detection.git	git@gitlab.com:hsangit/research/deep-eeg/ap3-seizure-detection.git	pushed	
+2026-10-30	fleximaus_projects/onboarding	git@git-kik.hs-ansbach.de:fleximaus/onboarding.git	git@gitlab.com:ki64/fleximaus/onboarding.git	pushed	
+2026-10-30	fleximaus_projects/2025_gutachten	git@git-kik.hs-ansbach.de:fleximaus/2025_gutachten.git	git@gitlab.com:ki64/fleximaus/2025_gutachten.git	pushed	
+2026-10-30	fleximaus_projects/publications_fleximaus	git@git-kik.hs-ansbach.de:sgeisselsoeder/publications_fleximaus.git	git@gitlab.com:ki64/fleximaus/publications_fleximaus.git	pushed	
+2026-10-30	fleximaus_projects/bewirtschaftungserkennungv0p1	git@git-kik.hs-ansbach.de:fleximaus/bewirtschaftungserkennungv0p1.git	git@gitlab.com:ki64/fleximaus/bewirtschaftungserkennungv0p1.git	PUSH FAILED	
+2026-10-31	fleximaus_projects/bewirtschaftungserkennungv0p1	git@git-kik.hs-ansbach.de:fleximaus/bewirtschaftungserkennungv0p1.git	git@gitlab.com:ki64/fleximaus/bewirtschaftungserkennungv0p1.git	PUSH ABORTED	Upload auf Wunsch abgebrochen (1.7 GB), Remote leer
+2026-10-31	heimauto_projects/heimauto	git@git-kik.hs-ansbach.de:sgeisselsoeder/heimauto.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto.git	pushed	
+2026-10-31	heimauto_projects/heimauto-monitor	git@git-kik.hs-ansbach.de:sgeisselsoeder/heimauto-monitor.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto-monitor.git	pushed	
+2026-10-31	heimauto_projects/heimsprech	git@git-kik.hs-ansbach.de:sgeisselsoeder/heimsprech.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimsprech.git	pushed	
+2026-10-31	heimauto_projects/website_static	git@git-kik.hs-ansbach.de:sgeisselsoeder/website_static.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/website_static.git	pushed	
+2026-10-31	intellichair_projects/high_performanc_computer	git@git-kik.hs-ansbach.de:intellichair/high_performanc_computer.git	git@gitlab.com:hsangit/research/intellichair/high_performanc_computer.git	PUSH FAILED	
+2026-10-31	intellichair_projects/movement_microcontroller	git@git-kik.hs-ansbach.de:intellichair/movement_microcontroller.git	git@gitlab.com:hsangit/research/intellichair/movement_microcontroller.git	PUSH FAILED	
+2026-10-31	intellichair_projects/ultrasonic_microcontroller	git@git-kik.hs-ansbach.de:intellichair/ultrasonic_microcontroller.git	git@gitlab.com:hsangit/research/intellichair/ultrasonic_microcontroller.git	PUSH FAILED	
+2026-10-31	intellichair_projects/protokolle	git@git-kik.hs-ansbach.de:intellichair/doku/protokolle.git	git@gitlab.com:hsangit/research/intellichair/protokolle.git	PUSH FAILED	
+2026-10-31	intellichair_projects/high_performanc_computer	git@git-kik.hs-ansbach.de:intellichair/high_performanc_computer.git	git@gitlab.com:hsangit/research/rollstuhl/high_performanc_computer.git	pushed	
+2026-10-31	intellichair_projects/movement_microcontroller	git@git-kik.hs-ansbach.de:intellichair/movement_microcontroller.git	git@gitlab.com:hsangit/research/rollstuhl/movement_microcontroller.git	pushed	
+2026-10-31	intellichair_projects/ultrasonic_microcontroller	git@git-kik.hs-ansbach.de:intellichair/ultrasonic_microcontroller.git	git@gitlab.com:hsangit/research/rollstuhl/ultrasonic_microcontroller.git	pushed	
+2026-10-31	intellichair_projects/protokolle	git@git-kik.hs-ansbach.de:intellichair/doku/protokolle.git	git@gitlab.com:hsangit/research/rollstuhl/protokolle.git	pushed	
+2026-10-31	kupferopti_projects/kupfer_analyse	git@git-kik.hs-ansbach.de:kupferopti/kupfer_analyse.git	git@gitlab.com:ki64/kupferopti/kupfer_analyse.git	PUSH FAILED	
+2026-10-31	kupferopti_projects/kupfer_analyse	git@git-kik.hs-ansbach.de:kupferopti/kupfer_analyse.git	git@gitlab.com:ki64/kupferopti/kupfer_analyse.git	pushed	
+2026-10-31	kupferpreis_projects/demo_app	git@git-kik.hs-ansbach.de:kupferpreis/demo_app.git	git@gitlab.com:ki64/kupferpreis/demo_app.git	pushed	
+2026-10-31	kupferpreis_projects/documentation	git@git-kik.hs-ansbach.de:kupferpreis/documentation.git	git@gitlab.com:ki64/kupferpreis/documentation.git	pushed	
+2026-10-31	kupferpreis_projects/web_scraper	git@git-kik.hs-ansbach.de:sgeisselsoeder/web_scraper.git	git@gitlab.com:ki64/kupferpreis/web_scraper.git	pushed	
+2026-10-31	kupferpreis_projects/kupferpreis	git@git-kik.hs-ansbach.de:kupferpreis/kupferpreis.git	git@gitlab.com:ki64/kupferpreis/kupferpreis.git	PUSH FAILED	
+2026-10-31	kupferpreis_projects/kupferpreis	git@git-kik.hs-ansbach.de:kupferpreis/kupferpreis.git	git@gitlab.com:ki64/kupferpreis/kupferpreis.git	pushed	history rewritten: tagesschau.csv.tar.gz (486 MiB) removed; backup in scratchpad
+2026-10-31	neuraldrones_projects/djistream	git@git-kik.hs-ansbach.de:neuraldrones/djistream.git	git@gitlab.com:neuraldrones/djistream.git	PUSH FAILED	
+2026-10-31	neuraldrones_projects/rtmp_ai	git@git-kik.hs-ansbach.de:neuraldrones/rtmp_ai.git	git@gitlab.com:neuraldrones/rtmp_ai.git	PUSH FAILED	
+2026-10-31	neuraldrones_projects/djistream	git@git-kik.hs-ansbach.de:neuraldrones/djistream.git	git@gitlab.com:neuraldr/djistream.git	PUSH FAILED	
+2026-10-31	neuraldrones_projects/rtmp_ai	git@git-kik.hs-ansbach.de:neuraldrones/rtmp_ai.git	git@gitlab.com:neuraldr/rtmp_ai.git	PUSH FAILED	
+2026-10-31	neuraldrones_projects/carpark	git@git-kik.hs-ansbach.de:neuraldrones/carpark.git	git@gitlab.com:neuraldr/carpark.git	PUSH FAILED	history rewritten: blobs >100MiB removed (incl. models/parking_spot.pt); backup in scratchpad
+2026-10-31	neuraldrones_projects/carpark	git@git-kik.hs-ansbach.de:neuraldrones/carpark.git	-	LATER	history cleanup reverted, original with big files restored from backup
+2026-10-31	neuraldrones_projects/djistream	git@git-kik.hs-ansbach.de:neuraldrones/djistream.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/djistream.git	pushed	
+2026-10-31	neuraldrones_projects/rtmp_ai	git@git-kik.hs-ansbach.de:neuraldrones/rtmp_ai.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/rtmp_ai.git	pushed	
+2026-10-31	neuraldrones_projects/mavlink	git@gitlab.com:neuraldr/mavlink.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/mavlink.git	pushed	moved from gitlab.com/neuraldr (old origin kept as remote neuraldr)
+2026-10-31	neuraldrones_projects/mavsdk_gazebo	git@gitlab.com:neuraldr/mavsdk_gazebo.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/mavsdk_gazebo.git	pushed	moved from gitlab.com/neuraldr (old origin kept as remote neuraldr)
+2026-10-31	neuraldrones_projects/neuraldrones_infrared	git@gitlab.com:neuraldr/neuraldrones_infrared.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones_infrared.git	pushed	moved from gitlab.com/neuraldr (old origin kept as remote neuraldr)
+2026-10-31	neuraldrones_projects/video_demo	git@gitlab.com:neuraldr/video_demo.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/video_demo.git	pushed	moved from gitlab.com/neuraldr (old origin kept as remote neuraldr)
+2026-10-31	neuraldrones_projects/carpark	git@git-kik.hs-ansbach.de:neuraldrones/carpark.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/carpark.git	pushed	original history incl. big files
+2026-10-31	pawprint_projects/2024_studiprojekt	git@git-kik.hs-ansbach.de:pawprint/2024_studiprojekt.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/2024_studiprojekt.git	PUSH FAILED	
+2026-10-31	pawprint_projects/backend	git@git-kik.hs-ansbach.de:pawprint/backend.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/backend.git	PUSH FAILED	
+2026-10-31	pawprint_projects/pawdata	git@git-kik.hs-ansbach.de:pawprint/pawdata.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawdata.git	PUSH FAILED	
+2026-10-31	pawprint_projects/pawai	git@git-kik.hs-ansbach.de:pawprint/pawai.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawai.git	PUSH FAILED	
+2026-10-31	pick_box_neura_projects/pick_box	git@git-kik.hs-ansbach.de:neura/pick_box.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pick_box_neura/pick_box.git	PUSH FAILED	
+2026-10-31	pawprint_projects/2024_studiprojekt	git@git-kik.hs-ansbach.de:pawprint/2024_studiprojekt.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/2024_studiprojekt.git	pushed	
+2026-10-31	pawprint_projects/backend	git@git-kik.hs-ansbach.de:pawprint/backend.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/backend.git	pushed	
+2026-10-31	pawprint_projects/pawdata	git@git-kik.hs-ansbach.de:pawprint/pawdata.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawdata.git	pushed	
+2026-10-31	pick_box_neura_projects/pick_box	git@git-kik.hs-ansbach.de:neura/pick_box.git	git@gitlab.com:hsangit/research/neura/pick_box.git	pushed	
+2026-10-31	pick_box_neura_projects/neurabox	git@gitlab.com:profgeisselsoeder/neurabox.git	git@gitlab.com:hsangit/research/neura/neurabox.git	pushed	moved from gitlab.com/profgeisselsoeder (old origin kept as remote profgeisselsoeder)
+2026-10-31	pawprint_projects/pawai	git@git-kik.hs-ansbach.de:pawprint/pawai.git	git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawai.git	pushed	
+2026-10-31	pumpbot_projects/api	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/api.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/api.git	PUSH FAILED	
+2026-10-31	pumpbot_projects/cryptofyt3r	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/cryptofyt3r.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/cryptofyt3r.git	PUSH FAILED	
+2026-10-31	pumpbot_projects/dashboard	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/dashboard.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/dashboard.git	PUSH FAILED	
+2026-10-31	pumpbot_projects/position_watcher	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/position_watcher.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/position_watcher.git	PUSH FAILED	
+2026-10-31	pumpbot_projects/report	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/report.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/report.git	PUSH FAILED	
+2026-10-31	pumpbot_projects/api	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/api.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/api.git	pushed	
+2026-10-31	pumpbot_projects/cryptofyt3r	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/cryptofyt3r.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/cryptofyt3r.git	pushed	
+2026-10-31	pumpbot_projects/dashboard	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/dashboard.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/dashboard.git	pushed	
+2026-10-31	pumpbot_projects/position_watcher	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/position_watcher.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/position_watcher.git	pushed	
+2026-10-31	pumpbot_projects/report	git@git-kik.hs-ansbach.de:2024_studentenprojekte/pumpbot/report.git	git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/report.git	pushed	
+2026-10-31	swarminteligence_projects/warehouseautomation	git@git-kik.hs-ansbach.de:swarminteligence/warehouseautomation.git	git@gitlab.com:hsangit/research/swarminteligence/warehouseautomation.git	PUSH FAILED	
+2026-10-31	swarminteligence_projects/warehouseautomation	git@git-kik.hs-ansbach.de:swarminteligence/warehouseautomation.git	git@gitlab.com:hsangit/research/swarm_intelligence/warehouseautomation.git	origin switched	all git-kik branches already identical on gitlab.com (which has 3 more)
+2026-10-31	techdemos_projects/ansibleapp	git@git-kik.hs-ansbach.de:techdemos/ansibleapp.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/ansibleapp.git	PUSH FAILED	
+2026-10-31	techdemos_projects/demo_dvc1	git@git-kik.hs-ansbach.de:techdemos/demo_dvc1.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_dvc1.git	PUSH FAILED	
+2026-10-31	techdemos_projects/demo_sprachprotokoll	git@git-kik.hs-ansbach.de:techdemos/demo_sprachprotokoll.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_sprachprotokoll.git	PUSH FAILED	
+2026-10-31	techdemos_projects/demo_streamlit_webcam	git@git-kik.hs-ansbach.de:techdemos/demo_streamlit_webcam.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_streamlit_webcam.git	PUSH FAILED	
+2026-10-31	techdemos_projects/gradio_apps	git@git-kik.hs-ansbach.de:techdemos/gradio_apps.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/gradio_apps.git	PUSH FAILED	
+2026-10-31	techdemos_projects/pyscriptweb	git@git-kik.hs-ansbach.de:techdemos/pyscriptweb.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/pyscriptweb.git	PUSH FAILED	
+2026-10-31	techdemos_projects/retrain_yolo	git@git-kik.hs-ansbach.de:techdemos/retrain_yolo.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/retrain_yolo.git	PUSH FAILED	
+2026-10-31	techdemos_projects/ansibleapp	git@git-kik.hs-ansbach.de:techdemos/ansibleapp.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/ansibleapp.git	pushed	
+2026-10-31	techdemos_projects/demo_dvc1	git@git-kik.hs-ansbach.de:techdemos/demo_dvc1.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_dvc1.git	pushed	
+2026-10-31	techdemos_projects/demo_sprachprotokoll	git@git-kik.hs-ansbach.de:techdemos/demo_sprachprotokoll.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_sprachprotokoll.git	pushed	
+2026-10-31	techdemos_projects/demo_streamlit_webcam	git@git-kik.hs-ansbach.de:techdemos/demo_streamlit_webcam.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_streamlit_webcam.git	pushed	
+2026-10-31	techdemos_projects/gradio_apps	git@git-kik.hs-ansbach.de:techdemos/gradio_apps.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/gradio_apps.git	pushed	
+2026-10-31	techdemos_projects/pyscriptweb	git@git-kik.hs-ansbach.de:techdemos/pyscriptweb.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/pyscriptweb.git	pushed	
+2026-10-31	techdemos_projects/retrain_yolo	git@git-kik.hs-ansbach.de:techdemos/retrain_yolo.git	git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/retrain_yolo.git	pushed	
+2026-10-31	turns_projects/kleidung_yolo	git@git-kik.hs-ansbach.de:turns/kleidung_yolo.git	git@gitlab.com:hsangit/research/turns/kleidung_yolo.git	pushed	
+2026-10-31	turns_projects/spectroscopy	git@git-kik.hs-ansbach.de:turns/spectroscopy.git	git@gitlab.com:hsangit/research/turns/spectroscopy_2024.git	pushed	renamed: Spectroscopy already exists (unrelated history)
+2026-10-31	vision1_projects/backend	git@git-kik.hs-ansbach.de:pawprint/vision1/backend.git	-	REMOVED	duplicate: all commits contained in pawprint/backend
+2026-10-31	wall-a_projects/leo_rover_repo	git@git-kik.hs-ansbach.de:wall-a/leo_rover_repo.git	-	REMOVED	duplicate of hardware_assembly (identical branches)
+2026-10-31	wall-a_projects/ultrasonic	git@git-kik.hs-ansbach.de:wall-a/ultrasonic.git	git@gitlab.com:hsangit/research/wall-a/ultrasonic.git	pushed	
+2026-10-31	wall-a_projects/leo-rover-2	git@git-kik.hs-ansbach.de:wall-a/leo-rover-2.git	git@gitlab.com:hsangit/research/wall-a/leo-rover-2.git	pushed	
+2026-10-31	wall-a_projects/leo_rover_cockpit	git@git-kik.hs-ansbach.de:wall-a/leo_rover_cockpit.git	git@gitlab.com:hsangit/research/wall-a/leo_rover_cockpit.git	pushed	
+2026-10-31	wall-a_projects/leorover-rlenvirionment	git@git-kik.hs-ansbach.de:wall-a/leorover-rlenvirionment.git	git@gitlab.com:hsangit/research/wall-a/leorover-rlenvirionment.git	pushed	
+2026-10-31	wall-a_projects/leo-rover-ros-noetic-docker	git@git-kik.hs-ansbach.de:wall-a/leo-rover-ros-noetic-docker.git	git@gitlab.com:hsangit/research/wall-a/leo-rover-ros-noetic-docker.git	pushed	
+2026-10-31	wall-a_projects/leo-rover-simulation	git@git-kik.hs-ansbach.de:wall-a/leo-rover-simulation.git	git@gitlab.com:hsangit/research/wall-a/leo-rover-simulation.git	pushed	
+2026-10-31	wall-a_projects/lidar-navigation	git@git-kik.hs-ansbach.de:wall-a/lidar-navigation.git	git@gitlab.com:hsangit/research/wall-a/lidar-navigation.git	pushed	
+2026-10-31	wall-a_projects/lidar-safety	git@git-kik.hs-ansbach.de:wall-a/lidar-safety.git	git@gitlab.com:hsangit/research/wall-a/lidar-safety.git	pushed	
+2026-10-31	wall-a_projects/hardware_assembly	git@git-kik.hs-ansbach.de:wall-a/hardware_assembly.git	git@gitlab.com:hsangit/research/wall-a/hardware_assembly.git	pushed	
+2026-10-31	webapp_projects/flask_auth	git@git-kik.hs-ansbach.de:webapp/flask_auth.git	git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/flask_auth.git	pushed	
+2026-10-31	webapp_projects/flask_auth2	git@git-kik.hs-ansbach.de:webapp/flask_auth2.git	git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/flask_auth2.git	pushed	
+2026-10-31	webapp_projects/multilevel_auth	git@git-kik.hs-ansbach.de:webapp/multilevel_auth.git	git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/multilevel_auth.git	pushed	
+2026-10-31	webapp_projects/multilevel_simple	git@git-kik.hs-ansbach.de:webapp/multilevel_simple.git	git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/multilevel_simple.git	pushed	
+2026-10-31	webapp_projects/webapp-django	git@git-kik.hs-ansbach.de:webapp/webapp-django.git	git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/webapp-django.git	pushed	
+2026-10-31	webapp_projects/yaa	git@git-kik.hs-ansbach.de:webapp/yaa.git	git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/yaa.git	pushed	
+2026-10-31	windforest_projects/windforest	git@git-kik.hs-ansbach.de:windforest/windforest.git	git@gitlab.com:hsangit/research/windforest/windforest.git	PUSH FAILED	
+2026-10-31	fleximaus_projects/bewirtschaftungserkennungv0p1	git@git-kik.hs-ansbach.de:fleximaus/bewirtschaftungserkennungv0p1.git	git@gitlab.com:hsangit/research/sgeisselsoeder/bewirtschaftungserkennungv0p1.git	pushed	
+2026-10-31	demo_projects/demo_nn	git@git-kik.hs-ansbach.de:sgeisselsoeder/demo_nn.git	-	REMOVED	
+2026-10-31	windforest_projects/windforest	git@git-kik.hs-ansbach.de:windforest/windforest.git	git@gitlab.com:hsangit/research/windforest/windforest.git	pushed	
+2026-10-31	2024_studentenprojekte_projects/shootair	git@git-kik.hs-ansbach.de:2024_studentenprojekte/shootair.git	ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/shootair.git	pushed	LFS objects lost with git-kik; pushed unchanged (pointers only) to pi
+2026-10-31	neuraldrones_projects/neuraldrones	git@github.com:b1acksheep1/neuraldrones.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones.git	pushed	GitHub repo no longer reachable; pushed from local copy (old origin kept as remote github)
+2026-10-31	neuraldrones_projects/dji_dock_frontend	git@github.com:b1acksheep1/dji_dock_frontend.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/dji_dock_frontend.git	pushed	GitHub repo no longer reachable; pushed from local copy (old origin kept as remote github)
+2026-10-31	neuraldrones_projects/neuraldrones-backend	git@github.com:gegner-io/neuraldrones-backend.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-backend.git	pushed	GitHub repo no longer reachable; pushed from local copy (old origin kept as remote github)
+2026-10-31	neuraldrones_projects/neuraldrones-frontend	git@github.com:gegner-io/neuraldrones-frontend.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-frontend.git	pushed	GitHub repo no longer reachable; pushed from local copy (old origin kept as remote github)
+2026-10-31	neuraldrones_projects/neuraldrones-stack	git@github.com:gegner-io/neuraldrones-stack.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-stack.git	pushed	GitHub repo no longer reachable; pushed from local copy (old origin kept as remote github)
+2026-10-31	neuraldrones_projects/drone_control_app	git@github.com:b1acksheep1/drone_control_app.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/drone_control_app.git	pushed	moved from b1acksheep1 GitHub (old origin kept as remote github)
+2026-10-31	neuraldrones_projects/nd_whip_server	git@github.com:b1acksheep1/nd_whip_server.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/nd_whip_server.git	pushed	moved from b1acksheep1 GitHub (old origin kept as remote github)
+2026-10-31	neuraldrones_projects/frat-automate	git@github.com:b1acksheep1/frat-automate.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/frat-automate.git	pushed	moved from b1acksheep1 GitHub (old origin kept as remote github)
