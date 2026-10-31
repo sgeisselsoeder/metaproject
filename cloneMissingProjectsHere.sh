@@ -961,6 +961,11 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawdata
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawai.git pawprint_projects/pawai
 clone_if_missing git@gitlab.com:hsangit/research/neura/pick_box.git pick_box_neura_projects/pick_box
 clone_if_missing git@gitlab.com:hsangit/research/neura/neurabox.git pick_box_neura_projects/neurabox
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/api.git pumpbot_projects/api
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/cryptofyt3r.git pumpbot_projects/cryptofyt3r
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/dashboard.git pumpbot_projects/dashboard
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/position_watcher.git pumpbot_projects/position_watcher
+clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/report.git pumpbot_projects/report
 # end of git-kik migration
 
 
