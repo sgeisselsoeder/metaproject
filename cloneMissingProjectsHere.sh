@@ -246,12 +246,6 @@ done
 
 GROUPNAME="turns"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in spectroscopy kleidung_yolo 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 for projectName in paper_yolo paper_spectroscopy Spectroscopy abschlussbericht
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
@@ -524,26 +518,18 @@ done
 # done
 
 
-GROUPNAME="techdemos"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in pyscriptweb ansibleapp demo_sprachprotokoll retrain_yolo gradio_apps demo_dvc1 demo_streamlit_webcam
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 
 
 
-GROUPNAME="vision1"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in backend 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:pawprint/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# GROUPNAME="vision1"
+# mkdir -p ${GROUPNAME}${GITGROUPTAG}
+# for projectName in backend 
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:pawprint/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
 GROUPNAME="kupferpreis"
@@ -966,6 +952,16 @@ clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/cryptof
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/dashboard.git pumpbot_projects/dashboard
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/position_watcher.git pumpbot_projects/position_watcher
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pumpbot/report.git pumpbot_projects/report
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/ansibleapp.git techdemos_projects/ansibleapp
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_dvc1.git techdemos_projects/demo_dvc1
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_sprachprotokoll.git techdemos_projects/demo_sprachprotokoll
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/demo_streamlit_webcam.git techdemos_projects/demo_streamlit_webcam
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/gradio_apps.git techdemos_projects/gradio_apps
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/pyscriptweb.git techdemos_projects/pyscriptweb
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/retrain_yolo.git techdemos_projects/retrain_yolo
+clone_if_missing git@gitlab.com:hsangit/research/turns/kleidung_yolo.git turns_projects/kleidung_yolo
+clone_if_missing git@gitlab.com:hsangit/research/turns/spectroscopy_2024.git turns_projects/spectroscopy
+# removed: vision1_projects/backend (git@git-kik.hs-ansbach.de:pawprint/vision1/backend.git)
 # end of git-kik migration
 
 
