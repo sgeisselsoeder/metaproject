@@ -963,6 +963,10 @@ clone_if_missing git@gitlab.com:ki64/fleximaus/onboarding.git fleximaus_projects
 clone_if_missing git@gitlab.com:ki64/fleximaus/2025_gutachten.git fleximaus_projects/2025_gutachten
 clone_if_missing git@gitlab.com:ki64/fleximaus/publications_fleximaus.git fleximaus_projects/publications_fleximaus
 # clone_if_missing git@gitlab.com:ki64/fleximaus/bewirtschaftungserkennungv0p1.git fleximaus_projects/bewirtschaftungserkennungv0p1
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto.git heimauto_projects/heimauto
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto-monitor.git heimauto_projects/heimauto-monitor
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimsprech.git heimauto_projects/heimsprech
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/website_static.git heimauto_projects/website_static
 # end of git-kik migration
 
 
@@ -1151,14 +1155,6 @@ if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 fi
 
 
-GROUPNAME="heimauto"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in heimauto heimsprech website_static heimauto-monitor
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${EIGEN_GITLAB}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 
 # Clone siemens exdra projects, needs more credentials
