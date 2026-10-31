@@ -232,14 +232,6 @@ do
 done
 
 
-GROUPNAME="windforest"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in windforest 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 
 
@@ -973,6 +965,7 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/webapp-dj
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/yaa.git webapp_projects/yaa
 # clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/bewirtschaftungserkennungv0p1.git fleximaus_projects/bewirtschaftungserkennungv0p1
 # removed: demo_projects/demo_nn (git@git-kik.hs-ansbach.de:sgeisselsoeder/demo_nn.git)
+clone_if_missing git@gitlab.com:hsangit/research/windforest/windforest.git windforest_projects/windforest
 # end of git-kik migration
 
 
