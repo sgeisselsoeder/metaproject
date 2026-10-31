@@ -893,12 +893,12 @@ clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/eegelektroden.g
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/elektrodenmessung.git 2024_studentenprojekte_projects/elektrodenmessung
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/frontend.git 2024_studentenprojekte_projects/frontend
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/genai_music.git 2024_studentenprojekte_projects/genai_music
-clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/hautkrebs.git 2024_studentenprojekte_projects/hautkrebs
+# clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/hautkrebs.git 2024_studentenprojekte_projects/hautkrebs  # braucht viel Plattenplatz (~5,5 GB)
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/heimauto.git 2024_studentenprojekte_projects/heimauto
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pawprint.git 2024_studentenprojekte_projects/pawprint
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/serviceroboter.git 2024_studentenprojekte_projects/serviceroboter
-clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git 2024_studentenprojekte_projects/bioreaktor
-clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/3Danomaly.git 2024_studentenprojekte_projects/3Danomaly
+# clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git 2024_studentenprojekte_projects/bioreaktor  # braucht viel Plattenplatz (~2,5 GB)
+# clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/3Danomaly.git 2024_studentenprojekte_projects/3Danomaly  # braucht viel Plattenplatz (~5,9 GB)
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/maispreis.git biogas_projects/maispreis
 clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap2-data-preprocessing.git deep-eeg_projects/ap2-data-preprocessing
 clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap0_versioned_data.git deep-eeg_projects/ap0_versioned_data
@@ -973,7 +973,7 @@ clone_if_missing git@gitlab.com:hsangit/research/wall-a/leo-rover-ros-noetic-doc
 clone_if_missing git@gitlab.com:hsangit/research/wall-a/leo-rover-simulation.git wall-a_projects/leo-rover-simulation
 clone_if_missing git@gitlab.com:hsangit/research/wall-a/lidar-navigation.git wall-a_projects/lidar-navigation
 clone_if_missing git@gitlab.com:hsangit/research/wall-a/lidar-safety.git wall-a_projects/lidar-safety
-clone_if_missing git@gitlab.com:hsangit/research/wall-a/hardware_assembly.git wall-a_projects/hardware_assembly
+# clone_if_missing git@gitlab.com:hsangit/research/wall-a/hardware_assembly.git wall-a_projects/hardware_assembly  # braucht viel Plattenplatz (~6,5 GB)
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/flask_auth.git webapp_projects/flask_auth
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/flask_auth2.git webapp_projects/flask_auth2
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/multilevel_auth.git webapp_projects/multilevel_auth
