@@ -1062,12 +1062,12 @@ done
 
 GROUPNAME="fleximaus"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in artenmodel
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_COM}:ki64/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# for projectName in artenmodel
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_COM}:ki64/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 for projectName in bewirtschaftungserkennung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
