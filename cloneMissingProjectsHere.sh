@@ -962,6 +962,16 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/techdemos/retrai
 clone_if_missing git@gitlab.com:hsangit/research/turns/kleidung_yolo.git turns_projects/kleidung_yolo
 clone_if_missing git@gitlab.com:hsangit/research/turns/spectroscopy_2024.git turns_projects/spectroscopy
 # removed: vision1_projects/backend (git@git-kik.hs-ansbach.de:pawprint/vision1/backend.git)
+# removed: wall-a_projects/leo_rover_repo (git@git-kik.hs-ansbach.de:wall-a/leo_rover_repo.git)
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/ultrasonic.git wall-a_projects/ultrasonic
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/leo-rover-2.git wall-a_projects/leo-rover-2
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/leo_rover_cockpit.git wall-a_projects/leo_rover_cockpit
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/leorover-rlenvirionment.git wall-a_projects/leorover-rlenvirionment
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/leo-rover-ros-noetic-docker.git wall-a_projects/leo-rover-ros-noetic-docker
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/leo-rover-simulation.git wall-a_projects/leo-rover-simulation
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/lidar-navigation.git wall-a_projects/lidar-navigation
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/lidar-safety.git wall-a_projects/lidar-safety
+clone_if_missing git@gitlab.com:hsangit/research/wall-a/hardware_assembly.git wall-a_projects/hardware_assembly
 # end of git-kik migration
 
 
