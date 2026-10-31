@@ -303,14 +303,6 @@ done
 
 
 
-GROUPNAME="deep-eeg"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in ap3-seizure-detection
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 GROUPNAME="webapp"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
@@ -967,6 +959,10 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-kicontainer.git eigenki_projects/eigenki-kicontainer
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/kigraph.git eigenki_projects/kigraph
 clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap3-seizure-detection.git deep-eeg_projects/ap3-seizure-detection
+clone_if_missing git@gitlab.com:ki64/fleximaus/onboarding.git fleximaus_projects/onboarding
+clone_if_missing git@gitlab.com:ki64/fleximaus/2025_gutachten.git fleximaus_projects/2025_gutachten
+clone_if_missing git@gitlab.com:ki64/fleximaus/publications_fleximaus.git fleximaus_projects/publications_fleximaus
+# clone_if_missing git@gitlab.com:ki64/fleximaus/bewirtschaftungserkennungv0p1.git fleximaus_projects/bewirtschaftungserkennungv0p1
 # end of git-kik migration
 
 
@@ -1054,19 +1050,6 @@ done
 
 
 GROUPNAME="fleximaus"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in bewirtschaftungserkennungv0p1 onboarding 2025_gutachten
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-for projectName in publications_fleximaus
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
 for projectName in artenmodel
 do
