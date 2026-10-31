@@ -432,3 +432,4 @@ date	repo	old_origin	new_origin	status	note
 2026-10-31	neuraldrones_projects/drone_control_app	git@github.com:b1acksheep1/drone_control_app.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/drone_control_app.git	pushed	moved from b1acksheep1 GitHub (old origin kept as remote github)
 2026-10-31	neuraldrones_projects/nd_whip_server	git@github.com:b1acksheep1/nd_whip_server.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/nd_whip_server.git	pushed	moved from b1acksheep1 GitHub (old origin kept as remote github)
 2026-10-31	neuraldrones_projects/frat-automate	git@github.com:b1acksheep1/frat-automate.git	git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/frat-automate.git	pushed	moved from b1acksheep1 GitHub (old origin kept as remote github)
+2026-10-31	bioreaktor	git@gitlab.com:hsangit/research/sgeisselsoeder/bioreaktor.git	-	REMOVED	all commits contained in 2024_studentenprojekte_projects/bioreaktor

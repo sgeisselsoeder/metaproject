@@ -629,7 +629,6 @@ clone_if_missing git@gitlab.com:hsangit/aki/lernverhalten/2024/2024_lernverhalte
 # removed: answer_llm (git@git-kik.hs-ansbach.de:sgeisselsoeder/answer_llm.git)
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/arbeitszeugnisse.git arbeitszeugnisse
 # removed: berufung (git@git-kik.hs-ansbach.de:sgeisselsoeder/berufung.git)
-clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/bioreaktor.git bioreaktor
 # removed: blender3d (git@git-kik.hs-ansbach.de:sgeisselsoeder/blender3d.git)
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/blistervision.git blistervision
 # removed: boosted_ensemble (git@git-kik.hs-ansbach.de:sgeisselsoeder/boosted_ensemble.git)
