@@ -892,7 +892,6 @@ clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/pawprint.git 20
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/serviceroboter.git 2024_studentenprojekte_projects/serviceroboter
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/bioreaktor.git 2024_studentenprojekte_projects/bioreaktor
 clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/3Danomaly.git 2024_studentenprojekte_projects/3Danomaly
-clone_if_missing git@gitlab.com:hsangit/aki/praxisprojekt-1/2024/shootair.git 2024_studentenprojekte_projects/shootair
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/maispreis.git biogas_projects/maispreis
 clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap2-data-preprocessing.git deep-eeg_projects/ap2-data-preprocessing
 clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap0_versioned_data.git deep-eeg_projects/ap0_versioned_data
@@ -966,6 +965,7 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/yaa.git w
 # clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/bewirtschaftungserkennungv0p1.git fleximaus_projects/bewirtschaftungserkennungv0p1
 # removed: demo_projects/demo_nn (git@git-kik.hs-ansbach.de:sgeisselsoeder/demo_nn.git)
 clone_if_missing git@gitlab.com:hsangit/research/windforest/windforest.git windforest_projects/windforest
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/shootair.git 2024_studentenprojekte_projects/shootair
 # end of git-kik migration
 
 
