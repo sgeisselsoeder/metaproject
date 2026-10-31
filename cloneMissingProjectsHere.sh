@@ -15,7 +15,7 @@ if [ ! -d "${projectName}" ]; then
 fi
 
 # own projects
-for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag generate_anomaly_data inference_benchmark 2026_03_19_ttz_fuck_up feuerdetektion kamerazentrale tts_demo
+for projectName in spielwiese 2025_ki3_nachklausur einsatzkraefte_drohnen_service nummernschild 2025_poster_projekte 2025_10_09_fit_tag generate_anomaly_data inference_benchmark 2026_03_19_ttz_fuck_up feuerdetektion kamerazentrale tts_demo liveuebersetzung
 do
 	if [ ! -d "${projectName}" ]; then
 		git clone git@${GITLAB_COM}:profgeisselsoeder/${projectName}.git ${projectName}
@@ -39,7 +39,7 @@ done
 # https://gitlab.com/hsangit/aki/neuronale-netze/ws2526/material/2025_ki3_vorlesung
 GROUPNAME="2025_ki3"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2025_ki3_vorlesung 
+for projectName in 2025_ki3_vorlesung a1 a2 a3 a4 a5 a6 a7 a8 a9 a1_loesung a2_loesung a3_loesung a4_loesung a5_loesung a6_loesung a7_loesung a8_loesung a9_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:hsangit/aki/neuronale-netze/ws2526/material/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -63,7 +63,7 @@ done
 GROUPNAME="2025_studentenprojekte"
 SUB_URL="hsangit/aki/praxisprojekt-1/ss25"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in dronepose 
+for projectName in dronepose deepeeg_reduced_electrodes rppg_hr_detection
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -103,18 +103,24 @@ done
 GROUPNAME="ctrlf"
 SUB_URL="hsangit/research"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-	for projectName in management perception_ai train_fdetect installer frontend mission_control camera_alert
+	for projectName in management perception_ai train_fdetect installer frontend mission_control camera_alert dock3_setup missioncontol-frontend
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 # git@gitlab.com:hsangit/research/ctrlf/backend.git
+for projectName in ba_dronecontrol
+do
+	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+	fi
+done
 
 GROUPNAME="2026_ki4"
 SUB_URL="hsangit/aki/deep-learning/sose26/material"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in vorlesung a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a1_loesung a2_loesung a3_loesung a4_loesung a5_loesung a6_loesung a7_loesung a8_loesung a9_loesung a10_loesung a11_loesung
+for projectName in vorlesung a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a1_loesung a2_loesung a3_loesung a4_loesung a5_loesung a6_loesung a7_loesung a8_loesung a9_loesung a10_loesung a11_loesung image_captioning_transformer mujoco mujoco_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -136,7 +142,8 @@ for projectName in vorlesung \
 	a7 a7_loesung \
 	a8 a8_loesung \
 	a9 a9_loesung \
-	a10 a10_loesung
+	a10 a10_loesung \
+	image_captioning_transformer mujoco mujoco_loesung
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:${SUB_URL}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -563,7 +570,7 @@ done
 
 GROUPNAME="swarm_intelligence"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in warehouseautomation walo2D paper_icra2026 rescuemission rescuemissionnotes paper_ki2026
+for projectName in warehouseautomation walo2D paper_icra2026 rescuemission rescuemissionnotes paper_ki2026 rl-benchmarks trajectoryplanner warehouse-logistics-2d
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@${GITLAB_COM}:hsangit/research/${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -902,10 +909,20 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/eigenki-kicontainer.git eigenki_projects/eigenki-kicontainer
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/kigraph.git eigenki_projects/kigraph
 clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap3-seizure-detection.git deep-eeg_projects/ap3-seizure-detection
+for projectName in 2026-bmt-stiehl 2026-eusipco-stiehl 2026-frontiers-paper 2026-spmb-stiehl \
+	ap3-diffusion_classifier ap3-onnx-creation ap3-postprocessing ap3-postprocessing-eval ap3-postprocessing-tuh \
+	ap3-seizure-detection-besa ap3-seizure-detection-classification ap3-seizure-detection-gnn ap3-tuh-eval-tool \
+	ap4-xai
+do
+	clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/${projectName}.git deep-eeg_projects/${projectName}
+done
 clone_if_missing git@gitlab.com:ki64/fleximaus/onboarding.git fleximaus_projects/onboarding
 clone_if_missing git@gitlab.com:ki64/fleximaus/2025_gutachten.git fleximaus_projects/2025_gutachten
 clone_if_missing git@gitlab.com:ki64/fleximaus/publications_fleximaus.git fleximaus_projects/publications_fleximaus
 clone_if_missing git@gitlab.com:ki64/fleximaus/training_arten.git fleximaus_projects/training_arten
+clone_if_missing git@gitlab.com:ki64/fleximaus/automated_training.git fleximaus_projects/automated_training
+clone_if_missing git@gitlab.com:ki64/fleximaus/eval_pipeline.git fleximaus_projects/eval_pipeline
+clone_if_missing git@gitlab.com:ki64/fleximaus/training_traktor.git fleximaus_projects/training_traktor
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto.git heimauto_projects/heimauto
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto-monitor.git heimauto_projects/heimauto-monitor
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimsprech.git heimauto_projects/heimsprech
