@@ -967,6 +967,10 @@ clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto.git he
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto-monitor.git heimauto_projects/heimauto-monitor
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimsprech.git heimauto_projects/heimsprech
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/website_static.git heimauto_projects/website_static
+clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/high_performanc_computer.git intellichair_projects/high_performanc_computer
+clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/movement_microcontroller.git intellichair_projects/movement_microcontroller
+clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/ultrasonic_microcontroller.git intellichair_projects/ultrasonic_microcontroller
+clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/protokolle.git intellichair_projects/protokolle
 # end of git-kik migration
 
 
@@ -1089,20 +1093,6 @@ done
 
 
 
-GROUPNAME="intellichair"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in ultrasonic_microcontroller high_performanc_computer movement_microcontroller  
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-for projectName in protokolle  
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/doku/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 
 
