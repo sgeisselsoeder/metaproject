@@ -300,12 +300,6 @@ done
 
 GROUPNAME="webapp"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in flask_auth flask_auth2 yaa multilevel_auth multilevel_simple webapp-django 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 for projectName in django-locallibrary-tutorial
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
@@ -920,7 +914,6 @@ clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap3-seizure-detection.
 clone_if_missing git@gitlab.com:ki64/fleximaus/onboarding.git fleximaus_projects/onboarding
 clone_if_missing git@gitlab.com:ki64/fleximaus/2025_gutachten.git fleximaus_projects/2025_gutachten
 clone_if_missing git@gitlab.com:ki64/fleximaus/publications_fleximaus.git fleximaus_projects/publications_fleximaus
-# clone_if_missing git@gitlab.com:ki64/fleximaus/bewirtschaftungserkennungv0p1.git fleximaus_projects/bewirtschaftungserkennungv0p1
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto.git heimauto_projects/heimauto
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto-monitor.git heimauto_projects/heimauto-monitor
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimsprech.git heimauto_projects/heimsprech
@@ -972,6 +965,14 @@ clone_if_missing git@gitlab.com:hsangit/research/wall-a/leo-rover-simulation.git
 clone_if_missing git@gitlab.com:hsangit/research/wall-a/lidar-navigation.git wall-a_projects/lidar-navigation
 clone_if_missing git@gitlab.com:hsangit/research/wall-a/lidar-safety.git wall-a_projects/lidar-safety
 clone_if_missing git@gitlab.com:hsangit/research/wall-a/hardware_assembly.git wall-a_projects/hardware_assembly
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/flask_auth.git webapp_projects/flask_auth
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/flask_auth2.git webapp_projects/flask_auth2
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/multilevel_auth.git webapp_projects/multilevel_auth
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/multilevel_simple.git webapp_projects/multilevel_simple
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/webapp-django.git webapp_projects/webapp-django
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/yaa.git webapp_projects/yaa
+# clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/bewirtschaftungserkennungv0p1.git fleximaus_projects/bewirtschaftungserkennungv0p1
+# removed: demo_projects/demo_nn (git@git-kik.hs-ansbach.de:sgeisselsoeder/demo_nn.git)
 # end of git-kik migration
 
 
@@ -1039,12 +1040,12 @@ do
 		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
-for projectName in demo_nn
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
+# for projectName in demo_nn
+# do
+# 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
+# 		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
+# 	fi
+# done
 
 
 GROUPNAME="ccs"
