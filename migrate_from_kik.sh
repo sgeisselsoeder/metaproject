@@ -27,7 +27,10 @@ if [[ "$target" =~ ^ssh://pi@bytegeist.ddnss.de:50022(/.*\.git)$ ]]; then
 	ssh -p 50022 pi@bytegeist.ddnss.de "[ -d '$d' ] || { git init --bare '$d' && git --git-dir='$d' symbolic-ref HEAD refs/heads/main; }"
 fi
 git remote set-url origin "$target"
-if git push -u origin --all && git push origin --tags; then
+# branches that only exist as remote-tracking refs from git-kik are not covered by --all
+extra=$(git for-each-ref --format='%(refname:lstrip=3)' refs/remotes/origin | grep -v '^HEAD$' | while read b; do
+	git show-ref -q --verify "refs/heads/$b" || printf '%s ' "refs/remotes/origin/$b:refs/heads/$b"; done)
+if git push -u origin --all && git push origin --tags && { [ -z "$extra" ] || git push origin $extra; }; then
 	log "$target" "pushed"; echo "$repo -> $target OK"
 	# register in clone script (removing the old git-kik entry is done by hand)
 	sed -i "s|^# end of git-kik migration$|clone_if_missing $target $repo\n&|" "$CLONESCRIPT"

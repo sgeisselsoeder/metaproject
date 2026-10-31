@@ -554,34 +554,14 @@ do
 done
 
 
-GROUPNAME="kupferopti"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in kupfer_analyse
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 GROUPNAME="kupferpreis"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in kupferpreis demo_app documentation 
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 # for projectName in web_scraper
 # do
 # 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 # 		git clone git@${GITLAB_HS}:tonihofmann/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 # 	fi
 # done
-for projectName in web_scraper
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 SUB_URL="profgeisselsoeder"
 for projectName in webrecorder
@@ -971,6 +951,18 @@ clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/high_performanc_compu
 clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/movement_microcontroller.git intellichair_projects/movement_microcontroller
 clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/ultrasonic_microcontroller.git intellichair_projects/ultrasonic_microcontroller
 clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/protokolle.git intellichair_projects/protokolle
+clone_if_missing git@gitlab.com:ki64/kupferopti/kupfer_analyse.git kupferopti_projects/kupfer_analyse
+clone_if_missing git@gitlab.com:ki64/kupferpreis/demo_app.git kupferpreis_projects/demo_app
+clone_if_missing git@gitlab.com:ki64/kupferpreis/documentation.git kupferpreis_projects/documentation
+clone_if_missing git@gitlab.com:ki64/kupferpreis/web_scraper.git kupferpreis_projects/web_scraper
+clone_if_missing git@gitlab.com:ki64/kupferpreis/kupferpreis.git kupferpreis_projects/kupferpreis
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/djistream.git neuraldrones_projects/djistream
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/rtmp_ai.git neuraldrones_projects/rtmp_ai
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/mavlink.git neuraldrones_projects/mavlink
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/mavsdk_gazebo.git neuraldrones_projects/mavsdk_gazebo
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones_infrared.git neuraldrones_projects/neuraldrones_infrared
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/video_demo.git neuraldrones_projects/video_demo
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/carpark.git neuraldrones_projects/carpark
 # end of git-kik migration
 
 
@@ -1098,12 +1090,6 @@ done
 
 GROUPNAME="neuraldrones"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in carpark djistream rtmp_ai
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 for projectName in drone_control_app neuraldrones nd_whip_server frat-automate dji_dock_frontend
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
@@ -1115,13 +1101,6 @@ for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal dji_cloud_api_install
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-# https://gitlab.com/neuraldr/neuraldrones_infrared
-for projectName in neuraldrones_infrared mavsdk_gazebo mavlink video_demo
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@gitlab.com:neuraldr/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 for projectName in neuraldrones-backend neuraldrones-stack neuraldrones-frontend
