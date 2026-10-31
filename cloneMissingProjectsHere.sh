@@ -633,7 +633,7 @@ clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/arbeitszeugniss
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/blistervision.git blistervision
 # removed: boosted_ensemble (git@git-kik.hs-ansbach.de:sgeisselsoeder/boosted_ensemble.git)
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/buch_sigurd_carsten.git buch_sigurd_carsten
-clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/biogas_zentrale_v0p1.git biogas_zentrale_v0p1
+clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/biogas_zentrale_v0p1.git biogas_projects/biogas_zentrale_v0p1
 # removed: checklist_industrial_ai (git@git-kik.hs-ansbach.de:sgeisselsoeder/checklist_industrial_ai.git)
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/data_connector_sftp.git data_connector_sftp
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/dji_local.git dji_local

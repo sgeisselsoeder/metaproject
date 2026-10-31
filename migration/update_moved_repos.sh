@@ -15,7 +15,8 @@ PROJECTS="${PROJECTS:-$HOME/projects}"
 
 # folders that cloneMissingProjectsHere.sh now clones to a different place
 declare -A MOVED=(
-	[camera_sender]=biogas_zentrale_v0p1
+	[camera_sender]=biogas_projects/biogas_zentrale_v0p1
+	[biogas_zentrale_v0p1]=biogas_projects/biogas_zentrale_v0p1
 	[swarminteligence_projects/warehouseautomation]=swarm_intelligence_projects/warehouseautomation
 )
 # removed projects that are not in the tsv: folder -> reason
