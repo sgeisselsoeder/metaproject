@@ -905,6 +905,7 @@ clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap3-seizure-detection.
 clone_if_missing git@gitlab.com:ki64/fleximaus/onboarding.git fleximaus_projects/onboarding
 clone_if_missing git@gitlab.com:ki64/fleximaus/2025_gutachten.git fleximaus_projects/2025_gutachten
 clone_if_missing git@gitlab.com:ki64/fleximaus/publications_fleximaus.git fleximaus_projects/publications_fleximaus
+clone_if_missing git@gitlab.com:ki64/fleximaus/training_arten.git fleximaus_projects/training_arten
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto.git heimauto_projects/heimauto
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto-monitor.git heimauto_projects/heimauto-monitor
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimsprech.git heimauto_projects/heimsprech
