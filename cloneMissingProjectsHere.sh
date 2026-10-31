@@ -966,6 +966,11 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/webapp/yaa.git w
 # removed: demo_projects/demo_nn (git@git-kik.hs-ansbach.de:sgeisselsoeder/demo_nn.git)
 clone_if_missing git@gitlab.com:hsangit/research/windforest/windforest.git windforest_projects/windforest
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/shootair.git 2024_studentenprojekte_projects/shootair
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones.git neuraldrones_projects/neuraldrones
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/dji_dock_frontend.git neuraldrones_projects/dji_dock_frontend
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-backend.git neuraldrones_projects/neuraldrones-backend
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-frontend.git neuraldrones_projects/neuraldrones-frontend
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-stack.git neuraldrones_projects/neuraldrones-stack
 # end of git-kik migration
 
 
@@ -1093,7 +1098,7 @@ done
 
 GROUPNAME="neuraldrones"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in drone_control_app neuraldrones nd_whip_server frat-automate dji_dock_frontend
+for projectName in drone_control_app nd_whip_server frat-automate
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
@@ -1104,12 +1109,6 @@ for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal dji_cloud_api_install
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
 		git clone git@github.com:sgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-for projectName in neuraldrones-backend neuraldrones-stack neuraldrones-frontend
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@github.com:gegner-io/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
 	fi
 done
 
