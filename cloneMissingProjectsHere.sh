@@ -971,6 +971,9 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/dji
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-backend.git neuraldrones_projects/neuraldrones-backend
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-frontend.git neuraldrones_projects/neuraldrones-frontend
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones-stack.git neuraldrones_projects/neuraldrones-stack
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/drone_control_app.git neuraldrones_projects/drone_control_app
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/nd_whip_server.git neuraldrones_projects/nd_whip_server
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/frat-automate.git neuraldrones_projects/frat-automate
 # end of git-kik migration
 
 
@@ -1098,13 +1101,6 @@ done
 
 GROUPNAME="neuraldrones"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in drone_control_app nd_whip_server frat-automate
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		# git clone https://github.com/b1acksheep1/drone_control_app.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-		git clone git@github.com:b1acksheep1/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 for projectName in YOLO-Parking-Spot DJI_Cloud_API_minimal dji_cloud_api_installer dji_dock_backend
 do
 	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
