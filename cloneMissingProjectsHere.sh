@@ -535,14 +535,6 @@ done
 
 
 
-GROUPNAME="pawprint"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in 2024_studiprojekt pawai pawdata backend
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@${GITLAB_HS}:${GROUPNAME}/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
 
 GROUPNAME="vision1"
 mkdir -p ${GROUPNAME}${GITGROUPTAG}
@@ -963,6 +955,12 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/mav
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/neuraldrones_infrared.git neuraldrones_projects/neuraldrones_infrared
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/video_demo.git neuraldrones_projects/video_demo
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/carpark.git neuraldrones_projects/carpark
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/2024_studiprojekt.git pawprint_projects/2024_studiprojekt
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/backend.git pawprint_projects/backend
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawdata.git pawprint_projects/pawdata
+clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/pawprint/pawai.git pawprint_projects/pawai
+clone_if_missing git@gitlab.com:hsangit/research/neura/pick_box.git pick_box_neura_projects/pick_box
+clone_if_missing git@gitlab.com:hsangit/research/neura/neurabox.git pick_box_neura_projects/neurabox
 # end of git-kik migration
 
 
@@ -1112,16 +1110,6 @@ done
 
 
 
-GROUPNAME="pick_box_neura"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-projectName="neurabox"
-if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-	git clone git@gitlab.com:profgeisselsoeder/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-fi	
-projectName="pick_box"
-if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-	git clone git@git-kik.hs-ansbach.de:neura/${projectName}.git ${GROUPNAME}${GITGROUPTAG}/${projectName}
-fi
 
 
 
