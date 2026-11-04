@@ -994,6 +994,9 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/fra
 # end of git-kik migration
 
 
+
+clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/ws2526/2026_ki3_vorlesung.git 2026_ki3_projects/2026_ki3_vorlesung
+
 # Clone own public projects from github
 for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis demo-self-driving webscrape templates-hs-ansbach network_output_unequals_probability # km3netHdf5ToHistograms
 do
