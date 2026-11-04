@@ -606,6 +606,9 @@ clone_if_missing() {
 		git clone "$1" "$2"
 	fi
 }
+
+clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/ws2526/material/2025_ki3_vorlesung.git 2026_ki3_projects/2026_ki3_vorlesung
+
 clone_if_missing git@gitlab.com:hsangit/aki/lernverhalten/2022/2022_sose_biolern_vorlesung.git 2022_sose_biolern_vorlesung
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_01_16_stammtisch_ankit_cvision.git 2023_01_16_stammtisch_ankit_cvision
 clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/2023_04_27_forschungs_und_innovationstag.git 2023_04_27_forschungs_und_innovationstag
@@ -995,7 +998,7 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/neuraldrones/fra
 
 
 
-clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/ws2526/2026_ki3_vorlesung.git 2026_ki3_projects/2026_ki3_vorlesung
+clone_if_missing git@gitlab.com:hsangit/aki/neuronale-netze/ws2526/material/2025_ki3_vorlesung.git 2026_ki3_projects/2026_ki3_vorlesung
 
 # Clone own public projects from github
 for projectName in dockerProjects multiscale spielDerNeuronen metaproject erkenntnis demo-self-driving webscrape templates-hs-ansbach network_output_unequals_probability # km3netHdf5ToHistograms
