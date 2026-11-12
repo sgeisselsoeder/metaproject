@@ -296,18 +296,6 @@ done
 
 
 
-
-GROUPNAME="webapp"
-mkdir -p ${GROUPNAME}${GITGROUPTAG}
-for projectName in django-locallibrary-tutorial
-do
-	if [ ! -d "${GROUPNAME}${GITGROUPTAG}/${projectName}" ]; then
-		git clone git@github.com:sgeisselsoeder/${projectName} ${GROUPNAME}${GITGROUPTAG}/${projectName}
-	fi
-done
-
-
-
 # GROUPNAME="2023_ki3"
 # mkdir -p ${GROUPNAME}${GITGROUPTAG}
 # for projectName in 2023_ki3_vorlesung \
