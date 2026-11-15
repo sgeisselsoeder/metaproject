@@ -918,6 +918,7 @@ clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimauto-monito
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/heimsprech.git heimauto_projects/heimsprech
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/website_static.git heimauto_projects/website_static
 clone_if_missing ssh://pi@bytegeist.ddnss.de:50022/home/pi/repos/homematic.git heimauto_projects/homematic
+clone_if_missing https://github.com/hahn-th/homematicip-rest-api.git heimauto_projects/homematicip-rest-api
 clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/high_performanc_computer.git intellichair_projects/high_performanc_computer
 clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/movement_microcontroller.git intellichair_projects/movement_microcontroller
 clone_if_missing git@gitlab.com:hsangit/research/rollstuhl/ultrasonic_microcontroller.git intellichair_projects/ultrasonic_microcontroller
