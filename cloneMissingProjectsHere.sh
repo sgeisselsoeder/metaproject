@@ -901,7 +901,7 @@ clone_if_missing git@gitlab.com:hsangit/research/sgeisselsoeder/eigenki/kigraph.
 clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/ap3-seizure-detection.git deep-eeg_projects/ap3-seizure-detection
 for projectName in 2026-bmt-stiehl 2026-eusipco-stiehl 2026-frontiers-paper 2026-spmb-stiehl \
 	ap3-diffusion_classifier ap3-onnx-creation ap3-postprocessing ap3-postprocessing-eval ap3-postprocessing-tuh \
-	ap3-seizure-detection-besa ap3-seizure-detection-classification ap3-seizure-detection-gnn ap3-tuh-eval-tool \
+	ap3-seizure-detection-classification ap3-seizure-detection-gnn ap3-tuh-eval-tool \
 	ap4-xai
 do
 	clone_if_missing git@gitlab.com:hsangit/research/deep-eeg/${projectName}.git deep-eeg_projects/${projectName}
